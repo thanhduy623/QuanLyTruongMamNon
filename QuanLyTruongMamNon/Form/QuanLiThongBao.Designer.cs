@@ -1,0 +1,311 @@
+﻿namespace QuanLyTruongMamNon
+{
+    partial class QuanLiThongBao
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.menu = new System.Windows.Forms.MenuStrip();
+            this.duLieu = new System.Windows.Forms.DataGridView();
+            this.barTieuDe = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbDuongDan = new System.Windows.Forms.Label();
+            this.txtTieuDe = new System.Windows.Forms.Label();
+            this.barThongTinThongBao = new System.Windows.Forms.Panel();
+            this.labelNhap = new System.Windows.Forms.Label();
+            this.thoiGian = new System.Windows.Forms.DateTimePicker();
+            this.labelMaThongBao = new System.Windows.Forms.Label();
+            this.labelThoiGian = new System.Windows.Forms.Label();
+            this.maThongBao = new System.Windows.Forms.TextBox();
+            this.tieuDe = new System.Windows.Forms.TextBox();
+            this.labelTieuDe = new System.Windows.Forms.Label();
+            this.noiDung = new System.Windows.Forms.TextBox();
+            this.labelNoiDung = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
+            this.barTieuDe.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.barThongTinThongBao.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menu
+            // 
+            this.menu.AutoSize = false;
+            this.menu.BackColor = System.Drawing.Color.SteelBlue;
+            this.menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.menu.ImageScalingSize = new System.Drawing.Size(40, 40);
+            this.menu.Location = new System.Drawing.Point(0, 0);
+            this.menu.Name = "menu";
+            this.menu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.menu.Size = new System.Drawing.Size(326, 768);
+            this.menu.TabIndex = 14;
+            // 
+            // duLieu
+            // 
+            this.duLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.duLieu.Location = new System.Drawing.Point(936, 135);
+            this.duLieu.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
+            this.duLieu.Name = "duLieu";
+            this.duLieu.Size = new System.Drawing.Size(400, 603);
+            this.duLieu.TabIndex = 18;
+            // 
+            // barTieuDe
+            // 
+            this.barTieuDe.Controls.Add(this.pictureBox2);
+            this.barTieuDe.Controls.Add(this.pictureBox1);
+            this.barTieuDe.Controls.Add(this.lbDuongDan);
+            this.barTieuDe.Controls.Add(this.txtTieuDe);
+            this.barTieuDe.Location = new System.Drawing.Point(356, 30);
+            this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
+            this.barTieuDe.Name = "barTieuDe";
+            this.barTieuDe.Size = new System.Drawing.Size(980, 75);
+            this.barTieuDe.TabIndex = 102;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
+            this.pictureBox2.Location = new System.Drawing.Point(865, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
+            this.pictureBox1.Location = new System.Drawing.Point(930, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
+            // lbDuongDan
+            // 
+            this.lbDuongDan.BackColor = System.Drawing.Color.Transparent;
+            this.lbDuongDan.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lbDuongDan.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lbDuongDan.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbDuongDan.Location = new System.Drawing.Point(1, 49);
+            this.lbDuongDan.Margin = new System.Windows.Forms.Padding(0);
+            this.lbDuongDan.Name = "lbDuongDan";
+            this.lbDuongDan.Size = new System.Drawing.Size(398, 25);
+            this.lbDuongDan.TabIndex = 15;
+            this.lbDuongDan.Text = " Trang chủ ● Quản lí thông báo";
+            // 
+            // txtTieuDe
+            // 
+            this.txtTieuDe.BackColor = System.Drawing.Color.Transparent;
+            this.txtTieuDe.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTieuDe.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.txtTieuDe.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtTieuDe.Location = new System.Drawing.Point(1, 2);
+            this.txtTieuDe.Margin = new System.Windows.Forms.Padding(0);
+            this.txtTieuDe.Name = "txtTieuDe";
+            this.txtTieuDe.Size = new System.Drawing.Size(397, 48);
+            this.txtTieuDe.TabIndex = 5;
+            this.txtTieuDe.Text = "QUẢN LÍ THÔNG BÁO";
+            // 
+            // barThongTinThongBao
+            // 
+            this.barThongTinThongBao.Controls.Add(this.noiDung);
+            this.barThongTinThongBao.Controls.Add(this.labelNoiDung);
+            this.barThongTinThongBao.Controls.Add(this.tieuDe);
+            this.barThongTinThongBao.Controls.Add(this.labelTieuDe);
+            this.barThongTinThongBao.Controls.Add(this.maThongBao);
+            this.barThongTinThongBao.Controls.Add(this.labelThoiGian);
+            this.barThongTinThongBao.Controls.Add(this.thoiGian);
+            this.barThongTinThongBao.Controls.Add(this.labelMaThongBao);
+            this.barThongTinThongBao.Controls.Add(this.labelNhap);
+            this.barThongTinThongBao.Location = new System.Drawing.Point(356, 135);
+            this.barThongTinThongBao.Name = "barThongTinThongBao";
+            this.barThongTinThongBao.Size = new System.Drawing.Size(550, 603);
+            this.barThongTinThongBao.TabIndex = 103;
+            // 
+            // labelNhap
+            // 
+            this.labelNhap.BackColor = System.Drawing.Color.Transparent;
+            this.labelNhap.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNhap.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.labelNhap.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.labelNhap.Location = new System.Drawing.Point(0, 0);
+            this.labelNhap.Margin = new System.Windows.Forms.Padding(0);
+            this.labelNhap.Name = "labelNhap";
+            this.labelNhap.Size = new System.Drawing.Size(550, 32);
+            this.labelNhap.TabIndex = 17;
+            this.labelNhap.Text = "NHẬP THÔNG TIN THÔNG BÁO MỚI";
+            this.labelNhap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // thoiGian
+            // 
+            this.thoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thoiGian.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.thoiGian.Location = new System.Drawing.Point(350, 66);
+            this.thoiGian.Name = "thoiGian";
+            this.thoiGian.Size = new System.Drawing.Size(200, 26);
+            this.thoiGian.TabIndex = 49;
+            this.thoiGian.Value = new System.DateTime(2024, 4, 21, 1, 15, 43, 0);
+            // 
+            // labelMaThongBao
+            // 
+            this.labelMaThongBao.BackColor = System.Drawing.Color.Transparent;
+            this.labelMaThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMaThongBao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelMaThongBao.Location = new System.Drawing.Point(0, 42);
+            this.labelMaThongBao.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.labelMaThongBao.Name = "labelMaThongBao";
+            this.labelMaThongBao.Size = new System.Drawing.Size(200, 18);
+            this.labelMaThongBao.TabIndex = 48;
+            this.labelMaThongBao.Text = "Mã thông báo";
+            this.labelMaThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // labelThoiGian
+            // 
+            this.labelThoiGian.BackColor = System.Drawing.Color.Transparent;
+            this.labelThoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelThoiGian.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelThoiGian.Location = new System.Drawing.Point(350, 42);
+            this.labelThoiGian.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.labelThoiGian.Name = "labelThoiGian";
+            this.labelThoiGian.Size = new System.Drawing.Size(200, 18);
+            this.labelThoiGian.TabIndex = 52;
+            this.labelThoiGian.Text = "Thời gian";
+            this.labelThoiGian.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // maThongBao
+            // 
+            this.maThongBao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.maThongBao.Enabled = false;
+            this.maThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maThongBao.Location = new System.Drawing.Point(0, 66);
+            this.maThongBao.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
+            this.maThongBao.Name = "maThongBao";
+            this.maThongBao.Size = new System.Drawing.Size(200, 26);
+            this.maThongBao.TabIndex = 53;
+            // 
+            // tieuDe
+            // 
+            this.tieuDe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tieuDe.Enabled = false;
+            this.tieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tieuDe.Location = new System.Drawing.Point(0, 129);
+            this.tieuDe.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
+            this.tieuDe.Name = "tieuDe";
+            this.tieuDe.Size = new System.Drawing.Size(550, 26);
+            this.tieuDe.TabIndex = 55;
+            // 
+            // labelTieuDe
+            // 
+            this.labelTieuDe.BackColor = System.Drawing.Color.Transparent;
+            this.labelTieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTieuDe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelTieuDe.Location = new System.Drawing.Point(0, 105);
+            this.labelTieuDe.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.labelTieuDe.Name = "labelTieuDe";
+            this.labelTieuDe.Size = new System.Drawing.Size(200, 18);
+            this.labelTieuDe.TabIndex = 54;
+            this.labelTieuDe.Text = "Tiêu đề";
+            this.labelTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // noiDung
+            // 
+            this.noiDung.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.noiDung.Enabled = false;
+            this.noiDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noiDung.Location = new System.Drawing.Point(0, 192);
+            this.noiDung.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
+            this.noiDung.Multiline = true;
+            this.noiDung.Name = "noiDung";
+            this.noiDung.Size = new System.Drawing.Size(550, 411);
+            this.noiDung.TabIndex = 57;
+            // 
+            // labelNoiDung
+            // 
+            this.labelNoiDung.BackColor = System.Drawing.Color.Transparent;
+            this.labelNoiDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNoiDung.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelNoiDung.Location = new System.Drawing.Point(0, 168);
+            this.labelNoiDung.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.labelNoiDung.Name = "labelNoiDung";
+            this.labelNoiDung.Size = new System.Drawing.Size(200, 18);
+            this.labelNoiDung.TabIndex = 56;
+            this.labelNoiDung.Text = "Nội dung thông báo";
+            this.labelNoiDung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // QuanLiThongBao
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.ControlBox = false;
+            this.Controls.Add(this.barThongTinThongBao);
+            this.Controls.Add(this.barTieuDe);
+            this.Controls.Add(this.duLieu);
+            this.Controls.Add(this.menu);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "QuanLiThongBao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Quản lí thông báo";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.duLieu)).EndInit();
+            this.barTieuDe.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.barThongTinThongBao.ResumeLayout(false);
+            this.barThongTinThongBao.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+        private System.Windows.Forms.MenuStrip menu;
+        private System.Windows.Forms.DataGridView duLieu;
+        private System.Windows.Forms.Panel barTieuDe;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbDuongDan;
+        private System.Windows.Forms.Label txtTieuDe;
+        private System.Windows.Forms.Panel barThongTinThongBao;
+        private System.Windows.Forms.Label labelNhap;
+        private System.Windows.Forms.DateTimePicker thoiGian;
+        private System.Windows.Forms.Label labelMaThongBao;
+        private System.Windows.Forms.Label labelThoiGian;
+        private System.Windows.Forms.TextBox maThongBao;
+        private System.Windows.Forms.TextBox noiDung;
+        private System.Windows.Forms.Label labelNoiDung;
+        private System.Windows.Forms.TextBox tieuDe;
+        private System.Windows.Forms.Label labelTieuDe;
+    }
+}

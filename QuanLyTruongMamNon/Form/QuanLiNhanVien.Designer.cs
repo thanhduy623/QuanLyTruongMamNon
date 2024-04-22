@@ -40,14 +40,14 @@
             this.boxTimKiem = new System.Windows.Forms.TextBox();
             this.bgTimKiem = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.dataBoard = new System.Windows.Forms.DataGridView();
+            this.duLieu = new System.Windows.Forms.DataGridView();
             this.barTieuDe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.barTool.SuspendLayout();
             this.grTimKiem.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconTimKiem)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataBoard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
             this.SuspendLayout();
             // 
             // menu
@@ -189,14 +189,14 @@
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // dataBoard
+            // duLieu
             // 
-            this.dataBoard.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataBoard.Location = new System.Drawing.Point(356, 170);
-            this.dataBoard.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
-            this.dataBoard.Name = "dataBoard";
-            this.dataBoard.Size = new System.Drawing.Size(981, 568);
-            this.dataBoard.TabIndex = 60;
+            this.duLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.duLieu.Location = new System.Drawing.Point(356, 170);
+            this.duLieu.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
+            this.duLieu.Name = "duLieu";
+            this.duLieu.Size = new System.Drawing.Size(981, 568);
+            this.duLieu.TabIndex = 60;
             // 
             // QuanLiNhanVien
             // 
@@ -205,7 +205,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
-            this.Controls.Add(this.dataBoard);
+            this.Controls.Add(this.duLieu);
             this.Controls.Add(this.barTool);
             this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.menu);
@@ -222,7 +222,7 @@
             this.grTimKiem.ResumeLayout(false);
             this.grTimKiem.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconTimKiem)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataBoard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.duLieu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -240,6 +240,6 @@
         private System.Windows.Forms.TextBox boxTimKiem;
         private System.Windows.Forms.Button bgTimKiem;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataBoard;
+        private System.Windows.Forms.DataGridView duLieu;
     }
 }

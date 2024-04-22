@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.menu = new System.Windows.Forms.MenuStrip();
-            this.dataBoard = new System.Windows.Forms.DataGridView();
+            this.duLieu = new System.Windows.Forms.DataGridView();
             this.barTool = new System.Windows.Forms.Panel();
             this.grTimKiem = new System.Windows.Forms.Panel();
-            this.boxTimKiem = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.bgTimKiem = new System.Windows.Forms.Button();
             this.iconTimKiem = new System.Windows.Forms.PictureBox();
+            this.boxTimKiem = new System.Windows.Forms.TextBox();
+            this.bgTimKiem = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.barTieuDe = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbDuongDan = new System.Windows.Forms.Label();
             this.txtTieuDe = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataBoard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
             this.barTool.SuspendLayout();
             this.grTimKiem.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconTimKiem)).BeginInit();
@@ -62,14 +62,14 @@
             this.menu.Size = new System.Drawing.Size(326, 768);
             this.menu.TabIndex = 14;
             // 
-            // dataBoard
+            // duLieu
             // 
-            this.dataBoard.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataBoard.Location = new System.Drawing.Point(356, 170);
-            this.dataBoard.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
-            this.dataBoard.Name = "dataBoard";
-            this.dataBoard.Size = new System.Drawing.Size(981, 568);
-            this.dataBoard.TabIndex = 18;
+            this.duLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.duLieu.Location = new System.Drawing.Point(356, 170);
+            this.duLieu.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
+            this.duLieu.Name = "duLieu";
+            this.duLieu.Size = new System.Drawing.Size(981, 568);
+            this.duLieu.TabIndex = 18;
             // 
             // barTool
             // 
@@ -92,6 +92,17 @@
             this.grTimKiem.Size = new System.Drawing.Size(301, 46);
             this.grTimKiem.TabIndex = 21;
             // 
+            // iconTimKiem
+            // 
+            this.iconTimKiem.BackColor = System.Drawing.Color.White;
+            this.iconTimKiem.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_TimKiem2;
+            this.iconTimKiem.Location = new System.Drawing.Point(10, 8);
+            this.iconTimKiem.Name = "iconTimKiem";
+            this.iconTimKiem.Size = new System.Drawing.Size(30, 30);
+            this.iconTimKiem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconTimKiem.TabIndex = 22;
+            this.iconTimKiem.TabStop = false;
+            // 
             // boxTimKiem
             // 
             this.boxTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -104,17 +115,6 @@
             this.boxTimKiem.Size = new System.Drawing.Size(236, 22);
             this.boxTimKiem.TabIndex = 25;
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(880, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 40);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Thêm";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // bgTimKiem
             // 
             this.bgTimKiem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
@@ -125,16 +125,16 @@
             this.bgTimKiem.TabIndex = 22;
             this.bgTimKiem.UseVisualStyleBackColor = true;
             // 
-            // iconTimKiem
+            // button1
             // 
-            this.iconTimKiem.BackColor = System.Drawing.Color.White;
-            this.iconTimKiem.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_TimKiem2;
-            this.iconTimKiem.Location = new System.Drawing.Point(10, 8);
-            this.iconTimKiem.Name = "iconTimKiem";
-            this.iconTimKiem.Size = new System.Drawing.Size(30, 30);
-            this.iconTimKiem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconTimKiem.TabIndex = 22;
-            this.iconTimKiem.TabStop = false;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button1.Location = new System.Drawing.Point(880, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 40);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Thêm";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // barTieuDe
             // 
@@ -206,7 +206,7 @@
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
             this.Controls.Add(this.barTieuDe);
-            this.Controls.Add(this.dataBoard);
+            this.Controls.Add(this.duLieu);
             this.Controls.Add(this.barTool);
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
@@ -215,7 +215,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lí học sinh";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.dataBoard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.duLieu)).EndInit();
             this.barTool.ResumeLayout(false);
             this.grTimKiem.ResumeLayout(false);
             this.grTimKiem.PerformLayout();
@@ -229,7 +229,7 @@
 
         #endregion
         private System.Windows.Forms.MenuStrip menu;
-        private System.Windows.Forms.DataGridView dataBoard;
+        private System.Windows.Forms.DataGridView duLieu;
         private System.Windows.Forms.Panel barTool;
         private System.Windows.Forms.Panel grTimKiem;
         private System.Windows.Forms.TextBox boxTimKiem;

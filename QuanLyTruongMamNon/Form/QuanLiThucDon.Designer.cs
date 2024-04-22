@@ -31,10 +31,10 @@
             this.menu = new System.Windows.Forms.MenuStrip();
             this.duLieu = new System.Windows.Forms.DataGridView();
             this.btnThem = new System.Windows.Forms.Button();
-            this.labelMaMonAn = new System.Windows.Forms.Label();
+            this.labelThoiGian = new System.Windows.Forms.Label();
             this.tbnLưu = new System.Windows.Forms.Button();
             this.noiSinh = new System.Windows.Forms.ComboBox();
-            this.ngay = new System.Windows.Forms.DateTimePicker();
+            this.thoiGian = new System.Windows.Forms.DateTimePicker();
             this.labelMonAnSo1 = new System.Windows.Forms.Label();
             this.labelMonAnSo2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -87,18 +87,18 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             // 
-            // labelMaMonAn
+            // labelThoiGian
             // 
-            this.labelMaMonAn.BackColor = System.Drawing.Color.Transparent;
-            this.labelMaMonAn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMaMonAn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelMaMonAn.Location = new System.Drawing.Point(357, 137);
-            this.labelMaMonAn.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
-            this.labelMaMonAn.Name = "labelMaMonAn";
-            this.labelMaMonAn.Size = new System.Drawing.Size(182, 18);
-            this.labelMaMonAn.TabIndex = 36;
-            this.labelMaMonAn.Text = "Mã món ăn";
-            this.labelMaMonAn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelThoiGian.BackColor = System.Drawing.Color.Transparent;
+            this.labelThoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelThoiGian.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelThoiGian.Location = new System.Drawing.Point(357, 137);
+            this.labelThoiGian.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.labelThoiGian.Name = "labelThoiGian";
+            this.labelThoiGian.Size = new System.Drawing.Size(182, 18);
+            this.labelThoiGian.TabIndex = 36;
+            this.labelThoiGian.Text = "Thời gian";
+            this.labelThoiGian.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tbnLưu
             // 
@@ -121,15 +121,15 @@
             this.noiSinh.Size = new System.Drawing.Size(182, 28);
             this.noiSinh.TabIndex = 46;
             // 
-            // ngay
+            // thoiGian
             // 
-            this.ngay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ngay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.ngay.Location = new System.Drawing.Point(357, 155);
-            this.ngay.Name = "ngay";
-            this.ngay.Size = new System.Drawing.Size(182, 26);
-            this.ngay.TabIndex = 45;
-            this.ngay.Value = new System.DateTime(2024, 4, 21, 1, 15, 43, 0);
+            this.thoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thoiGian.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.thoiGian.Location = new System.Drawing.Point(357, 155);
+            this.thoiGian.Name = "thoiGian";
+            this.thoiGian.Size = new System.Drawing.Size(182, 26);
+            this.thoiGian.TabIndex = 45;
+            this.thoiGian.Value = new System.DateTime(2024, 4, 21, 1, 15, 43, 0);
             // 
             // labelMonAnSo1
             // 
@@ -258,7 +258,7 @@
             this.lbDuongDan.Name = "lbDuongDan";
             this.lbDuongDan.Size = new System.Drawing.Size(398, 25);
             this.lbDuongDan.TabIndex = 15;
-            this.lbDuongDan.Text = " Trang chủ ● Quán lí thực đơn";
+            this.lbDuongDan.Text = " Trang chủ ● Quản lí thực đơn";
             // 
             // txtTieuDe
             // 
@@ -281,7 +281,7 @@
             this.panel1.Size = new System.Drawing.Size(980, 100);
             this.panel1.TabIndex = 104;
             // 
-            // ThemThucDon
+            // QuanLiThucDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -297,16 +297,16 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.labelMonAnSo1);
             this.Controls.Add(this.noiSinh);
-            this.Controls.Add(this.ngay);
+            this.Controls.Add(this.thoiGian);
             this.Controls.Add(this.tbnLưu);
             this.Controls.Add(this.duLieu);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.btnThem);
-            this.Controls.Add(this.labelMaMonAn);
+            this.Controls.Add(this.labelThoiGian);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "ThemThucDon";
+            this.Name = "QuanLiThucDon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm thực đơn";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -322,10 +322,10 @@
         private System.Windows.Forms.MenuStrip menu;
         private System.Windows.Forms.DataGridView duLieu;
         private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.Label labelMaMonAn;
+        private System.Windows.Forms.Label labelThoiGian;
         private System.Windows.Forms.Button tbnLưu;
         private System.Windows.Forms.ComboBox noiSinh;
-        private System.Windows.Forms.DateTimePicker ngay;
+        private System.Windows.Forms.DateTimePicker thoiGian;
         private System.Windows.Forms.Label labelMonAnSo1;
         private System.Windows.Forms.Label labelMonAnSo2;
         private System.Windows.Forms.ComboBox comboBox1;
