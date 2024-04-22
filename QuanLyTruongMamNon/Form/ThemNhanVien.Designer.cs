@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbDuongDan = new System.Windows.Forms.Label();
-            this.barTieuDe = new System.Windows.Forms.Panel();
-            this.txtTieuDe = new System.Windows.Forms.Label();
             this.menu = new System.Windows.Forms.MenuStrip();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
@@ -83,50 +80,19 @@
             this.labelMaNhanVien = new System.Windows.Forms.Label();
             this.labelTrangThai = new System.Windows.Forms.Label();
             this.labelChucVu = new System.Windows.Forms.Label();
-            this.barTieuDe.SuspendLayout();
+            this.barTieuDe = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbDuongDan = new System.Windows.Forms.Label();
+            this.txtTieuDe = new System.Windows.Forms.Label();
             this.grDCCO.SuspendLayout();
             this.grTTCB.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.barTieuDe.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lbDuongDan
-            // 
-            this.lbDuongDan.BackColor = System.Drawing.Color.Transparent;
-            this.lbDuongDan.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.lbDuongDan.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lbDuongDan.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbDuongDan.Location = new System.Drawing.Point(1, 51);
-            this.lbDuongDan.Margin = new System.Windows.Forms.Padding(0);
-            this.lbDuongDan.Name = "lbDuongDan";
-            this.lbDuongDan.Size = new System.Drawing.Size(398, 23);
-            this.lbDuongDan.TabIndex = 15;
-            this.lbDuongDan.Text = " Trang chủ ● Quản lí nhân viên ● Thêm nhân viên";
-            this.lbDuongDan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // barTieuDe
-            // 
-            this.barTieuDe.Controls.Add(this.lbDuongDan);
-            this.barTieuDe.Controls.Add(this.txtTieuDe);
-            this.barTieuDe.Location = new System.Drawing.Point(356, 39);
-            this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
-            this.barTieuDe.Name = "barTieuDe";
-            this.barTieuDe.Size = new System.Drawing.Size(981, 75);
-            this.barTieuDe.TabIndex = 15;
-            // 
-            // txtTieuDe
-            // 
-            this.txtTieuDe.BackColor = System.Drawing.Color.Transparent;
-            this.txtTieuDe.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold);
-            this.txtTieuDe.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.txtTieuDe.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtTieuDe.Location = new System.Drawing.Point(1, 2);
-            this.txtTieuDe.Margin = new System.Windows.Forms.Padding(0);
-            this.txtTieuDe.Name = "txtTieuDe";
-            this.txtTieuDe.Size = new System.Drawing.Size(397, 37);
-            this.txtTieuDe.TabIndex = 5;
-            this.txtTieuDe.Text = "THÊM NHÂN VIÊN";
-            this.txtTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // menu
             // 
@@ -752,6 +718,68 @@
             this.labelChucVu.Text = "Chức vụ";
             this.labelChucVu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // barTieuDe
+            // 
+            this.barTieuDe.Controls.Add(this.pictureBox2);
+            this.barTieuDe.Controls.Add(this.pictureBox1);
+            this.barTieuDe.Controls.Add(this.lbDuongDan);
+            this.barTieuDe.Controls.Add(this.txtTieuDe);
+            this.barTieuDe.Location = new System.Drawing.Point(356, 30);
+            this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
+            this.barTieuDe.Name = "barTieuDe";
+            this.barTieuDe.Size = new System.Drawing.Size(980, 75);
+            this.barTieuDe.TabIndex = 103;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
+            this.pictureBox2.Location = new System.Drawing.Point(865, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
+            this.pictureBox1.Location = new System.Drawing.Point(930, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lbDuongDan
+            // 
+            this.lbDuongDan.BackColor = System.Drawing.Color.Transparent;
+            this.lbDuongDan.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lbDuongDan.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lbDuongDan.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbDuongDan.Location = new System.Drawing.Point(1, 49);
+            this.lbDuongDan.Margin = new System.Windows.Forms.Padding(0);
+            this.lbDuongDan.Name = "lbDuongDan";
+            this.lbDuongDan.Size = new System.Drawing.Size(398, 25);
+            this.lbDuongDan.TabIndex = 15;
+            this.lbDuongDan.Text = " Trang chủ ● Quán lí nhân viên ● Thêm nhân viên";
+            // 
+            // txtTieuDe
+            // 
+            this.txtTieuDe.BackColor = System.Drawing.Color.Transparent;
+            this.txtTieuDe.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTieuDe.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.txtTieuDe.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtTieuDe.Location = new System.Drawing.Point(1, 2);
+            this.txtTieuDe.Margin = new System.Windows.Forms.Padding(0);
+            this.txtTieuDe.Name = "txtTieuDe";
+            this.txtTieuDe.Size = new System.Drawing.Size(397, 48);
+            this.txtTieuDe.TabIndex = 5;
+            this.txtTieuDe.Text = "THÊM NHÂN VIÊN";
+            // 
             // ThemNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -759,13 +787,13 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
+            this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.grDCCO);
             this.Controls.Add(this.grTTCB);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnThem);
-            this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -773,7 +801,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm nhân viên";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.barTieuDe.ResumeLayout(false);
             this.grDCCO.ResumeLayout(false);
             this.grDCCO.PerformLayout();
             this.grTTCB.ResumeLayout(false);
@@ -782,14 +809,14 @@
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.barTieuDe.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lbDuongDan;
-        private System.Windows.Forms.Panel barTieuDe;
-        private System.Windows.Forms.Label txtTieuDe;
         private System.Windows.Forms.MenuStrip menu;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnHuy;
@@ -842,5 +869,10 @@
         private System.Windows.Forms.Label labelMaNhanVien;
         private System.Windows.Forms.Label labelTrangThai;
         private System.Windows.Forms.Label labelChucVu;
+        private System.Windows.Forms.Panel barTieuDe;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbDuongDan;
+        private System.Windows.Forms.Label txtTieuDe;
     }
 }

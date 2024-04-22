@@ -231,5 +231,11 @@
   <ItemGroup>
     <None Include="Resources\icon_find.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonCancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_QuenMatKhau.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

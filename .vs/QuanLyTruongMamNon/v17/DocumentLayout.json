@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\QuanLyTruongMamNon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\form\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\form\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\form\\diemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\form\\diemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\DangNhap.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Form\\DangNhap.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\DangNhap.cs [Design]",
-              "RelativeToolTip": "QuanLyTruongMamNon\\Form\\DangNhap.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Program.cs",
+              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
+              "RelativeToolTip": "QuanLyTruongMamNon\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:39:02.593Z",
+              "WhenOpened": "2024-04-22T15:43:49.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiemDanh.cs [Design]",
+              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\DiemDanh.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Form\\DiemDanh.cs",
+              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\DiemDanh.cs [Design]*",
+              "RelativeToolTip": "QuanLyTruongMamNon\\Form\\DiemDanh.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:18:31.65Z",
               "EditorCaption": " [Design]"
             }
           ]
