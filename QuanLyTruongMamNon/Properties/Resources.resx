@@ -121,14 +121,17 @@
   <data name="bg_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="buttonCancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon_ThucDon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_ThucDon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_NganSach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_NganSach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_VatChat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_VatChat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_MonAn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_MonAn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_GiaoVu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_GiaoVu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,11 +142,14 @@
   <data name="icon_DiemDanh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_DiemDanh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_MonAn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_MonAn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_VatChat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_VatChat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_ThanhTich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_ThanhTich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_ThongBao" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_ThongBao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +157,8 @@
   <data name="icon_person" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_ThanhTich" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_ThanhTich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_HocSinh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_HocSinh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,7 +166,7 @@
   <data name="icon_GiaoVien" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_GiaoVien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_find" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_QuenMatKhau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_QuenMatKhau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

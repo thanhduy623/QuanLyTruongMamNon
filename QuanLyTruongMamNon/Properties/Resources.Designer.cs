@@ -73,6 +73,16 @@ namespace QuanLyTruongMamNon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap buttonCancel {
+            get {
+                object obj = ResourceManager.GetObject("buttonCancel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_DiemDanh {
             get {
                 object obj = ResourceManager.GetObject("icon_DiemDanh", resourceCulture);
@@ -156,6 +166,16 @@ namespace QuanLyTruongMamNon.Properties {
         internal static System.Drawing.Bitmap icon_person {
             get {
                 object obj = ResourceManager.GetObject("icon_person", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_QuenMatKhau {
+            get {
+                object obj = ResourceManager.GetObject("icon_QuenMatKhau", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
