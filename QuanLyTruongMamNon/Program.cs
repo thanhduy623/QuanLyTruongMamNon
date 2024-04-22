@@ -40,7 +40,7 @@ namespace QuanLyTruongMamNon
             CreateMenuItem(mainMenu, "mnuNV", "QUẢN LÍ NHÂN VIÊN", Properties.Resources.icon_GiaoVien, typeof(QuanLyTruongMamNon.QuanLiNhanVien).FullName);
             //CreateMenuItem(mainMenu, "mnuVC", "QUẢN LÍ VẬT CHẤT ", Properties.Resources.icon_VatChat);
             //CreateMenuItem(mainMenu, "mnuNS", "QUẢN LÍ NGÂN SÁCH", Properties.Resources.icon_NganSach, typeof(QuanLyTruongMamNon.ThemMonAn).FullName);
-            CreateMenuItem(mainMenu, "mnuDD", "QUẢN LÍ ĐIỂM DANH", Properties.Resources.icon_DiemDanh, typeof(QuanLyTruongMamNon.DiemDanh).FullName);
+            CreateMenuItem(mainMenu, "mnuDD", "QUẢN LÍ ĐIỂM DANH", Properties.Resources.icon_DiemDanh, typeof(QuanLyTruongMamNon.QuanLiDiemDanh).FullName);
             //CreateMenuItem(mainMenu, "mnuTT", "QUẢN LÍ THÀNH TÍCH", Properties.Resources.icon_ThanhTich, typeof(QuanLyTruongMamNon.ThemMonAn).FullName);
             CreateMenuItem(mainMenu, "mnuTD", "QUẢN LÍ THỰC ĐƠN", Properties.Resources.icon_ThucDon, typeof(QuanLyTruongMamNon.QuanLiThucDon).FullName);
             CreateMenuItem(mainMenu, "mnuMA", "QUẢN LÍ MÓN ĂN", Properties.Resources.icon_MonAn, typeof(QuanLyTruongMamNon.QuanLiMonAn).FullName);

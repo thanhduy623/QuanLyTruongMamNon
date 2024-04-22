@@ -52,6 +52,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form\QuanLiThanhTich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\QuanLiThanhTich.Designer.cs">
+      <DependentUpon>QuanLiThanhTich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\QuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\QuenMatKhau.Designer.cs">
+      <DependentUpon>QuenMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\DoiMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,23 +88,23 @@
     <Compile Include="Form\QuanLiHocSinh.Designer.cs">
       <DependentUpon>QuanLiHocSinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\ThemThucDon.cs">
+    <Compile Include="Form\QuanLiThucDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\ThemThucDon.Designer.cs">
-      <DependentUpon>ThemThucDon.cs</DependentUpon>
+    <Compile Include="Form\QuanLiThucDon.Designer.cs">
+      <DependentUpon>QuanLiThucDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\ThemMonAn.cs">
+    <Compile Include="Form\QuanLiMonAn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\ThemMonAn.Designer.cs">
-      <DependentUpon>ThemMonAn.cs</DependentUpon>
+    <Compile Include="Form\QuanLiMonAn.Designer.cs">
+      <DependentUpon>QuanLiMonAn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\DiemDanh.cs">
+    <Compile Include="Form\QuanLiDiemDanh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\DiemDanh.Designer.cs">
-      <DependentUpon>DiemDanh.cs</DependentUpon>
+    <Compile Include="Form\QuanLiDiemDanh.Designer.cs">
+      <DependentUpon>QuanLiDiemDanh.cs</DependentUpon>
     </Compile>
     <Compile Include="Form\TheHocSinh.cs">
       <SubType>Form</SubType>
@@ -132,6 +144,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\QuanLiThanhTich.resx">
+      <DependentUpon>QuanLiThanhTich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\QuenMatKhau.resx">
+      <DependentUpon>QuenMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\DoiMatKhau.resx">
       <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,14 +162,14 @@
     <EmbeddedResource Include="Form\QuanLiHocSinh.resx">
       <DependentUpon>QuanLiHocSinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\ThemThucDon.resx">
-      <DependentUpon>ThemThucDon.cs</DependentUpon>
+    <EmbeddedResource Include="Form\QuanLiThucDon.resx">
+      <DependentUpon>QuanLiThucDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\ThemMonAn.resx">
-      <DependentUpon>ThemMonAn.cs</DependentUpon>
+    <EmbeddedResource Include="Form\QuanLiMonAn.resx">
+      <DependentUpon>QuanLiMonAn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\DiemDanh.resx">
-      <DependentUpon>DiemDanh.cs</DependentUpon>
+    <EmbeddedResource Include="Form\QuanLiDiemDanh.resx">
+      <DependentUpon>QuanLiDiemDanh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\TheHocSinh.resx">
       <DependentUpon>TheHocSinh.cs</DependentUpon>

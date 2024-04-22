@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace QuanLyTruongMamNon
 {
-    public partial class DiemDanh : Form
+    public partial class QuanLiThanhTich : Form
     {
-        public DiemDanh()
+        public QuanLiThanhTich()
         {
             InitializeComponent();
         }

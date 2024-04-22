@@ -1,6 +1,6 @@
 ﻿namespace QuanLyTruongMamNon
 {
-    partial class DiemDanh
+    partial class QuanLiDiemDanh
     {
         /// <summary>
         /// Required designer variable.
@@ -34,15 +34,16 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnThem = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.bgNgayDiemDanh = new System.Windows.Forms.Button();
+            this.bgMaHocSinh = new System.Windows.Forms.Button();
+            this.bgThoiGian = new System.Windows.Forms.Button();
             this.maHocSinh = new System.Windows.Forms.TextBox();
-            this.ngayDiemDanh = new System.Windows.Forms.DateTimePicker();
-            this.btnBoSung = new System.Windows.Forms.Button();
+            this.thoiGian = new System.Windows.Forms.DateTimePicker();
             this.toolBar = new System.Windows.Forms.Panel();
+            this.labelMaHocSinh = new System.Windows.Forms.Label();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.duLieu = new System.Windows.Forms.DataGridView();
             this.menu = new System.Windows.Forms.MenuStrip();
+            this.labelThoiGian = new System.Windows.Forms.Label();
             this.barTieuDe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,7 +62,7 @@
             this.txtTieuDe.Name = "txtTieuDe";
             this.txtTieuDe.Size = new System.Drawing.Size(397, 48);
             this.txtTieuDe.TabIndex = 5;
-            this.txtTieuDe.Text = "ĐIỂM DANH";
+            this.txtTieuDe.Text = "QUẢN LÍ ĐIỂM DANH";
             // 
             // lbDuongDan
             // 
@@ -74,7 +75,7 @@
             this.lbDuongDan.Name = "lbDuongDan";
             this.lbDuongDan.Size = new System.Drawing.Size(398, 25);
             this.lbDuongDan.TabIndex = 15;
-            this.lbDuongDan.Text = " Trang chủ ● Điểm danh";
+            this.lbDuongDan.Text = " Trang chủ ● Quản lí điểm danh";
             // 
             // barTieuDe
             // 
@@ -116,7 +117,7 @@
             // 
             this.btnThem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnThem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnThem.Location = new System.Drawing.Point(646, 2);
+            this.btnThem.Location = new System.Drawing.Point(758, 19);
             this.btnThem.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(101, 40);
@@ -124,35 +125,35 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // bgMaHocSinh
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(0, 2);
-            this.button2.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(399, 40);
-            this.button2.TabIndex = 27;
-            this.button2.UseVisualStyleBackColor = false;
+            this.bgMaHocSinh.BackColor = System.Drawing.Color.White;
+            this.bgMaHocSinh.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.bgMaHocSinh.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bgMaHocSinh.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bgMaHocSinh.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.bgMaHocSinh.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bgMaHocSinh.Location = new System.Drawing.Point(138, 19);
+            this.bgMaHocSinh.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.bgMaHocSinh.Name = "bgMaHocSinh";
+            this.bgMaHocSinh.Size = new System.Drawing.Size(602, 40);
+            this.bgMaHocSinh.TabIndex = 27;
+            this.bgMaHocSinh.UseVisualStyleBackColor = false;
             // 
-            // bgNgayDiemDanh
+            // bgThoiGian
             // 
-            this.bgNgayDiemDanh.BackColor = System.Drawing.Color.White;
-            this.bgNgayDiemDanh.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bgNgayDiemDanh.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.bgNgayDiemDanh.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.bgNgayDiemDanh.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.bgNgayDiemDanh.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bgNgayDiemDanh.Location = new System.Drawing.Point(414, 2);
-            this.bgNgayDiemDanh.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.bgNgayDiemDanh.Name = "bgNgayDiemDanh";
-            this.bgNgayDiemDanh.Size = new System.Drawing.Size(217, 40);
-            this.bgNgayDiemDanh.TabIndex = 28;
-            this.bgNgayDiemDanh.UseVisualStyleBackColor = false;
+            this.bgThoiGian.BackColor = System.Drawing.Color.White;
+            this.bgThoiGian.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.bgThoiGian.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bgThoiGian.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bgThoiGian.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.bgThoiGian.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bgThoiGian.Location = new System.Drawing.Point(0, 20);
+            this.bgThoiGian.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.bgThoiGian.Name = "bgThoiGian";
+            this.bgThoiGian.Size = new System.Drawing.Size(118, 40);
+            this.bgThoiGian.TabIndex = 28;
+            this.bgThoiGian.UseVisualStyleBackColor = false;
             // 
             // maHocSinh
             // 
@@ -161,53 +162,56 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.maHocSinh.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.maHocSinh.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.maHocSinh.Location = new System.Drawing.Point(10, 11);
+            this.maHocSinh.Location = new System.Drawing.Point(148, 28);
             this.maHocSinh.Name = "maHocSinh";
-            this.maHocSinh.Size = new System.Drawing.Size(377, 22);
+            this.maHocSinh.Size = new System.Drawing.Size(580, 22);
             this.maHocSinh.TabIndex = 25;
+            this.maHocSinh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // ngayDiemDanh
+            // thoiGian
             // 
-            this.ngayDiemDanh.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ngayDiemDanh.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.ngayDiemDanh.Location = new System.Drawing.Point(419, 8);
-            this.ngayDiemDanh.Name = "ngayDiemDanh";
-            this.ngayDiemDanh.Size = new System.Drawing.Size(206, 29);
-            this.ngayDiemDanh.TabIndex = 29;
-            // 
-            // btnBoSung
-            // 
-            this.btnBoSung.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.btnBoSung.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnBoSung.Location = new System.Drawing.Point(762, 2);
-            this.btnBoSung.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.btnBoSung.Name = "btnBoSung";
-            this.btnBoSung.Size = new System.Drawing.Size(101, 40);
-            this.btnBoSung.TabIndex = 30;
-            this.btnBoSung.Text = "Bổ sung";
-            this.btnBoSung.UseVisualStyleBackColor = true;
+            this.thoiGian.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thoiGian.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.thoiGian.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.thoiGian.Location = new System.Drawing.Point(5, 26);
+            this.thoiGian.Name = "thoiGian";
+            this.thoiGian.Size = new System.Drawing.Size(107, 29);
+            this.thoiGian.TabIndex = 29;
             // 
             // toolBar
             // 
             this.toolBar.BackColor = System.Drawing.Color.Transparent;
+            this.toolBar.Controls.Add(this.labelMaHocSinh);
             this.toolBar.Controls.Add(this.btnTimKiem);
-            this.toolBar.Controls.Add(this.btnBoSung);
-            this.toolBar.Controls.Add(this.ngayDiemDanh);
+            this.toolBar.Controls.Add(this.thoiGian);
             this.toolBar.Controls.Add(this.maHocSinh);
-            this.toolBar.Controls.Add(this.bgNgayDiemDanh);
-            this.toolBar.Controls.Add(this.button2);
+            this.toolBar.Controls.Add(this.bgThoiGian);
+            this.toolBar.Controls.Add(this.bgMaHocSinh);
             this.toolBar.Controls.Add(this.btnThem);
             this.toolBar.Location = new System.Drawing.Point(356, 115);
             this.toolBar.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
             this.toolBar.Name = "toolBar";
-            this.toolBar.Size = new System.Drawing.Size(980, 45);
+            this.toolBar.Size = new System.Drawing.Size(980, 62);
             this.toolBar.TabIndex = 19;
+            // 
+            // labelMaHocSinh
+            // 
+            this.labelMaHocSinh.BackColor = System.Drawing.Color.Transparent;
+            this.labelMaHocSinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMaHocSinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelMaHocSinh.Location = new System.Drawing.Point(138, 2);
+            this.labelMaHocSinh.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.labelMaHocSinh.Name = "labelMaHocSinh";
+            this.labelMaHocSinh.Size = new System.Drawing.Size(171, 18);
+            this.labelMaHocSinh.TabIndex = 20;
+            this.labelMaHocSinh.Text = "Mã học sinh";
+            this.labelMaHocSinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnTimKiem
             // 
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnTimKiem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnTimKiem.Location = new System.Drawing.Point(879, 2);
+            this.btnTimKiem.Location = new System.Drawing.Point(879, 19);
             this.btnTimKiem.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(101, 40);
@@ -218,10 +222,10 @@
             // duLieu
             // 
             this.duLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.duLieu.Location = new System.Drawing.Point(356, 175);
+            this.duLieu.Location = new System.Drawing.Point(356, 185);
             this.duLieu.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
             this.duLieu.Name = "duLieu";
-            this.duLieu.Size = new System.Drawing.Size(980, 563);
+            this.duLieu.Size = new System.Drawing.Size(980, 553);
             this.duLieu.TabIndex = 18;
             // 
             // menu
@@ -236,22 +240,36 @@
             this.menu.Size = new System.Drawing.Size(326, 768);
             this.menu.TabIndex = 14;
             // 
-            // DiemDanh
+            // labelThoiGian
+            // 
+            this.labelThoiGian.BackColor = System.Drawing.Color.Transparent;
+            this.labelThoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelThoiGian.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelThoiGian.Location = new System.Drawing.Point(358, 117);
+            this.labelThoiGian.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.labelThoiGian.Name = "labelThoiGian";
+            this.labelThoiGian.Size = new System.Drawing.Size(99, 18);
+            this.labelThoiGian.TabIndex = 20;
+            this.labelThoiGian.Text = "Thời gian";
+            this.labelThoiGian.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // QuanLiDiemDanh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
+            this.Controls.Add(this.labelThoiGian);
             this.Controls.Add(this.duLieu);
             this.Controls.Add(this.toolBar);
             this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "DiemDanh";
+            this.Name = "QuanLiDiemDanh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Điểm danh";
+            this.Text = "Quản lí điểm danh";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.barTieuDe.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -269,16 +287,17 @@
         private System.Windows.Forms.Label lbDuongDan;
         private System.Windows.Forms.Panel barTieuDe;
         private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button bgNgayDiemDanh;
+        private System.Windows.Forms.Button bgMaHocSinh;
+        private System.Windows.Forms.Button bgThoiGian;
         private System.Windows.Forms.TextBox maHocSinh;
-        private System.Windows.Forms.DateTimePicker ngayDiemDanh;
-        private System.Windows.Forms.Button btnBoSung;
+        private System.Windows.Forms.DateTimePicker thoiGian;
         private System.Windows.Forms.Panel toolBar;
         private System.Windows.Forms.DataGridView duLieu;
         private System.Windows.Forms.MenuStrip menu;
         private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label labelMaHocSinh;
+        private System.Windows.Forms.Label labelThoiGian;
     }
 }
