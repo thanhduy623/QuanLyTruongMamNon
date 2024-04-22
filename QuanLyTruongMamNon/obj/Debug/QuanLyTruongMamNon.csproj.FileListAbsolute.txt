@@ -1,0 +1,42 @@
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\QuanLyTruongMamNon.exe.config
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\QuanLyTruongMamNon.exe
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\QuanLyTruongMamNon.pdb
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.csproj.AssemblyReference.cache
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.Properties.Resources.resources
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.csproj.GenerateResource.cache
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.csproj.CoreCompileInputs.cache
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.exe
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.pdb
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.DangNhap.resources
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.TrangChu.resources
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiNhanVien.resources
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThemNhanVien.resources
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiHocSinh.resources
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThemHocSinh.resources
+H:\My Drive\[3] School\CNPM - LT\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.TheHocSinh.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.csproj.AssemblyReference.cache
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.TheHocSinh.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.DangNhap.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiHocSinh.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThemHocSinh.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThemNhanVien.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiNhanVien.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.TrangChu.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.Properties.Resources.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.csproj.GenerateResource.cache
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.csproj.CoreCompileInputs.cache
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\QuanLyTruongMamNon.exe.config
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\QuanLyTruongMamNon.exe
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\QuanLyTruongMamNon.pdb
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\zxing.dll
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\zxing.presentation.dll
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\zxing.xml
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\zxing.presentation.xml
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTr.F540A55E.Up2Date
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.exe
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.pdb
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.HoSoNHanVien.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.HoSoHocSinh.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.DiemDanh.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThemMonAn.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThemThucDon.resources

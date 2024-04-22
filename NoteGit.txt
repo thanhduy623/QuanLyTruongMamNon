@@ -1,0 +1,35 @@
+
+
+Repository(Tên thư mục)
+Brand nhánh
+
+
+#command
+- git init (Dự án có thể sử dụng git)
+- git status (Trạng thái)
+- git add (chuẩn bị lưu)
+- git reset (hủy chuẩn bị lưu)
+
+- git commit -m 'initial commit -  đoạn này ghi ghi chú vô'
+
+
+- git log (xem các phiên)
+- git log --oneline (bản tinh gọn)
+
+- git checkout _id_()
+
+git check out master (trở về phiên bản cuối)
+
+git branch
+
+git checkout {ten_branch}
+
+git merge {ten_branch}
+
+git branch -d {ten_branch}
+
+git commit
+
+--------------------------------
+
+git push {đường link} {tên_nhánh}
