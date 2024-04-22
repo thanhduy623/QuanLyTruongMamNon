@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace QuanLyTruongMamNon
 {
-    public partial class ThemThucDon : Form
+    public partial class QuanLiThucDon : Form
     {
-        public ThemThucDon()
+        public QuanLiThucDon()
         {
             InitializeComponent();
             MainMenu.SetupMainMenu(this.menu);

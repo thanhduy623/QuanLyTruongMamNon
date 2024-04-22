@@ -1,6 +1,6 @@
 ﻿namespace QuanLyTruongMamNon
 {
-    partial class ThemMonAn
+    partial class QuanLiMonAn
     {
         /// <summary>
         /// Required designer variable.
