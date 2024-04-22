@@ -52,6 +52,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form\DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\ThemNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\ThemNhanVien.resx">
       <DependentUpon>ThemNhanVien.cs</DependentUpon>
     </EmbeddedResource>

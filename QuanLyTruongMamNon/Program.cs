@@ -16,7 +16,7 @@ namespace QuanLyTruongMamNon
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DiemDanh());
+            Application.Run(new DangNhap());
         }
     }
     internal static class MainMenu
