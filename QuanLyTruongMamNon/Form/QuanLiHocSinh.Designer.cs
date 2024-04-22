@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.menu = new System.Windows.Forms.MenuStrip();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.icon_find = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.dataBoard = new System.Windows.Forms.DataGridView();
+            this.barTool = new System.Windows.Forms.Panel();
+            this.grTimKiem = new System.Windows.Forms.Panel();
+            this.boxTimKiem = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.bgTimKiem = new System.Windows.Forms.Button();
+            this.iconTimKiem = new System.Windows.Forms.PictureBox();
             this.barTieuDe = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbDuongDan = new System.Windows.Forms.Label();
             this.txtTieuDe = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.icon_find)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataBoard)).BeginInit();
+            this.barTool.SuspendLayout();
+            this.grTimKiem.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconTimKiem)).BeginInit();
             this.barTieuDe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -62,75 +62,47 @@
             this.menu.Size = new System.Drawing.Size(326, 768);
             this.menu.TabIndex = 14;
             // 
-            // dataGridView1
+            // dataBoard
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(356, 175);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(981, 565);
-            this.dataGridView1.TabIndex = 18;
+            this.dataBoard.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataBoard.Location = new System.Drawing.Point(356, 170);
+            this.dataBoard.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
+            this.dataBoard.Name = "dataBoard";
+            this.dataBoard.Size = new System.Drawing.Size(981, 568);
+            this.dataBoard.TabIndex = 18;
             // 
-            // panel2
+            // barTool
             // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(356, 121);
-            this.panel2.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(981, 46);
-            this.panel2.TabIndex = 19;
+            this.barTool.BackColor = System.Drawing.Color.Transparent;
+            this.barTool.Controls.Add(this.grTimKiem);
+            this.barTool.Controls.Add(this.button1);
+            this.barTool.Location = new System.Drawing.Point(356, 115);
+            this.barTool.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
+            this.barTool.Name = "barTool";
+            this.barTool.Size = new System.Drawing.Size(981, 46);
+            this.barTool.TabIndex = 19;
             // 
-            // panel3
+            // grTimKiem
             // 
-            this.panel3.Controls.Add(this.icon_find);
-            this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(299, 46);
-            this.panel3.TabIndex = 21;
+            this.grTimKiem.Controls.Add(this.iconTimKiem);
+            this.grTimKiem.Controls.Add(this.boxTimKiem);
+            this.grTimKiem.Controls.Add(this.bgTimKiem);
+            this.grTimKiem.Location = new System.Drawing.Point(0, 0);
+            this.grTimKiem.Name = "grTimKiem";
+            this.grTimKiem.Size = new System.Drawing.Size(301, 46);
+            this.grTimKiem.TabIndex = 21;
             // 
-            // icon_find
+            // boxTimKiem
             // 
-            this.icon_find.BackColor = System.Drawing.Color.White;
-            this.icon_find.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_find;
-            this.icon_find.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.icon_find.Location = new System.Drawing.Point(5, 8);
-            this.icon_find.Margin = new System.Windows.Forms.Padding(0);
-            this.icon_find.Name = "icon_find";
-            this.icon_find.Padding = new System.Windows.Forms.Padding(5);
-            this.icon_find.Size = new System.Drawing.Size(30, 30);
-            this.icon_find.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.icon_find.TabIndex = 26;
-            this.icon_find.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.boxTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.textBox1.Location = new System.Drawing.Point(50, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(234, 22);
-            this.textBox1.TabIndex = 25;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(0, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(299, 40);
-            this.button2.TabIndex = 27;
-            this.button2.UseVisualStyleBackColor = false;
+            this.boxTimKiem.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.boxTimKiem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.boxTimKiem.Location = new System.Drawing.Point(50, 13);
+            this.boxTimKiem.Name = "boxTimKiem";
+            this.boxTimKiem.Size = new System.Drawing.Size(236, 22);
+            this.boxTimKiem.TabIndex = 25;
             // 
             // button1
             // 
@@ -143,6 +115,27 @@
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // bgTimKiem
+            // 
+            this.bgTimKiem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.bgTimKiem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bgTimKiem.Location = new System.Drawing.Point(1, 3);
+            this.bgTimKiem.Name = "bgTimKiem";
+            this.bgTimKiem.Size = new System.Drawing.Size(300, 40);
+            this.bgTimKiem.TabIndex = 22;
+            this.bgTimKiem.UseVisualStyleBackColor = true;
+            // 
+            // iconTimKiem
+            // 
+            this.iconTimKiem.BackColor = System.Drawing.Color.White;
+            this.iconTimKiem.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_TimKiem2;
+            this.iconTimKiem.Location = new System.Drawing.Point(10, 8);
+            this.iconTimKiem.Name = "iconTimKiem";
+            this.iconTimKiem.Size = new System.Drawing.Size(30, 30);
+            this.iconTimKiem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconTimKiem.TabIndex = 22;
+            this.iconTimKiem.TabStop = false;
+            // 
             // barTieuDe
             // 
             this.barTieuDe.Controls.Add(this.pictureBox2);
@@ -153,7 +146,7 @@
             this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
             this.barTieuDe.Name = "barTieuDe";
             this.barTieuDe.Size = new System.Drawing.Size(980, 75);
-            this.barTieuDe.TabIndex = 58;
+            this.barTieuDe.TabIndex = 20;
             // 
             // pictureBox2
             // 
@@ -213,8 +206,8 @@
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
             this.Controls.Add(this.barTieuDe);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.dataBoard);
+            this.Controls.Add(this.barTool);
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -222,11 +215,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lí học sinh";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.icon_find)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataBoard)).EndInit();
+            this.barTool.ResumeLayout(false);
+            this.grTimKiem.ResumeLayout(false);
+            this.grTimKiem.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconTimKiem)).EndInit();
             this.barTieuDe.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -236,13 +229,13 @@
 
         #endregion
         private System.Windows.Forms.MenuStrip menu;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox icon_find;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dataBoard;
+        private System.Windows.Forms.Panel barTool;
+        private System.Windows.Forms.Panel grTimKiem;
+        private System.Windows.Forms.TextBox boxTimKiem;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bgTimKiem;
+        private System.Windows.Forms.PictureBox iconTimKiem;
         private System.Windows.Forms.Panel barTieuDe;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;

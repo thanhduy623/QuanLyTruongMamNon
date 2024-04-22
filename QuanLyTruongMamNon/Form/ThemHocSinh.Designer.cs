@@ -42,7 +42,6 @@
             this.labelDanToc = new System.Windows.Forms.Label();
             this.labelHoVaTen = new System.Windows.Forms.Label();
             this.labelNoiSinh = new System.Windows.Forms.Label();
-            this.btnThem = new System.Windows.Forms.Button();
             this.grDCCO = new System.Windows.Forms.GroupBox();
             this.DCTT_C1 = new System.Windows.Forms.ComboBox();
             this.labelDCTT_C1 = new System.Windows.Forms.Label();
@@ -69,7 +68,6 @@
             this.labelMaHocSinh = new System.Windows.Forms.Label();
             this.labelLopHoc = new System.Windows.Forms.Label();
             this.labelNamHoc = new System.Windows.Forms.Label();
-            this.btnHuy = new System.Windows.Forms.Button();
             this.gTTNT = new System.Windows.Forms.GroupBox();
             this.nhanThan2_dienThoai = new System.Windows.Forms.ComboBox();
             this.labelNhanThan2_dienThoai = new System.Windows.Forms.Label();
@@ -87,6 +85,8 @@
             this.nhanThan1 = new System.Windows.Forms.TextBox();
             this.labelNhanThan1_quanHe = new System.Windows.Forms.Label();
             this.labelNhanThan1 = new System.Windows.Forms.Label();
+            this.btnHuy = new System.Windows.Forms.Button();
+            this.btnThêm = new System.Windows.Forms.Button();
             this.barTieuDe = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -128,7 +128,7 @@
             this.grTTCB.Controls.Add(this.labelHoVaTen);
             this.grTTCB.Controls.Add(this.labelNoiSinh);
             this.grTTCB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grTTCB.Location = new System.Drawing.Point(356, 125);
+            this.grTTCB.Location = new System.Drawing.Point(356, 127);
             this.grTTCB.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.grTTCB.Name = "grTTCB";
             this.grTTCB.Size = new System.Drawing.Size(850, 150);
@@ -269,17 +269,6 @@
             this.labelNoiSinh.Text = "Nơi sinh";
             this.labelNoiSinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // btnThem
-            // 
-            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Location = new System.Drawing.Point(1227, 131);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(113, 250);
-            this.btnThem.TabIndex = 99;
-            this.btnThem.Text = "THÊM";
-            this.btnThem.UseVisualStyleBackColor = true;
-            // 
             // grDCCO
             // 
             this.grDCCO.Controls.Add(this.DCTT_C1);
@@ -299,7 +288,7 @@
             this.grDCCO.Controls.Add(this.labelCOHN);
             this.grDCCO.Controls.Add(this.labelCOHN_C2);
             this.grDCCO.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grDCCO.Location = new System.Drawing.Point(356, 301);
+            this.grDCCO.Location = new System.Drawing.Point(356, 299);
             this.grDCCO.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.grDCCO.Name = "grDCCO";
             this.grDCCO.Size = new System.Drawing.Size(636, 265);
@@ -495,7 +484,7 @@
             this.grTTHV.Controls.Add(this.labelLopHoc);
             this.grTTHV.Controls.Add(this.labelNamHoc);
             this.grTTHV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grTTHV.Location = new System.Drawing.Point(1006, 301);
+            this.grTTHV.Location = new System.Drawing.Point(1006, 299);
             this.grTTHV.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.grTTHV.Name = "grTTHV";
             this.grTTHV.Size = new System.Drawing.Size(200, 265);
@@ -592,17 +581,6 @@
             this.labelNamHoc.Text = "Năm học";
             this.labelNamHoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // btnHuy
-            // 
-            this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuy.Location = new System.Drawing.Point(1227, 493);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(113, 250);
-            this.btnHuy.TabIndex = 100;
-            this.btnHuy.Text = "HỦY";
-            this.btnHuy.UseVisualStyleBackColor = true;
-            // 
             // gTTNT
             // 
             this.gTTNT.Controls.Add(this.nhanThan2_dienThoai);
@@ -622,7 +600,7 @@
             this.gTTNT.Controls.Add(this.labelNhanThan1_quanHe);
             this.gTTNT.Controls.Add(this.labelNhanThan1);
             this.gTTNT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gTTNT.Location = new System.Drawing.Point(356, 592);
+            this.gTTNT.Location = new System.Drawing.Point(356, 586);
             this.gTTNT.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.gTTNT.Name = "gTTNT";
             this.gTTNT.Size = new System.Drawing.Size(850, 150);
@@ -806,6 +784,28 @@
             this.labelNhanThan1.Text = "Họ và tên";
             this.labelNhanThan1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // btnHuy
+            // 
+            this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHuy.Location = new System.Drawing.Point(1224, 468);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(113, 268);
+            this.btnHuy.TabIndex = 55;
+            this.btnHuy.Text = "HỦY";
+            this.btnHuy.UseVisualStyleBackColor = true;
+            // 
+            // btnThêm
+            // 
+            this.btnThêm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThêm.Location = new System.Drawing.Point(1224, 132);
+            this.btnThêm.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.btnThêm.Name = "btnThêm";
+            this.btnThêm.Size = new System.Drawing.Size(113, 268);
+            this.btnThêm.TabIndex = 53;
+            this.btnThêm.Text = "THÊM";
+            this.btnThêm.UseVisualStyleBackColor = true;
+            // 
             // barTieuDe
             // 
             this.barTieuDe.Controls.Add(this.pictureBox2);
@@ -816,7 +816,7 @@
             this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
             this.barTieuDe.Name = "barTieuDe";
             this.barTieuDe.Size = new System.Drawing.Size(980, 75);
-            this.barTieuDe.TabIndex = 101;
+            this.barTieuDe.TabIndex = 57;
             // 
             // pictureBox2
             // 
@@ -876,11 +876,11 @@
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
             this.Controls.Add(this.barTieuDe);
-            this.Controls.Add(this.gTTNT);
             this.Controls.Add(this.btnHuy);
+            this.Controls.Add(this.btnThêm);
+            this.Controls.Add(this.gTTNT);
             this.Controls.Add(this.grTTHV);
             this.Controls.Add(this.grDCCO);
-            this.Controls.Add(this.btnThem);
             this.Controls.Add(this.grTTCB);
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
@@ -911,7 +911,6 @@
         private System.Windows.Forms.Label labelHoVaTen;
         private System.Windows.Forms.Label labelNoiSinh;
         private System.Windows.Forms.Label labelDanToc;
-        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.ComboBox noiSinh;
         private System.Windows.Forms.ComboBox danToc;
         private System.Windows.Forms.Label labelNgaySinh;
@@ -945,7 +944,6 @@
         private System.Windows.Forms.Label labelLopHoc;
         private System.Windows.Forms.Label labelNamHoc;
         private System.Windows.Forms.Label labelTrangThai;
-        private System.Windows.Forms.Button btnHuy;
         private System.Windows.Forms.ComboBox comboBox9;
         private System.Windows.Forms.GroupBox gTTNT;
         private System.Windows.Forms.ComboBox nhanThan1_quanHe;
@@ -964,6 +962,8 @@
         private System.Windows.Forms.Label labelNhanThan2;
         private System.Windows.Forms.ComboBox nhanThan1_dienThoai;
         private System.Windows.Forms.Label labelNhanThan1_dienThoai;
+        private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Button btnThêm;
         private System.Windows.Forms.Panel barTieuDe;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;

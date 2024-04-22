@@ -47,6 +47,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbDuongDan = new System.Windows.Forms.Label();
             this.txtTieuDe = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
             this.barTieuDe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -68,20 +69,20 @@
             // duLieu
             // 
             this.duLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.duLieu.Location = new System.Drawing.Point(356, 286);
+            this.duLieu.Location = new System.Drawing.Point(356, 265);
             this.duLieu.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
             this.duLieu.Name = "duLieu";
-            this.duLieu.Size = new System.Drawing.Size(981, 454);
+            this.duLieu.Size = new System.Drawing.Size(981, 473);
             this.duLieu.TabIndex = 18;
             // 
             // btnThem
             // 
             this.btnThem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnThem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnThem.Location = new System.Drawing.Point(1022, 147);
+            this.btnThem.Location = new System.Drawing.Point(1017, 155);
             this.btnThem.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(80, 88);
+            this.btnThem.Size = new System.Drawing.Size(80, 80);
             this.btnThem.TabIndex = 19;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -91,7 +92,7 @@
             this.labelMaMonAn.BackColor = System.Drawing.Color.Transparent;
             this.labelMaMonAn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMaMonAn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelMaMonAn.Location = new System.Drawing.Point(353, 132);
+            this.labelMaMonAn.Location = new System.Drawing.Point(357, 137);
             this.labelMaMonAn.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
             this.labelMaMonAn.Name = "labelMaMonAn";
             this.labelMaMonAn.Size = new System.Drawing.Size(182, 18);
@@ -103,10 +104,10 @@
             // 
             this.tbnLưu.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.tbnLưu.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tbnLưu.Location = new System.Drawing.Point(1139, 147);
+            this.tbnLưu.Location = new System.Drawing.Point(1136, 155);
             this.tbnLưu.Margin = new System.Windows.Forms.Padding(10, 3, 10, 20);
             this.tbnLưu.Name = "tbnLưu";
-            this.tbnLưu.Size = new System.Drawing.Size(80, 88);
+            this.tbnLưu.Size = new System.Drawing.Size(80, 80);
             this.tbnLưu.TabIndex = 44;
             this.tbnLưu.Text = "Lưu";
             this.tbnLưu.UseVisualStyleBackColor = true;
@@ -115,7 +116,7 @@
             // 
             this.noiSinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noiSinh.FormattingEnabled = true;
-            this.noiSinh.Location = new System.Drawing.Point(356, 207);
+            this.noiSinh.Location = new System.Drawing.Point(357, 207);
             this.noiSinh.Name = "noiSinh";
             this.noiSinh.Size = new System.Drawing.Size(182, 28);
             this.noiSinh.TabIndex = 46;
@@ -124,7 +125,7 @@
             // 
             this.ngay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ngay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.ngay.Location = new System.Drawing.Point(356, 150);
+            this.ngay.Location = new System.Drawing.Point(357, 155);
             this.ngay.Name = "ngay";
             this.ngay.Size = new System.Drawing.Size(182, 26);
             this.ngay.TabIndex = 45;
@@ -135,7 +136,7 @@
             this.labelMonAnSo1.BackColor = System.Drawing.Color.Transparent;
             this.labelMonAnSo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMonAnSo1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelMonAnSo1.Location = new System.Drawing.Point(353, 189);
+            this.labelMonAnSo1.Location = new System.Drawing.Point(357, 189);
             this.labelMonAnSo1.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
             this.labelMonAnSo1.Name = "labelMonAnSo1";
             this.labelMonAnSo1.Size = new System.Drawing.Size(182, 18);
@@ -148,7 +149,7 @@
             this.labelMonAnSo2.BackColor = System.Drawing.Color.Transparent;
             this.labelMonAnSo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMonAnSo2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelMonAnSo2.Location = new System.Drawing.Point(575, 189);
+            this.labelMonAnSo2.Location = new System.Drawing.Point(577, 189);
             this.labelMonAnSo2.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
             this.labelMonAnSo2.Name = "labelMonAnSo2";
             this.labelMonAnSo2.Size = new System.Drawing.Size(182, 18);
@@ -160,7 +161,7 @@
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(578, 207);
+            this.comboBox1.Location = new System.Drawing.Point(577, 207);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(182, 28);
             this.comboBox1.TabIndex = 48;
@@ -182,7 +183,7 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(800, 207);
+            this.comboBox2.Location = new System.Drawing.Point(797, 207);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(182, 28);
             this.comboBox2.TabIndex = 50;
@@ -191,7 +192,7 @@
             // 
             this.danhGiaDinhDuong.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.danhGiaDinhDuong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.danhGiaDinhDuong.Location = new System.Drawing.Point(575, 150);
+            this.danhGiaDinhDuong.Location = new System.Drawing.Point(575, 155);
             this.danhGiaDinhDuong.Name = "danhGiaDinhDuong";
             this.danhGiaDinhDuong.Size = new System.Drawing.Size(407, 26);
             this.danhGiaDinhDuong.TabIndex = 53;
@@ -202,10 +203,10 @@
             // 
             this.btnHuy.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnHuy.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnHuy.Location = new System.Drawing.Point(1256, 147);
+            this.btnHuy.Location = new System.Drawing.Point(1255, 155);
             this.btnHuy.Margin = new System.Windows.Forms.Padding(10, 3, 10, 20);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(80, 88);
+            this.btnHuy.Size = new System.Drawing.Size(80, 80);
             this.btnHuy.TabIndex = 54;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
@@ -272,6 +273,14 @@
             this.txtTieuDe.TabIndex = 5;
             this.txtTieuDe.Text = "QUẢN LÍ THỰC ĐƠN";
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(356, 135);
+            this.panel1.Margin = new System.Windows.Forms.Padding(30);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(980, 100);
+            this.panel1.TabIndex = 104;
+            // 
             // ThemThucDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -294,6 +303,7 @@
             this.Controls.Add(this.menu);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.labelMaMonAn);
+            this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ThemThucDon";
@@ -328,5 +338,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbDuongDan;
         private System.Windows.Forms.Label txtTieuDe;
+        private System.Windows.Forms.Panel panel1;
     }
 }

@@ -111,7 +111,7 @@
             // btnChinhSua
             // 
             this.btnChinhSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChinhSua.Location = new System.Drawing.Point(1227, 141);
+            this.btnChinhSua.Location = new System.Drawing.Point(1227, 134);
             this.btnChinhSua.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnChinhSua.Name = "btnChinhSua";
             this.btnChinhSua.Size = new System.Drawing.Size(113, 100);
@@ -133,7 +133,7 @@
             this.groupBox3.Controls.Add(this.labelChucVu);
             this.groupBox3.Enabled = false;
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(1006, 315);
+            this.groupBox3.Location = new System.Drawing.Point(1006, 305);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(0, 20, 0, 20);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(200, 320);
@@ -259,7 +259,7 @@
             this.groupBox4.Controls.Add(this.ghiChu);
             this.groupBox4.Enabled = false;
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(356, 655);
+            this.groupBox4.Location = new System.Drawing.Point(356, 650);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(0, 20, 0, 20);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(850, 88);
@@ -280,7 +280,7 @@
             // btnCapNhat
             // 
             this.btnCapNhat.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCapNhat.Location = new System.Drawing.Point(1227, 308);
+            this.btnCapNhat.Location = new System.Drawing.Point(1227, 302);
             this.btnCapNhat.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnCapNhat.Name = "btnCapNhat";
             this.btnCapNhat.Size = new System.Drawing.Size(113, 100);
@@ -304,7 +304,7 @@
             this.grTTCB.Controls.Add(this.labelNoiSinh);
             this.grTTCB.Enabled = false;
             this.grTTCB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grTTCB.Location = new System.Drawing.Point(356, 135);
+            this.grTTCB.Location = new System.Drawing.Point(356, 130);
             this.grTTCB.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.grTTCB.Name = "grTTCB";
             this.grTTCB.Size = new System.Drawing.Size(850, 150);
@@ -471,7 +471,7 @@
             this.grDCCO.Controls.Add(this.labelCOHN_C2);
             this.grDCCO.Enabled = false;
             this.grDCCO.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grDCCO.Location = new System.Drawing.Point(356, 315);
+            this.grDCCO.Location = new System.Drawing.Point(356, 305);
             this.grDCCO.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.grDCCO.Name = "grDCCO";
             this.grDCCO.Size = new System.Drawing.Size(636, 320);
@@ -727,7 +727,7 @@
             // btnXoa
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(1227, 475);
+            this.btnXoa.Location = new System.Drawing.Point(1227, 470);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(113, 100);
@@ -738,7 +738,7 @@
             // btnThoa
             // 
             this.btnThoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoa.Location = new System.Drawing.Point(1227, 642);
+            this.btnThoa.Location = new System.Drawing.Point(1227, 638);
             this.btnThoa.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnThoa.Name = "btnThoa";
             this.btnThoa.Size = new System.Drawing.Size(113, 100);

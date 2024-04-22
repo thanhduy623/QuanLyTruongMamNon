@@ -30,7 +30,7 @@
         {
             this.menu = new System.Windows.Forms.MenuStrip();
             this.duLieu = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.barThongTin = new System.Windows.Forms.Panel();
             this.tbnHuy = new System.Windows.Forms.Button();
             this.dinhDuong = new System.Windows.Forms.TextBox();
             this.labelDinhDuong = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@
             this.lbDuongDan = new System.Windows.Forms.Label();
             this.txtTieuDe = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.barThongTin.SuspendLayout();
             this.barTieuDe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -67,30 +67,30 @@
             // duLieu
             // 
             this.duLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.duLieu.Location = new System.Drawing.Point(356, 144);
+            this.duLieu.Location = new System.Drawing.Point(356, 135);
             this.duLieu.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
             this.duLieu.Name = "duLieu";
-            this.duLieu.Size = new System.Drawing.Size(661, 596);
+            this.duLieu.Size = new System.Drawing.Size(660, 603);
             this.duLieu.TabIndex = 18;
             // 
-            // panel2
+            // barThongTin
             // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.tbnHuy);
-            this.panel2.Controls.Add(this.dinhDuong);
-            this.panel2.Controls.Add(this.labelDinhDuong);
-            this.panel2.Controls.Add(this.tenMonAn);
-            this.panel2.Controls.Add(this.labelTenMonAn);
-            this.panel2.Controls.Add(this.labelNhap);
-            this.panel2.Controls.Add(this.maMonAn);
-            this.panel2.Controls.Add(this.labelMaMonAn);
-            this.panel2.Controls.Add(this.btnThem);
-            this.panel2.Location = new System.Drawing.Point(1047, 144);
-            this.panel2.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(290, 596);
-            this.panel2.TabIndex = 19;
+            this.barThongTin.BackColor = System.Drawing.Color.Transparent;
+            this.barThongTin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.barThongTin.Controls.Add(this.tbnHuy);
+            this.barThongTin.Controls.Add(this.dinhDuong);
+            this.barThongTin.Controls.Add(this.labelDinhDuong);
+            this.barThongTin.Controls.Add(this.tenMonAn);
+            this.barThongTin.Controls.Add(this.labelTenMonAn);
+            this.barThongTin.Controls.Add(this.labelNhap);
+            this.barThongTin.Controls.Add(this.maMonAn);
+            this.barThongTin.Controls.Add(this.labelMaMonAn);
+            this.barThongTin.Controls.Add(this.btnThem);
+            this.barThongTin.Location = new System.Drawing.Point(1047, 135);
+            this.barThongTin.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
+            this.barThongTin.Name = "barThongTin";
+            this.barThongTin.Size = new System.Drawing.Size(290, 603);
+            this.barThongTin.TabIndex = 19;
             // 
             // tbnHuy
             // 
@@ -271,7 +271,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.duLieu);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.barThongTin);
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -280,8 +280,8 @@
             this.Text = "Thêm món ăn";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.duLieu)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.barThongTin.ResumeLayout(false);
+            this.barThongTin.PerformLayout();
             this.barTieuDe.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -292,7 +292,7 @@
         #endregion
         private System.Windows.Forms.MenuStrip menu;
         private System.Windows.Forms.DataGridView duLieu;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel barThongTin;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Label labelNhap;
         private System.Windows.Forms.TextBox maMonAn;

@@ -103,16 +103,6 @@ namespace QuanLyTruongMamNon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icon_find {
-            get {
-                object obj = ResourceManager.GetObject("icon_find", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icon_GiaoVien {
             get {
                 object obj = ResourceManager.GetObject("icon_GiaoVien", resourceCulture);
@@ -206,6 +196,36 @@ namespace QuanLyTruongMamNon.Properties {
         internal static System.Drawing.Bitmap icon_ThucDon {
             get {
                 object obj = ResourceManager.GetObject("icon_ThucDon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_TimKiem {
+            get {
+                object obj = ResourceManager.GetObject("icon_TimKiem", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_TimKiem1 {
+            get {
+                object obj = ResourceManager.GetObject("icon_TimKiem1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_TimKiem2 {
+            get {
+                object obj = ResourceManager.GetObject("icon_TimKiem2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
