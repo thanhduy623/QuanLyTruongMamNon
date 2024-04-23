@@ -17,14 +17,13 @@ namespace QuanLyTruongMamNon
         public HoSoHocSinh()
         {
             InitializeComponent();
-            MainMenu.SetupMainMenu(this.menu);
+            formLoad();
         }
-        private void btnThoat_Click(object sender, EventArgs e)
+
+        private void formLoad()
         {
-            if (MessageBox.Show("Bạn có muốn đăng xuất khỏi hệ thống", "Xác nhận", MessageBoxButtons.OKCancel) == DialogResult.OK)
-            {
-                this.Close();
-            }
+            MainFunc.basicFormLoad(this);
+            MainMenu.SetupMainMenu(menu);
         }
     }
 }

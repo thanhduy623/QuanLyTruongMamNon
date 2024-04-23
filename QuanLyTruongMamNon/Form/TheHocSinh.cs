@@ -18,6 +18,7 @@ namespace QuanLyTruongMamNon
         public TheHocSinh()
         {
             InitializeComponent();
+            
             maVach.Image = creatBarcode(maHocSinh.Text ,maVach.Width, maVach.Height);
         }
 

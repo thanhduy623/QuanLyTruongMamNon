@@ -52,6 +52,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form\QuanLiThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\QuanLiThongBao.Designer.cs">
+      <DependentUpon>QuanLiThongBao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\QuanLiThanhTich.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\QuanLiThongBao.resx">
+      <DependentUpon>QuanLiThongBao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\QuanLiThanhTich.resx">
       <DependentUpon>QuanLiThanhTich.cs</DependentUpon>
     </EmbeddedResource>

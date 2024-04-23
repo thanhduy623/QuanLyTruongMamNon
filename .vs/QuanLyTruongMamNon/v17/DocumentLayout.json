@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\QuanLyTruongMamNon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\form\\quanlidiemdanh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\form\\quanlidiemdanh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\form\\quanlithanhtich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\form\\quanlithanhtich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\form\\quanlidiemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\form\\quanlidiemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\form\\quanlidiemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\form\\quanlidiemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|D:\\QuanLyTruongMamNon\\quanlytruongmamnon\\form\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\form\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuanLiThanhTich.cs",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiThanhTich.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Form\\QuanLiThanhTich.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiThanhTich.cs",
-              "RelativeToolTip": "QuanLyTruongMamNon\\Form\\QuanLiThanhTich.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAwBAAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T18:12:01.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QuanLiDiemDanh.Designer.cs",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.Designer.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.Designer.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.Designer.cs",
-              "RelativeToolTip": "QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Program.cs",
+              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
+              "RelativeToolTip": "QuanLyTruongMamNon\\Program.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAIwBsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T18:11:15.965Z",
+              "WhenOpened": "2024-04-23T03:00:57.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuanLiDiemDanh.cs",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.cs",
-              "RelativeToolTip": "QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAWwA4AAAAnAAAA",
+              "DocumentIndex": 1,
+              "Title": "TrangChu.cs",
+              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\TrangChu.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Form\\TrangChu.cs",
+              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\TrangChu.cs",
+              "RelativeToolTip": "QuanLyTruongMamNon\\Form\\TrangChu.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T18:11:05.89Z",
+              "WhenOpened": "2024-04-22T19:54:24.764Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuanLiDiemDanh.cs [Design]",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.cs [Design]",
-              "RelativeToolTip": "QuanLyTruongMamNon\\Form\\QuanLiDiemDanh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T17:56:31.235Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

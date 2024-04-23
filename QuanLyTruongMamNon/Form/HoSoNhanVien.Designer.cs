@@ -83,17 +83,17 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThoa = new System.Windows.Forms.Button();
             this.barTieuDe = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbDuongDan = new System.Windows.Forms.Label();
             this.txtTieuDe = new System.Windows.Forms.Label();
+            this.btnNguoiDung = new System.Windows.Forms.PictureBox();
+            this.btnDangXuat = new System.Windows.Forms.PictureBox();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.grTTCB.SuspendLayout();
             this.grDCCO.SuspendLayout();
             this.barTieuDe.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnNguoiDung)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).BeginInit();
             this.SuspendLayout();
             // 
             // menu
@@ -748,8 +748,8 @@
             // 
             // barTieuDe
             // 
-            this.barTieuDe.Controls.Add(this.pictureBox2);
-            this.barTieuDe.Controls.Add(this.pictureBox1);
+            this.barTieuDe.Controls.Add(this.btnNguoiDung);
+            this.barTieuDe.Controls.Add(this.btnDangXuat);
             this.barTieuDe.Controls.Add(this.lbDuongDan);
             this.barTieuDe.Controls.Add(this.txtTieuDe);
             this.barTieuDe.Location = new System.Drawing.Point(356, 30);
@@ -757,30 +757,6 @@
             this.barTieuDe.Name = "barTieuDe";
             this.barTieuDe.Size = new System.Drawing.Size(980, 75);
             this.barTieuDe.TabIndex = 58;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
-            this.pictureBox2.Location = new System.Drawing.Point(865, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
-            this.pictureBox1.Location = new System.Drawing.Point(930, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
             // 
             // lbDuongDan
             // 
@@ -807,6 +783,30 @@
             this.txtTieuDe.Size = new System.Drawing.Size(397, 48);
             this.txtTieuDe.TabIndex = 5;
             this.txtTieuDe.Text = "HỒ SƠ NHÂN VIÊN";
+            // 
+            // btnNguoiDung
+            // 
+            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
+            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
+            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
+            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.btnNguoiDung.Name = "btnNguoiDung";
+            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
+            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnNguoiDung.TabIndex = 19;
+            this.btnNguoiDung.TabStop = false;
+            // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
+            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
+            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
+            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
+            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnDangXuat.TabIndex = 18;
+            this.btnDangXuat.TabStop = false;
             // 
             // HoSoNHanVien
             // 
@@ -840,8 +840,8 @@
             this.grDCCO.ResumeLayout(false);
             this.grDCCO.PerformLayout();
             this.barTieuDe.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnNguoiDung)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -902,9 +902,9 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnThoa;
         private System.Windows.Forms.Panel barTieuDe;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbDuongDan;
         private System.Windows.Forms.Label txtTieuDe;
+        private System.Windows.Forms.PictureBox btnNguoiDung;
+        private System.Windows.Forms.PictureBox btnDangXuat;
     }
 }

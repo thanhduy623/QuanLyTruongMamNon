@@ -43,3 +43,4 @@ D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuenMatKha
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiThucDon.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiMonAn.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiDiemDanh.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiThongBao.resources

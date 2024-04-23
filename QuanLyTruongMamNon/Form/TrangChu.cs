@@ -17,14 +17,33 @@ namespace QuanLyTruongMamNon
         public TrangChu()
         {
             InitializeComponent();
-            MainMenu.SetupMainMenu(this.mainMenu);
-        }
-        private void btnThoat_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Bạn có muốn đăng xuất khỏi hệ thống", "Xác nhận", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            formLoad();
+            if(this.btnDangXuat != null)
             {
-                this.Close();
+                txtTieuDe.Text = "A";
+            } else
+            {
+                txtTieuDe.Text = "b";
             }
+        }
+
+        private void formLoad()
+        {
+            MainMenu.SetupMainMenu(menu);
+            MainFunc.basicFormLoad(this);
+        }
+    }
+
+    internal static class MainFunc
+    {
+        public static void basicFormLoad(Form sender)
+        {
+            senderExit(sender);
+        }
+
+        public static void senderExit(Form sender)
+        {
+            //Code khúc này để gán click cho btnDangXuat để tắt form
         }
     }
 }
