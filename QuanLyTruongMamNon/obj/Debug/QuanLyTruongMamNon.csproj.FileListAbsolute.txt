@@ -44,3 +44,8 @@ D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiThuc
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiMonAn.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiDiemDanh.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiThongBao.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiNganSach.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThuHocPhi.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThuDichVu.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ChiNganSach.resources
+D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThongKeGiaoDich.resources
