@@ -18,7 +18,6 @@ namespace QuanLyTruongMamNon
         {
             InitializeComponent();
             formLoad();
-            int i;
         }
 
         private void formLoad()
