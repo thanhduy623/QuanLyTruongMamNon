@@ -18,13 +18,6 @@ namespace QuanLyTruongMamNon
         {
             InitializeComponent();
             formLoad();
-            if(this.btnDangXuat != null)
-            {
-                txtTieuDe.Text = "A";
-            } else
-            {
-                txtTieuDe.Text = "b";
-            }
         }
 
         private void formLoad()
