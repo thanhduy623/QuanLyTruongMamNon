@@ -86,14 +86,15 @@
             this.labelNhanThan1_quanHe = new System.Windows.Forms.Label();
             this.labelNhanThan1 = new System.Windows.Forms.Label();
             this.btnThoa = new System.Windows.Forms.Button();
-            this.btnKhoa = new System.Windows.Forms.Button();
             this.btnCapNhat = new System.Windows.Forms.Button();
             this.btnChinhSua = new System.Windows.Forms.Button();
             this.barTieuDe = new System.Windows.Forms.Panel();
-            this.lbDuongDan = new System.Windows.Forms.Label();
-            this.txtTieuDe = new System.Windows.Forms.Label();
             this.btnNguoiDung = new System.Windows.Forms.PictureBox();
             this.btnDangXuat = new System.Windows.Forms.PictureBox();
+            this.lbDuongDan = new System.Windows.Forms.Label();
+            this.txtTieuDe = new System.Windows.Forms.Label();
+            this.btnThemMoi = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
             this.grTTCB.SuspendLayout();
             this.grDCCO.SuspendLayout();
             this.grTTHV.SuspendLayout();
@@ -789,7 +790,7 @@
             // btnThoa
             // 
             this.btnThoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoa.Location = new System.Drawing.Point(1224, 636);
+            this.btnThoa.Location = new System.Drawing.Point(1224, 633);
             this.btnThoa.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnThoa.Name = "btnThoa";
             this.btnThoa.Size = new System.Drawing.Size(113, 100);
@@ -797,21 +798,10 @@
             this.btnThoa.Text = "THOÁT";
             this.btnThoa.UseVisualStyleBackColor = true;
             // 
-            // btnKhoa
-            // 
-            this.btnKhoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKhoa.Location = new System.Drawing.Point(1224, 468);
-            this.btnKhoa.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnKhoa.Name = "btnKhoa";
-            this.btnKhoa.Size = new System.Drawing.Size(113, 100);
-            this.btnKhoa.TabIndex = 55;
-            this.btnKhoa.Text = "KHÓA";
-            this.btnKhoa.UseVisualStyleBackColor = true;
-            // 
             // btnCapNhat
             // 
             this.btnCapNhat.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCapNhat.Location = new System.Drawing.Point(1224, 300);
+            this.btnCapNhat.Location = new System.Drawing.Point(1224, 383);
             this.btnCapNhat.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnCapNhat.Name = "btnCapNhat";
             this.btnCapNhat.Size = new System.Drawing.Size(113, 100);
@@ -822,7 +812,7 @@
             // btnChinhSua
             // 
             this.btnChinhSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChinhSua.Location = new System.Drawing.Point(1224, 132);
+            this.btnChinhSua.Location = new System.Drawing.Point(1224, 258);
             this.btnChinhSua.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnChinhSua.Name = "btnChinhSua";
             this.btnChinhSua.Size = new System.Drawing.Size(113, 100);
@@ -841,6 +831,30 @@
             this.barTieuDe.Name = "barTieuDe";
             this.barTieuDe.Size = new System.Drawing.Size(980, 75);
             this.barTieuDe.TabIndex = 57;
+            // 
+            // btnNguoiDung
+            // 
+            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
+            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
+            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
+            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.btnNguoiDung.Name = "btnNguoiDung";
+            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
+            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnNguoiDung.TabIndex = 19;
+            this.btnNguoiDung.TabStop = false;
+            // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
+            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
+            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
+            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
+            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnDangXuat.TabIndex = 18;
+            this.btnDangXuat.TabStop = false;
             // 
             // lbDuongDan
             // 
@@ -868,29 +882,27 @@
             this.txtTieuDe.TabIndex = 5;
             this.txtTieuDe.Text = "HỒ SƠ HỌC SINH";
             // 
-            // btnNguoiDung
+            // btnThemMoi
             // 
-            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
-            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
-            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
-            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
-            this.btnNguoiDung.Name = "btnNguoiDung";
-            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
-            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnNguoiDung.TabIndex = 19;
-            this.btnNguoiDung.TabStop = false;
+            this.btnThemMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemMoi.Location = new System.Drawing.Point(1224, 133);
+            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.btnThemMoi.Name = "btnThemMoi";
+            this.btnThemMoi.Size = new System.Drawing.Size(113, 100);
+            this.btnThemMoi.TabIndex = 58;
+            this.btnThemMoi.Text = "THÊM MỚI";
+            this.btnThemMoi.UseVisualStyleBackColor = true;
             // 
-            // btnDangXuat
+            // btnXoa
             // 
-            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
-            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
-            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
-            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
-            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnDangXuat.TabIndex = 18;
-            this.btnDangXuat.TabStop = false;
+            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.Location = new System.Drawing.Point(1224, 508);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(113, 100);
+            this.btnXoa.TabIndex = 59;
+            this.btnXoa.Text = "XÓA";
+            this.btnXoa.UseVisualStyleBackColor = true;
             // 
             // HoSoHocSinh
             // 
@@ -899,9 +911,10 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
+            this.Controls.Add(this.btnXoa);
+            this.Controls.Add(this.btnThemMoi);
             this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.btnThoa);
-            this.Controls.Add(this.btnKhoa);
             this.Controls.Add(this.btnCapNhat);
             this.Controls.Add(this.btnChinhSua);
             this.Controls.Add(this.gTTNT);
@@ -989,7 +1002,6 @@
         private System.Windows.Forms.ComboBox nhanThan1_dienThoai;
         private System.Windows.Forms.Label labelNhanThan1_dienThoai;
         private System.Windows.Forms.Button btnThoa;
-        private System.Windows.Forms.Button btnKhoa;
         private System.Windows.Forms.Button btnCapNhat;
         private System.Windows.Forms.Button btnChinhSua;
         private System.Windows.Forms.Panel barTieuDe;
@@ -997,5 +1009,7 @@
         private System.Windows.Forms.Label txtTieuDe;
         private System.Windows.Forms.PictureBox btnNguoiDung;
         private System.Windows.Forms.PictureBox btnDangXuat;
+        private System.Windows.Forms.Button btnThemMoi;
+        private System.Windows.Forms.Button btnXoa;
     }
 }

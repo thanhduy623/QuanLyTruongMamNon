@@ -52,204 +52,204 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form\ChiNganSach.cs">
+    <Compile Include="ChiNganSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\ChiNganSach.Designer.cs">
+    <Compile Include="ChiNganSach.Designer.cs">
       <DependentUpon>ChiNganSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiGiaoVu.cs">
+    <Compile Include="QuanLiGiaoVu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiGiaoVu.Designer.cs">
+    <Compile Include="QuanLiGiaoVu.Designer.cs">
       <DependentUpon>QuanLiGiaoVu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\ThongKeGiaoDich.cs">
+    <Compile Include="ThongKeGiaoDich.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\ThongKeGiaoDich.Designer.cs">
+    <Compile Include="ThongKeGiaoDich.Designer.cs">
       <DependentUpon>ThongKeGiaoDich.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\ThuHocPhi.cs">
+    <Compile Include="ThuHocPhi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\ThuHocPhi.Designer.cs">
+    <Compile Include="ThuHocPhi.Designer.cs">
       <DependentUpon>ThuHocPhi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\ThuDichVu.cs">
+    <Compile Include="ThuDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\ThuDichVu.Designer.cs">
+    <Compile Include="ThuDichVu.Designer.cs">
       <DependentUpon>ThuDichVu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiThongBao.cs">
+    <Compile Include="QuanLiThongBao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiThongBao.Designer.cs">
+    <Compile Include="QuanLiThongBao.Designer.cs">
       <DependentUpon>QuanLiThongBao.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiThanhTich.cs">
+    <Compile Include="QuanLiThanhTich.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiThanhTich.Designer.cs">
+    <Compile Include="QuanLiThanhTich.Designer.cs">
       <DependentUpon>QuanLiThanhTich.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiNganSach.cs">
+    <Compile Include="QuanLiNganSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiNganSach.Designer.cs">
+    <Compile Include="QuanLiNganSach.Designer.cs">
       <DependentUpon>QuanLiNganSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuenMatKhau.cs">
+    <Compile Include="QuenMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuenMatKhau.Designer.cs">
+    <Compile Include="QuenMatKhau.Designer.cs">
       <DependentUpon>QuenMatKhau.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\DoiMatKhau.cs">
+    <Compile Include="DoiMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\DoiMatKhau.Designer.cs">
+    <Compile Include="DoiMatKhau.Designer.cs">
       <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\ThemNhanVien.cs">
+    <Compile Include="ThemNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\ThemNhanVien.Designer.cs">
+    <Compile Include="ThemNhanVien.Designer.cs">
       <DependentUpon>ThemNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\ThemHocSinh.cs">
+    <Compile Include="ThemHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\ThemHocSinh.Designer.cs">
+    <Compile Include="ThemHocSinh.Designer.cs">
       <DependentUpon>ThemHocSinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiHocSinh.cs">
+    <Compile Include="QuanLiHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiHocSinh.Designer.cs">
+    <Compile Include="QuanLiHocSinh.Designer.cs">
       <DependentUpon>QuanLiHocSinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiThucDon.cs">
+    <Compile Include="QuanLiThucDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiThucDon.Designer.cs">
+    <Compile Include="QuanLiThucDon.Designer.cs">
       <DependentUpon>QuanLiThucDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiMonAn.cs">
+    <Compile Include="QuanLiMonAn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiMonAn.Designer.cs">
+    <Compile Include="QuanLiMonAn.Designer.cs">
       <DependentUpon>QuanLiMonAn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiDiemDanh.cs">
+    <Compile Include="QuanLiDiemDanh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiDiemDanh.Designer.cs">
+    <Compile Include="QuanLiDiemDanh.Designer.cs">
       <DependentUpon>QuanLiDiemDanh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\TheHocSinh.cs">
+    <Compile Include="TheHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\TheHocSinh.Designer.cs">
+    <Compile Include="TheHocSinh.Designer.cs">
       <DependentUpon>TheHocSinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\DangNhap.cs">
+    <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\DangNhap.Designer.cs">
+    <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\HoSoHocSinh.cs">
+    <Compile Include="HoSoHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\HoSoHocSinh.Designer.cs">
+    <Compile Include="HoSoHocSinh.Designer.cs">
       <DependentUpon>HoSoHocSinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\HoSoNhanVien.cs">
+    <Compile Include="HoSoNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\HoSoNhanVien.Designer.cs">
+    <Compile Include="HoSoNhanVien.Designer.cs">
       <DependentUpon>HoSoNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\QuanLiNhanVien.cs">
+    <Compile Include="QuanLiNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\QuanLiNhanVien.Designer.cs">
+    <Compile Include="QuanLiNhanVien.Designer.cs">
       <DependentUpon>QuanLiNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\TrangChu.cs">
+    <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\TrangChu.Designer.cs">
+    <Compile Include="TrangChu.Designer.cs">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form\ChiNganSach.resx">
+    <EmbeddedResource Include="ChiNganSach.resx">
       <DependentUpon>ChiNganSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiGiaoVu.resx">
+    <EmbeddedResource Include="QuanLiGiaoVu.resx">
       <DependentUpon>QuanLiGiaoVu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\ThongKeGiaoDich.resx">
+    <EmbeddedResource Include="ThongKeGiaoDich.resx">
       <DependentUpon>ThongKeGiaoDich.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\ThuHocPhi.resx">
+    <EmbeddedResource Include="ThuHocPhi.resx">
       <DependentUpon>ThuHocPhi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\ThuDichVu.resx">
+    <EmbeddedResource Include="ThuDichVu.resx">
       <DependentUpon>ThuDichVu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiThongBao.resx">
+    <EmbeddedResource Include="QuanLiThongBao.resx">
       <DependentUpon>QuanLiThongBao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiThanhTich.resx">
+    <EmbeddedResource Include="QuanLiThanhTich.resx">
       <DependentUpon>QuanLiThanhTich.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiNganSach.resx">
+    <EmbeddedResource Include="QuanLiNganSach.resx">
       <DependentUpon>QuanLiNganSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuenMatKhau.resx">
+    <EmbeddedResource Include="QuenMatKhau.resx">
       <DependentUpon>QuenMatKhau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\DoiMatKhau.resx">
+    <EmbeddedResource Include="DoiMatKhau.resx">
       <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\ThemNhanVien.resx">
+    <EmbeddedResource Include="ThemNhanVien.resx">
       <DependentUpon>ThemNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\ThemHocSinh.resx">
+    <EmbeddedResource Include="ThemHocSinh.resx">
       <DependentUpon>ThemHocSinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiHocSinh.resx">
+    <EmbeddedResource Include="QuanLiHocSinh.resx">
       <DependentUpon>QuanLiHocSinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiThucDon.resx">
+    <EmbeddedResource Include="QuanLiThucDon.resx">
       <DependentUpon>QuanLiThucDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiMonAn.resx">
+    <EmbeddedResource Include="QuanLiMonAn.resx">
       <DependentUpon>QuanLiMonAn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiDiemDanh.resx">
+    <EmbeddedResource Include="QuanLiDiemDanh.resx">
       <DependentUpon>QuanLiDiemDanh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\TheHocSinh.resx">
+    <EmbeddedResource Include="TheHocSinh.resx">
       <DependentUpon>TheHocSinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\DangNhap.resx">
+    <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\HoSoHocSinh.resx">
+    <EmbeddedResource Include="HoSoHocSinh.resx">
       <DependentUpon>HoSoHocSinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\HoSoNhanVien.resx">
+    <EmbeddedResource Include="HoSoNhanVien.resx">
       <DependentUpon>HoSoNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\QuanLiNhanVien.resx">
+    <EmbeddedResource Include="QuanLiNhanVien.resx">
       <DependentUpon>QuanLiNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\TrangChu.resx">
+    <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

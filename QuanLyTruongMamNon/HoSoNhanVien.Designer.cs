@@ -83,10 +83,11 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThoa = new System.Windows.Forms.Button();
             this.barTieuDe = new System.Windows.Forms.Panel();
-            this.lbDuongDan = new System.Windows.Forms.Label();
-            this.txtTieuDe = new System.Windows.Forms.Label();
             this.btnNguoiDung = new System.Windows.Forms.PictureBox();
             this.btnDangXuat = new System.Windows.Forms.PictureBox();
+            this.lbDuongDan = new System.Windows.Forms.Label();
+            this.txtTieuDe = new System.Windows.Forms.Label();
+            this.btnThemMoi = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.grTTCB.SuspendLayout();
@@ -111,7 +112,7 @@
             // btnChinhSua
             // 
             this.btnChinhSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChinhSua.Location = new System.Drawing.Point(1227, 134);
+            this.btnChinhSua.Location = new System.Drawing.Point(1227, 260);
             this.btnChinhSua.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnChinhSua.Name = "btnChinhSua";
             this.btnChinhSua.Size = new System.Drawing.Size(113, 100);
@@ -280,7 +281,7 @@
             // btnCapNhat
             // 
             this.btnCapNhat.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCapNhat.Location = new System.Drawing.Point(1227, 302);
+            this.btnCapNhat.Location = new System.Drawing.Point(1227, 385);
             this.btnCapNhat.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnCapNhat.Name = "btnCapNhat";
             this.btnCapNhat.Size = new System.Drawing.Size(113, 100);
@@ -727,7 +728,7 @@
             // btnXoa
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(1227, 470);
+            this.btnXoa.Location = new System.Drawing.Point(1227, 510);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(113, 100);
@@ -738,7 +739,7 @@
             // btnThoa
             // 
             this.btnThoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoa.Location = new System.Drawing.Point(1227, 638);
+            this.btnThoa.Location = new System.Drawing.Point(1227, 635);
             this.btnThoa.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.btnThoa.Name = "btnThoa";
             this.btnThoa.Size = new System.Drawing.Size(113, 100);
@@ -757,6 +758,30 @@
             this.barTieuDe.Name = "barTieuDe";
             this.barTieuDe.Size = new System.Drawing.Size(980, 75);
             this.barTieuDe.TabIndex = 58;
+            // 
+            // btnNguoiDung
+            // 
+            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
+            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
+            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
+            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.btnNguoiDung.Name = "btnNguoiDung";
+            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
+            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnNguoiDung.TabIndex = 19;
+            this.btnNguoiDung.TabStop = false;
+            // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
+            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
+            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
+            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
+            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnDangXuat.TabIndex = 18;
+            this.btnDangXuat.TabStop = false;
             // 
             // lbDuongDan
             // 
@@ -784,29 +809,16 @@
             this.txtTieuDe.TabIndex = 5;
             this.txtTieuDe.Text = "HỒ SƠ NHÂN VIÊN";
             // 
-            // btnNguoiDung
+            // btnThemMoi
             // 
-            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
-            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
-            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
-            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
-            this.btnNguoiDung.Name = "btnNguoiDung";
-            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
-            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnNguoiDung.TabIndex = 19;
-            this.btnNguoiDung.TabStop = false;
-            // 
-            // btnDangXuat
-            // 
-            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
-            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
-            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
-            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
-            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnDangXuat.TabIndex = 18;
-            this.btnDangXuat.TabStop = false;
+            this.btnThemMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemMoi.Location = new System.Drawing.Point(1227, 135);
+            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.btnThemMoi.Name = "btnThemMoi";
+            this.btnThemMoi.Size = new System.Drawing.Size(113, 100);
+            this.btnThemMoi.TabIndex = 59;
+            this.btnThemMoi.Text = "THÊM MỚI";
+            this.btnThemMoi.UseVisualStyleBackColor = true;
             // 
             // HoSoNHanVien
             // 
@@ -815,6 +827,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
+            this.Controls.Add(this.btnThemMoi);
             this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.btnThoa);
             this.Controls.Add(this.btnXoa);
@@ -906,5 +919,6 @@
         private System.Windows.Forms.Label txtTieuDe;
         private System.Windows.Forms.PictureBox btnNguoiDung;
         private System.Windows.Forms.PictureBox btnDangXuat;
+        private System.Windows.Forms.Button btnThemMoi;
     }
 }
