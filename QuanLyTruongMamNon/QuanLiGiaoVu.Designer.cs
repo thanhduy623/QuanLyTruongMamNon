@@ -57,7 +57,7 @@
             this.lbPhanCong = new System.Windows.Forms.Label();
             this.lbNamHocPC = new System.Windows.Forms.Label();
             this.btnPhanCong = new System.Windows.Forms.Button();
-            this.btnXoaKhaiBao = new System.Windows.Forms.Button();
+            this.btnSuaKhaiBao = new System.Windows.Forms.Button();
             this.btnSuaPhanCong = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
             this.barThongTin.SuspendLayout();
@@ -92,7 +92,7 @@
             // 
             this.barThongTin.BackColor = System.Drawing.Color.Transparent;
             this.barThongTin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.barThongTin.Controls.Add(this.btnXoaKhaiBao);
+            this.barThongTin.Controls.Add(this.btnSuaKhaiBao);
             this.barThongTin.Controls.Add(this.lbSiSo);
             this.barThongTin.Controls.Add(this.siSo);
             this.barThongTin.Controls.Add(this.btnHuyKhaiBao);
@@ -430,17 +430,17 @@
             this.btnPhanCong.Text = "Phân công";
             this.btnPhanCong.UseVisualStyleBackColor = true;
             // 
-            // btnXoaKhaiBao
+            // btnSuaKhaiBao
             // 
-            this.btnXoaKhaiBao.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.btnXoaKhaiBao.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnXoaKhaiBao.Location = new System.Drawing.Point(10, 418);
-            this.btnXoaKhaiBao.Margin = new System.Windows.Forms.Padding(10);
-            this.btnXoaKhaiBao.Name = "btnXoaKhaiBao";
-            this.btnXoaKhaiBao.Size = new System.Drawing.Size(200, 70);
-            this.btnXoaKhaiBao.TabIndex = 55;
-            this.btnXoaKhaiBao.Text = "Xóa khai báo";
-            this.btnXoaKhaiBao.UseVisualStyleBackColor = true;
+            this.btnSuaKhaiBao.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSuaKhaiBao.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnSuaKhaiBao.Location = new System.Drawing.Point(10, 418);
+            this.btnSuaKhaiBao.Margin = new System.Windows.Forms.Padding(10);
+            this.btnSuaKhaiBao.Name = "btnSuaKhaiBao";
+            this.btnSuaKhaiBao.Size = new System.Drawing.Size(200, 70);
+            this.btnSuaKhaiBao.TabIndex = 55;
+            this.btnSuaKhaiBao.Text = "Sửa khai báo";
+            this.btnSuaKhaiBao.UseVisualStyleBackColor = true;
             // 
             // btnSuaPhanCong
             // 
@@ -513,7 +513,7 @@
         private System.Windows.Forms.Button btnKhaiBao;
         private System.Windows.Forms.Label lbSiSo;
         private System.Windows.Forms.TextBox siSo;
-        private System.Windows.Forms.Button btnXoaKhaiBao;
+        private System.Windows.Forms.Button btnSuaKhaiBao;
         private System.Windows.Forms.Button btnSuaPhanCong;
     }
 }
