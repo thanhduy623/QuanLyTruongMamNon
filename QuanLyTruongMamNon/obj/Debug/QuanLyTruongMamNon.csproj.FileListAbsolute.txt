@@ -19,7 +19,6 @@ D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiHocS
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.TheHocSinh.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.DangNhap.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.HoSoHocSinh.resources
-D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThemHocSinh.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.HoSoNHanVien.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiNhanVien.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.TrangChu.resources

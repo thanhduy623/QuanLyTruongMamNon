@@ -32,7 +32,7 @@
             this.duLieu = new System.Windows.Forms.DataGridView();
             this.btnThem = new System.Windows.Forms.Button();
             this.labelThoiGian = new System.Windows.Forms.Label();
-            this.tbnLưu = new System.Windows.Forms.Button();
+            this.btnSửa = new System.Windows.Forms.Button();
             this.noiSinh = new System.Windows.Forms.ComboBox();
             this.thoiGian = new System.Windows.Forms.DateTimePicker();
             this.labelMonAnSo1 = new System.Windows.Forms.Label();
@@ -43,11 +43,11 @@
             this.danhGiaDinhDuong = new System.Windows.Forms.Label();
             this.btnHuy = new System.Windows.Forms.Button();
             this.barTieuDe = new System.Windows.Forms.Panel();
+            this.btnNguoiDung = new System.Windows.Forms.PictureBox();
+            this.btnDangXuat = new System.Windows.Forms.PictureBox();
             this.lbDuongDan = new System.Windows.Forms.Label();
             this.txtTieuDe = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnNguoiDung = new System.Windows.Forms.PictureBox();
-            this.btnDangXuat = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
             this.barTieuDe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnNguoiDung)).BeginInit();
@@ -100,17 +100,17 @@
             this.labelThoiGian.Text = "Thời gian";
             this.labelThoiGian.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // tbnLưu
+            // btnSửa
             // 
-            this.tbnLưu.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.tbnLưu.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tbnLưu.Location = new System.Drawing.Point(1136, 155);
-            this.tbnLưu.Margin = new System.Windows.Forms.Padding(10, 3, 10, 20);
-            this.tbnLưu.Name = "tbnLưu";
-            this.tbnLưu.Size = new System.Drawing.Size(80, 80);
-            this.tbnLưu.TabIndex = 44;
-            this.tbnLưu.Text = "Lưu";
-            this.tbnLưu.UseVisualStyleBackColor = true;
+            this.btnSửa.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSửa.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnSửa.Location = new System.Drawing.Point(1136, 155);
+            this.btnSửa.Margin = new System.Windows.Forms.Padding(10, 3, 10, 20);
+            this.btnSửa.Name = "btnSửa";
+            this.btnSửa.Size = new System.Drawing.Size(80, 80);
+            this.btnSửa.TabIndex = 44;
+            this.btnSửa.Text = "Sửa";
+            this.btnSửa.UseVisualStyleBackColor = true;
             // 
             // noiSinh
             // 
@@ -223,6 +223,30 @@
             this.barTieuDe.Size = new System.Drawing.Size(980, 75);
             this.barTieuDe.TabIndex = 103;
             // 
+            // btnNguoiDung
+            // 
+            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
+            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
+            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
+            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.btnNguoiDung.Name = "btnNguoiDung";
+            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
+            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnNguoiDung.TabIndex = 19;
+            this.btnNguoiDung.TabStop = false;
+            // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
+            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
+            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
+            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
+            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnDangXuat.TabIndex = 18;
+            this.btnDangXuat.TabStop = false;
+            // 
             // lbDuongDan
             // 
             this.lbDuongDan.BackColor = System.Drawing.Color.Transparent;
@@ -257,30 +281,6 @@
             this.panel1.Size = new System.Drawing.Size(980, 100);
             this.panel1.TabIndex = 104;
             // 
-            // btnNguoiDung
-            // 
-            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
-            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
-            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
-            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
-            this.btnNguoiDung.Name = "btnNguoiDung";
-            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
-            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnNguoiDung.TabIndex = 19;
-            this.btnNguoiDung.TabStop = false;
-            // 
-            // btnDangXuat
-            // 
-            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
-            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
-            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
-            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
-            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnDangXuat.TabIndex = 18;
-            this.btnDangXuat.TabStop = false;
-            // 
             // QuanLiThucDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -298,7 +298,7 @@
             this.Controls.Add(this.labelMonAnSo1);
             this.Controls.Add(this.noiSinh);
             this.Controls.Add(this.thoiGian);
-            this.Controls.Add(this.tbnLưu);
+            this.Controls.Add(this.btnSửa);
             this.Controls.Add(this.duLieu);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.btnThem);
@@ -323,7 +323,7 @@
         private System.Windows.Forms.DataGridView duLieu;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Label labelThoiGian;
-        private System.Windows.Forms.Button tbnLưu;
+        private System.Windows.Forms.Button btnSửa;
         private System.Windows.Forms.ComboBox noiSinh;
         private System.Windows.Forms.DateTimePicker thoiGian;
         private System.Windows.Forms.Label labelMonAnSo1;

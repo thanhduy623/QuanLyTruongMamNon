@@ -31,6 +31,12 @@
             this.menu = new System.Windows.Forms.MenuStrip();
             this.duLieu = new System.Windows.Forms.DataGridView();
             this.barThongTin = new System.Windows.Forms.Panel();
+            this.lbSiSo = new System.Windows.Forms.Label();
+            this.siSo = new System.Windows.Forms.TextBox();
+            this.btnHuyKhaiBao = new System.Windows.Forms.Button();
+            this.hocPhi = new System.Windows.Forms.TextBox();
+            this.btnKhaiBao = new System.Windows.Forms.Button();
+            this.lbHocPhi = new System.Windows.Forms.Label();
             this.soLop = new System.Windows.Forms.TextBox();
             this.lbSoLop = new System.Windows.Forms.Label();
             this.labelNamHoc = new System.Windows.Forms.Label();
@@ -41,22 +47,18 @@
             this.btnDangXuat = new System.Windows.Forms.PictureBox();
             this.lbDuongDan = new System.Windows.Forms.Label();
             this.txtTieuDe = new System.Windows.Forms.Label();
-            this.hocPhi = new System.Windows.Forms.TextBox();
-            this.lbHocPhi = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnHuyPhanCong = new System.Windows.Forms.Button();
+            this.quanLi = new System.Windows.Forms.ComboBox();
+            this.tenLop = new System.Windows.Forms.ComboBox();
+            this.namhocPC = new System.Windows.Forms.ComboBox();
             this.lbQuanLi = new System.Windows.Forms.Label();
             this.lbTenLop = new System.Windows.Forms.Label();
             this.lbPhanCong = new System.Windows.Forms.Label();
             this.lbNamHocPC = new System.Windows.Forms.Label();
             this.btnPhanCong = new System.Windows.Forms.Button();
-            this.namhocPC = new System.Windows.Forms.ComboBox();
-            this.tenLop = new System.Windows.Forms.ComboBox();
-            this.quanLi = new System.Windows.Forms.ComboBox();
-            this.btnHuyPhanCong = new System.Windows.Forms.Button();
-            this.btnHuyKhaiBao = new System.Windows.Forms.Button();
-            this.btnKhaiBao = new System.Windows.Forms.Button();
-            this.siSo = new System.Windows.Forms.TextBox();
-            this.lbSiSo = new System.Windows.Forms.Label();
+            this.btnXoaKhaiBao = new System.Windows.Forms.Button();
+            this.btnSuaPhanCong = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
             this.barThongTin.SuspendLayout();
             this.barTieuDe.SuspendLayout();
@@ -90,6 +92,7 @@
             // 
             this.barThongTin.BackColor = System.Drawing.Color.Transparent;
             this.barThongTin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.barThongTin.Controls.Add(this.btnXoaKhaiBao);
             this.barThongTin.Controls.Add(this.lbSiSo);
             this.barThongTin.Controls.Add(this.siSo);
             this.barThongTin.Controls.Add(this.btnHuyKhaiBao);
@@ -106,6 +109,76 @@
             this.barThongTin.Name = "barThongTin";
             this.barThongTin.Size = new System.Drawing.Size(220, 603);
             this.barThongTin.TabIndex = 19;
+            // 
+            // lbSiSo
+            // 
+            this.lbSiSo.BackColor = System.Drawing.Color.Transparent;
+            this.lbSiSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSiSo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbSiSo.Location = new System.Drawing.Point(125, 160);
+            this.lbSiSo.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.lbSiSo.Name = "lbSiSo";
+            this.lbSiSo.Size = new System.Drawing.Size(83, 18);
+            this.lbSiSo.TabIndex = 54;
+            this.lbSiSo.Text = "Sỉ số";
+            this.lbSiSo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // siSo
+            // 
+            this.siSo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.siSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siSo.Location = new System.Drawing.Point(128, 184);
+            this.siSo.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.siSo.Name = "siSo";
+            this.siSo.Size = new System.Drawing.Size(80, 26);
+            this.siSo.TabIndex = 53;
+            // 
+            // btnHuyKhaiBao
+            // 
+            this.btnHuyKhaiBao.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnHuyKhaiBao.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnHuyKhaiBao.Location = new System.Drawing.Point(8, 521);
+            this.btnHuyKhaiBao.Margin = new System.Windows.Forms.Padding(10);
+            this.btnHuyKhaiBao.Name = "btnHuyKhaiBao";
+            this.btnHuyKhaiBao.Size = new System.Drawing.Size(200, 70);
+            this.btnHuyKhaiBao.TabIndex = 52;
+            this.btnHuyKhaiBao.Text = "Hủy";
+            this.btnHuyKhaiBao.UseVisualStyleBackColor = true;
+            // 
+            // hocPhi
+            // 
+            this.hocPhi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hocPhi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hocPhi.Location = new System.Drawing.Point(10, 247);
+            this.hocPhi.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.hocPhi.Name = "hocPhi";
+            this.hocPhi.Size = new System.Drawing.Size(200, 26);
+            this.hocPhi.TabIndex = 46;
+            // 
+            // btnKhaiBao
+            // 
+            this.btnKhaiBao.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnKhaiBao.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnKhaiBao.Location = new System.Drawing.Point(8, 315);
+            this.btnKhaiBao.Margin = new System.Windows.Forms.Padding(10);
+            this.btnKhaiBao.Name = "btnKhaiBao";
+            this.btnKhaiBao.Size = new System.Drawing.Size(200, 70);
+            this.btnKhaiBao.TabIndex = 51;
+            this.btnKhaiBao.Text = "Khai báo";
+            this.btnKhaiBao.UseVisualStyleBackColor = true;
+            // 
+            // lbHocPhi
+            // 
+            this.lbHocPhi.BackColor = System.Drawing.Color.Transparent;
+            this.lbHocPhi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbHocPhi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbHocPhi.Location = new System.Drawing.Point(7, 223);
+            this.lbHocPhi.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
+            this.lbHocPhi.Name = "lbHocPhi";
+            this.lbHocPhi.Size = new System.Drawing.Size(201, 18);
+            this.lbHocPhi.TabIndex = 45;
+            this.lbHocPhi.Text = "Học phí";
+            this.lbHocPhi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // soLop
             // 
@@ -230,33 +303,11 @@
             this.txtTieuDe.TabIndex = 5;
             this.txtTieuDe.Text = "QUẢN LÍ GIÁO VỤ";
             // 
-            // hocPhi
-            // 
-            this.hocPhi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.hocPhi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hocPhi.Location = new System.Drawing.Point(10, 247);
-            this.hocPhi.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.hocPhi.Name = "hocPhi";
-            this.hocPhi.Size = new System.Drawing.Size(200, 26);
-            this.hocPhi.TabIndex = 46;
-            // 
-            // lbHocPhi
-            // 
-            this.lbHocPhi.BackColor = System.Drawing.Color.Transparent;
-            this.lbHocPhi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbHocPhi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbHocPhi.Location = new System.Drawing.Point(7, 223);
-            this.lbHocPhi.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
-            this.lbHocPhi.Name = "lbHocPhi";
-            this.lbHocPhi.Size = new System.Drawing.Size(201, 18);
-            this.lbHocPhi.TabIndex = 45;
-            this.lbHocPhi.Text = "Học phí";
-            this.lbHocPhi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnSuaPhanCong);
             this.panel1.Controls.Add(this.btnHuyPhanCong);
             this.panel1.Controls.Add(this.quanLi);
             this.panel1.Controls.Add(this.tenLop);
@@ -271,6 +322,48 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(220, 603);
             this.panel1.TabIndex = 103;
+            // 
+            // btnHuyPhanCong
+            // 
+            this.btnHuyPhanCong.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnHuyPhanCong.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnHuyPhanCong.Location = new System.Drawing.Point(8, 521);
+            this.btnHuyPhanCong.Margin = new System.Windows.Forms.Padding(10);
+            this.btnHuyPhanCong.Name = "btnHuyPhanCong";
+            this.btnHuyPhanCong.Size = new System.Drawing.Size(200, 70);
+            this.btnHuyPhanCong.TabIndex = 50;
+            this.btnHuyPhanCong.Text = "Hủy";
+            this.btnHuyPhanCong.UseVisualStyleBackColor = true;
+            // 
+            // quanLi
+            // 
+            this.quanLi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quanLi.FormattingEnabled = true;
+            this.quanLi.Location = new System.Drawing.Point(8, 245);
+            this.quanLi.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.quanLi.Name = "quanLi";
+            this.quanLi.Size = new System.Drawing.Size(200, 28);
+            this.quanLi.TabIndex = 49;
+            // 
+            // tenLop
+            // 
+            this.tenLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tenLop.FormattingEnabled = true;
+            this.tenLop.Location = new System.Drawing.Point(8, 182);
+            this.tenLop.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.tenLop.Name = "tenLop";
+            this.tenLop.Size = new System.Drawing.Size(200, 28);
+            this.tenLop.TabIndex = 48;
+            // 
+            // namhocPC
+            // 
+            this.namhocPC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namhocPC.FormattingEnabled = true;
+            this.namhocPC.Location = new System.Drawing.Point(8, 119);
+            this.namhocPC.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.namhocPC.Name = "namhocPC";
+            this.namhocPC.Size = new System.Drawing.Size(200, 28);
+            this.namhocPC.TabIndex = 47;
             // 
             // lbQuanLi
             // 
@@ -332,99 +425,34 @@
             this.btnPhanCong.Location = new System.Drawing.Point(8, 315);
             this.btnPhanCong.Margin = new System.Windows.Forms.Padding(10);
             this.btnPhanCong.Name = "btnPhanCong";
-            this.btnPhanCong.Size = new System.Drawing.Size(200, 120);
+            this.btnPhanCong.Size = new System.Drawing.Size(200, 70);
             this.btnPhanCong.TabIndex = 19;
             this.btnPhanCong.Text = "Phân công";
             this.btnPhanCong.UseVisualStyleBackColor = true;
             // 
-            // namhocPC
+            // btnXoaKhaiBao
             // 
-            this.namhocPC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namhocPC.FormattingEnabled = true;
-            this.namhocPC.Location = new System.Drawing.Point(8, 119);
-            this.namhocPC.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.namhocPC.Name = "namhocPC";
-            this.namhocPC.Size = new System.Drawing.Size(200, 28);
-            this.namhocPC.TabIndex = 47;
+            this.btnXoaKhaiBao.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnXoaKhaiBao.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnXoaKhaiBao.Location = new System.Drawing.Point(10, 418);
+            this.btnXoaKhaiBao.Margin = new System.Windows.Forms.Padding(10);
+            this.btnXoaKhaiBao.Name = "btnXoaKhaiBao";
+            this.btnXoaKhaiBao.Size = new System.Drawing.Size(200, 70);
+            this.btnXoaKhaiBao.TabIndex = 55;
+            this.btnXoaKhaiBao.Text = "Xóa khai báo";
+            this.btnXoaKhaiBao.UseVisualStyleBackColor = true;
             // 
-            // tenLop
+            // btnSuaPhanCong
             // 
-            this.tenLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tenLop.FormattingEnabled = true;
-            this.tenLop.Location = new System.Drawing.Point(8, 182);
-            this.tenLop.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.tenLop.Name = "tenLop";
-            this.tenLop.Size = new System.Drawing.Size(200, 28);
-            this.tenLop.TabIndex = 48;
-            // 
-            // quanLi
-            // 
-            this.quanLi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quanLi.FormattingEnabled = true;
-            this.quanLi.Location = new System.Drawing.Point(8, 245);
-            this.quanLi.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.quanLi.Name = "quanLi";
-            this.quanLi.Size = new System.Drawing.Size(200, 28);
-            this.quanLi.TabIndex = 49;
-            // 
-            // btnHuyPhanCong
-            // 
-            this.btnHuyPhanCong.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.btnHuyPhanCong.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnHuyPhanCong.Location = new System.Drawing.Point(8, 471);
-            this.btnHuyPhanCong.Margin = new System.Windows.Forms.Padding(10);
-            this.btnHuyPhanCong.Name = "btnHuyPhanCong";
-            this.btnHuyPhanCong.Size = new System.Drawing.Size(200, 120);
-            this.btnHuyPhanCong.TabIndex = 50;
-            this.btnHuyPhanCong.Text = "Hủy";
-            this.btnHuyPhanCong.UseVisualStyleBackColor = true;
-            // 
-            // btnHuyKhaiBao
-            // 
-            this.btnHuyKhaiBao.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.btnHuyKhaiBao.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnHuyKhaiBao.Location = new System.Drawing.Point(8, 471);
-            this.btnHuyKhaiBao.Margin = new System.Windows.Forms.Padding(10);
-            this.btnHuyKhaiBao.Name = "btnHuyKhaiBao";
-            this.btnHuyKhaiBao.Size = new System.Drawing.Size(200, 120);
-            this.btnHuyKhaiBao.TabIndex = 52;
-            this.btnHuyKhaiBao.Text = "Hủy";
-            this.btnHuyKhaiBao.UseVisualStyleBackColor = true;
-            // 
-            // btnKhaiBao
-            // 
-            this.btnKhaiBao.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.btnKhaiBao.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnKhaiBao.Location = new System.Drawing.Point(8, 315);
-            this.btnKhaiBao.Margin = new System.Windows.Forms.Padding(10);
-            this.btnKhaiBao.Name = "btnKhaiBao";
-            this.btnKhaiBao.Size = new System.Drawing.Size(200, 120);
-            this.btnKhaiBao.TabIndex = 51;
-            this.btnKhaiBao.Text = "Khai báo";
-            this.btnKhaiBao.UseVisualStyleBackColor = true;
-            // 
-            // siSo
-            // 
-            this.siSo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.siSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siSo.Location = new System.Drawing.Point(128, 184);
-            this.siSo.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.siSo.Name = "siSo";
-            this.siSo.Size = new System.Drawing.Size(80, 26);
-            this.siSo.TabIndex = 53;
-            // 
-            // lbSiSo
-            // 
-            this.lbSiSo.BackColor = System.Drawing.Color.Transparent;
-            this.lbSiSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSiSo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbSiSo.Location = new System.Drawing.Point(125, 160);
-            this.lbSiSo.Margin = new System.Windows.Forms.Padding(30, 10, 10, 3);
-            this.lbSiSo.Name = "lbSiSo";
-            this.lbSiSo.Size = new System.Drawing.Size(83, 18);
-            this.lbSiSo.TabIndex = 54;
-            this.lbSiSo.Text = "Sỉ số";
-            this.lbSiSo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSuaPhanCong.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSuaPhanCong.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnSuaPhanCong.Location = new System.Drawing.Point(8, 418);
+            this.btnSuaPhanCong.Margin = new System.Windows.Forms.Padding(10);
+            this.btnSuaPhanCong.Name = "btnSuaPhanCong";
+            this.btnSuaPhanCong.Size = new System.Drawing.Size(200, 70);
+            this.btnSuaPhanCong.TabIndex = 51;
+            this.btnSuaPhanCong.Text = "Sửa phân công";
+            this.btnSuaPhanCong.UseVisualStyleBackColor = true;
             // 
             // QuanLiGiaoVu
             // 
@@ -485,5 +513,7 @@
         private System.Windows.Forms.Button btnKhaiBao;
         private System.Windows.Forms.Label lbSiSo;
         private System.Windows.Forms.TextBox siSo;
+        private System.Windows.Forms.Button btnXoaKhaiBao;
+        private System.Windows.Forms.Button btnSuaPhanCong;
     }
 }
