@@ -58,6 +58,12 @@
     <Compile Include="Form\ChiNganSach.Designer.cs">
       <DependentUpon>ChiNganSach.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form\QuanLiGiaoVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\QuanLiGiaoVu.Designer.cs">
+      <DependentUpon>QuanLiGiaoVu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\ThongKeGiaoDich.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form\ChiNganSach.resx">
       <DependentUpon>ChiNganSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\QuanLiGiaoVu.resx">
+      <DependentUpon>QuanLiGiaoVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\ThongKeGiaoDich.resx">
       <DependentUpon>ThongKeGiaoDich.cs</DependentUpon>

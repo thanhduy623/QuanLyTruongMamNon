@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\QuanLyTruongMamNon\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\form\\quanligiaovu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\form\\quanligiaovu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Program.cs",
+              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
+              "RelativeToolTip": "QuanLyTruongMamNon\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:02:25.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLiGiaoVu.cs [Design]",
+              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiGiaoVu.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Form\\QuanLiGiaoVu.cs",
+              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Form\\QuanLiGiaoVu.cs [Design]",
+              "RelativeToolTip": "QuanLyTruongMamNon\\Form\\QuanLiGiaoVu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:33:11.32Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
