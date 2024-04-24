@@ -35,12 +35,12 @@
             this.iconTimKiem = new System.Windows.Forms.PictureBox();
             this.boxTimKiem = new System.Windows.Forms.TextBox();
             this.bgTimKiem = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
             this.barTieuDe = new System.Windows.Forms.Panel();
-            this.lbDuongDan = new System.Windows.Forms.Label();
-            this.txtTieuDe = new System.Windows.Forms.Label();
             this.btnNguoiDung = new System.Windows.Forms.PictureBox();
             this.btnDangXuat = new System.Windows.Forms.PictureBox();
+            this.lbDuongDan = new System.Windows.Forms.Label();
+            this.txtTieuDe = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
             this.barTool.SuspendLayout();
             this.grTimKiem.SuspendLayout();
@@ -75,7 +75,7 @@
             // 
             this.barTool.BackColor = System.Drawing.Color.Transparent;
             this.barTool.Controls.Add(this.grTimKiem);
-            this.barTool.Controls.Add(this.button1);
+            this.barTool.Controls.Add(this.btnThem);
             this.barTool.Location = new System.Drawing.Point(356, 115);
             this.barTool.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
             this.barTool.Name = "barTool";
@@ -125,16 +125,16 @@
             this.bgTimKiem.TabIndex = 22;
             this.bgTimKiem.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnThem
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(880, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 40);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Thêm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnThem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnThem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnThem.Location = new System.Drawing.Point(880, 3);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(101, 40);
+            this.btnThem.TabIndex = 19;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
             // 
             // barTieuDe
             // 
@@ -147,6 +147,30 @@
             this.barTieuDe.Name = "barTieuDe";
             this.barTieuDe.Size = new System.Drawing.Size(980, 75);
             this.barTieuDe.TabIndex = 20;
+            // 
+            // btnNguoiDung
+            // 
+            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
+            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
+            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
+            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.btnNguoiDung.Name = "btnNguoiDung";
+            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
+            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnNguoiDung.TabIndex = 19;
+            this.btnNguoiDung.TabStop = false;
+            // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
+            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
+            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
+            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
+            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnDangXuat.TabIndex = 18;
+            this.btnDangXuat.TabStop = false;
             // 
             // lbDuongDan
             // 
@@ -173,30 +197,6 @@
             this.txtTieuDe.Size = new System.Drawing.Size(397, 48);
             this.txtTieuDe.TabIndex = 5;
             this.txtTieuDe.Text = "QUẢN LÍ HỌC SINH";
-            // 
-            // btnNguoiDung
-            // 
-            this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
-            this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
-            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
-            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
-            this.btnNguoiDung.Name = "btnNguoiDung";
-            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
-            this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnNguoiDung.TabIndex = 19;
-            this.btnNguoiDung.TabStop = false;
-            // 
-            // btnDangXuat
-            // 
-            this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
-            this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
-            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
-            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
-            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnDangXuat.TabIndex = 18;
-            this.btnDangXuat.TabStop = false;
             // 
             // QuanLiHocSinh
             // 
@@ -233,7 +233,7 @@
         private System.Windows.Forms.Panel barTool;
         private System.Windows.Forms.Panel grTimKiem;
         private System.Windows.Forms.TextBox boxTimKiem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button bgTimKiem;
         private System.Windows.Forms.PictureBox iconTimKiem;
         private System.Windows.Forms.Panel barTieuDe;
