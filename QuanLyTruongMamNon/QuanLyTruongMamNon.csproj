@@ -118,12 +118,6 @@
     <Compile Include="ThemNhanVien.Designer.cs">
       <DependentUpon>ThemNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThemHocSinh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ThemHocSinh.Designer.cs">
-      <DependentUpon>ThemHocSinh.cs</DependentUpon>
-    </Compile>
     <Compile Include="QuanLiHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,9 +212,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThemNhanVien.resx">
       <DependentUpon>ThemNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThemHocSinh.resx">
-      <DependentUpon>ThemHocSinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLiHocSinh.resx">
       <DependentUpon>QuanLiHocSinh.cs</DependentUpon>
