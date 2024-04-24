@@ -12,31 +12,17 @@ using System.Windows.Forms;
 
 namespace QuanLyTruongMamNon
 {
-    public partial class TrangChu : Form
+    public partial class ChiNganSach : Form
     {
-        public TrangChu()
+        public ChiNganSach()
         {
             InitializeComponent();
             formLoad();
         }
-
         private void formLoad()
         {
             MainMenu.SetupMainMenu(menu);
             MainFunc.basicFormLoad(this);
-        }
-    }
-
-    internal static class MainFunc
-    {
-        public static void basicFormLoad(Form sender)
-        {
-            senderExit(sender);
-        }
-
-        public static void senderExit(Form sender)
-        {
-            //Code khúc này để gán click cho btnDangXuat để tắt form
         }
     }
 }
