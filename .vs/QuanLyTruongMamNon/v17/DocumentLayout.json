@@ -5,18 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\quanlihocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\quanlihocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\hosohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\hosohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\quanlithanhtich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\quanlithanhtich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,46 +24,10 @@
               "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Program.cs",
               "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
               "RelativeToolTip": "QuanLyTruongMamNon\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAArAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwBIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:58:04.552Z",
+              "WhenOpened": "2024-04-26T01:51:23.073Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuanLiHocSinh.cs [Design]",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiHocSinh.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\QuanLiHocSinh.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiHocSinh.cs [Design]",
-              "RelativeToolTip": "QuanLyTruongMamNon\\QuanLiHocSinh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:58:00.74Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HoSoHocSinh.cs [Design]",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\HoSoHocSinh.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\HoSoHocSinh.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\HoSoHocSinh.cs [Design]",
-              "RelativeToolTip": "QuanLyTruongMamNon\\HoSoHocSinh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:43:29.785Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuanLiThanhTich.cs [Design]",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiThanhTich.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\QuanLiThanhTich.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiThanhTich.cs [Design]",
-              "RelativeToolTip": "QuanLyTruongMamNon\\QuanLiThanhTich.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:40:57.688Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

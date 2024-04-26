@@ -35,7 +35,6 @@ D:\QuanLyTruongMamNon\QuanLyTruongMamNon\bin\Debug\zxing.presentation.xml
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTr.F540A55E.Up2Date
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.exe
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.pdb
-D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.ThemNhanVien.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.DoiMatKhau.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuanLiThanhTich.resources
 D:\QuanLyTruongMamNon\QuanLyTruongMamNon\obj\Debug\QuanLyTruongMamNon.QuenMatKhau.resources
