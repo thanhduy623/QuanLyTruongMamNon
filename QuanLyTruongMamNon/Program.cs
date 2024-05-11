@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZXing;
 using System.IO;
+using QuanLyTruongMamNon.DAO;
 
 namespace QuanLyTruongMamNon
 {
@@ -16,7 +17,7 @@ namespace QuanLyTruongMamNon
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QuanLiThongBao());
+            Application.Run(new DangNhap());
         }
     }
     internal static class MainMenu
@@ -33,6 +34,8 @@ namespace QuanLyTruongMamNon
             mainMenu.Padding = new Padding(15, 0, 0, 0);
 
 
+
+            string id = AccountDAO.Instance.getUser();
             //Khởi tạo các item
             CreateMenuItem(mainMenu, "mnuTB", "QUẢN LÍ THÔNG BÁO", Properties.Resources.icon_ThongBao, typeof(QuanLyTruongMamNon.QuanLiThongBao).FullName);
             CreateMenuItem(mainMenu, "mnuGV", "QUẢN LÍ GIÁO VỤ", Properties.Resources.icon_GiaoVu, typeof(QuanLyTruongMamNon.QuanLiGiaoVu).FullName);
@@ -89,4 +92,6 @@ namespace QuanLyTruongMamNon
             menuStrip.Items.Add(item);
         }
     }
+
+
 }

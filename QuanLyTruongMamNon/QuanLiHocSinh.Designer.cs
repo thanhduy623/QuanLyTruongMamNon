@@ -55,20 +55,22 @@
             this.menu.AutoSize = false;
             this.menu.BackColor = System.Drawing.Color.SteelBlue;
             this.menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.menu.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menu.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
             this.menu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menu.Size = new System.Drawing.Size(326, 768);
+            this.menu.Size = new System.Drawing.Size(489, 1106);
             this.menu.TabIndex = 14;
             // 
             // duLieu
             // 
             this.duLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.duLieu.Location = new System.Drawing.Point(356, 170);
-            this.duLieu.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
+            this.duLieu.Location = new System.Drawing.Point(534, 262);
+            this.duLieu.Margin = new System.Windows.Forms.Padding(45, 0, 0, 46);
             this.duLieu.Name = "duLieu";
-            this.duLieu.Size = new System.Drawing.Size(981, 568);
+            this.duLieu.RowHeadersWidth = 62;
+            this.duLieu.Size = new System.Drawing.Size(1472, 874);
             this.duLieu.TabIndex = 18;
             // 
             // barTool
@@ -76,10 +78,10 @@
             this.barTool.BackColor = System.Drawing.Color.Transparent;
             this.barTool.Controls.Add(this.grTimKiem);
             this.barTool.Controls.Add(this.btnThem);
-            this.barTool.Location = new System.Drawing.Point(356, 115);
-            this.barTool.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
+            this.barTool.Location = new System.Drawing.Point(534, 177);
+            this.barTool.Margin = new System.Windows.Forms.Padding(15, 12, 15, 12);
             this.barTool.Name = "barTool";
-            this.barTool.Size = new System.Drawing.Size(981, 46);
+            this.barTool.Size = new System.Drawing.Size(1472, 71);
             this.barTool.TabIndex = 19;
             // 
             // grTimKiem
@@ -88,20 +90,23 @@
             this.grTimKiem.Controls.Add(this.boxTimKiem);
             this.grTimKiem.Controls.Add(this.bgTimKiem);
             this.grTimKiem.Location = new System.Drawing.Point(0, 0);
+            this.grTimKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grTimKiem.Name = "grTimKiem";
-            this.grTimKiem.Size = new System.Drawing.Size(301, 46);
+            this.grTimKiem.Size = new System.Drawing.Size(452, 71);
             this.grTimKiem.TabIndex = 21;
             // 
             // iconTimKiem
             // 
             this.iconTimKiem.BackColor = System.Drawing.Color.White;
             this.iconTimKiem.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_TimKiem2;
-            this.iconTimKiem.Location = new System.Drawing.Point(10, 8);
+            this.iconTimKiem.Location = new System.Drawing.Point(15, 12);
+            this.iconTimKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.iconTimKiem.Name = "iconTimKiem";
-            this.iconTimKiem.Size = new System.Drawing.Size(30, 30);
+            this.iconTimKiem.Size = new System.Drawing.Size(45, 46);
             this.iconTimKiem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconTimKiem.TabIndex = 22;
             this.iconTimKiem.TabStop = false;
+            this.iconTimKiem.Click += new System.EventHandler(this.btnTim_click);
             // 
             // boxTimKiem
             // 
@@ -110,18 +115,20 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.boxTimKiem.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.boxTimKiem.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.boxTimKiem.Location = new System.Drawing.Point(50, 13);
+            this.boxTimKiem.Location = new System.Drawing.Point(75, 20);
+            this.boxTimKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.boxTimKiem.Name = "boxTimKiem";
-            this.boxTimKiem.Size = new System.Drawing.Size(236, 22);
+            this.boxTimKiem.Size = new System.Drawing.Size(354, 32);
             this.boxTimKiem.TabIndex = 25;
             // 
             // bgTimKiem
             // 
             this.bgTimKiem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.bgTimKiem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bgTimKiem.Location = new System.Drawing.Point(1, 3);
+            this.bgTimKiem.Location = new System.Drawing.Point(2, 5);
+            this.bgTimKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bgTimKiem.Name = "bgTimKiem";
-            this.bgTimKiem.Size = new System.Drawing.Size(300, 40);
+            this.bgTimKiem.Size = new System.Drawing.Size(450, 62);
             this.bgTimKiem.TabIndex = 22;
             this.bgTimKiem.UseVisualStyleBackColor = true;
             // 
@@ -129,12 +136,14 @@
             // 
             this.btnThem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnThem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnThem.Location = new System.Drawing.Point(880, 3);
+            this.btnThem.Location = new System.Drawing.Point(1320, 5);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(101, 40);
+            this.btnThem.Size = new System.Drawing.Size(152, 62);
             this.btnThem.TabIndex = 19;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_click);
             // 
             // barTieuDe
             // 
@@ -142,35 +151,37 @@
             this.barTieuDe.Controls.Add(this.btnDangXuat);
             this.barTieuDe.Controls.Add(this.lbDuongDan);
             this.barTieuDe.Controls.Add(this.txtTieuDe);
-            this.barTieuDe.Location = new System.Drawing.Point(356, 30);
-            this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
+            this.barTieuDe.Location = new System.Drawing.Point(534, 46);
+            this.barTieuDe.Margin = new System.Windows.Forms.Padding(45, 46, 45, 46);
             this.barTieuDe.Name = "barTieuDe";
-            this.barTieuDe.Size = new System.Drawing.Size(980, 75);
+            this.barTieuDe.Size = new System.Drawing.Size(1470, 115);
             this.barTieuDe.TabIndex = 20;
             // 
             // btnNguoiDung
             // 
             this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
             this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
-            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
-            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.btnNguoiDung.Location = new System.Drawing.Point(1298, 0);
+            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 22, 0);
             this.btnNguoiDung.Name = "btnNguoiDung";
-            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
+            this.btnNguoiDung.Size = new System.Drawing.Size(75, 77);
             this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnNguoiDung.TabIndex = 19;
             this.btnNguoiDung.TabStop = false;
+            this.btnNguoiDung.Click += new System.EventHandler(this.btnNguoiDung_click);
             // 
             // btnDangXuat
             // 
             this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
             this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
-            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
+            this.btnDangXuat.Location = new System.Drawing.Point(1395, 0);
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
             this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
+            this.btnDangXuat.Size = new System.Drawing.Size(75, 77);
             this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnDangXuat.TabIndex = 18;
             this.btnDangXuat.TabStop = false;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_click);
             // 
             // lbDuongDan
             // 
@@ -178,10 +189,10 @@
             this.lbDuongDan.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lbDuongDan.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lbDuongDan.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbDuongDan.Location = new System.Drawing.Point(1, 49);
+            this.lbDuongDan.Location = new System.Drawing.Point(2, 75);
             this.lbDuongDan.Margin = new System.Windows.Forms.Padding(0);
             this.lbDuongDan.Name = "lbDuongDan";
-            this.lbDuongDan.Size = new System.Drawing.Size(398, 25);
+            this.lbDuongDan.Size = new System.Drawing.Size(597, 38);
             this.lbDuongDan.TabIndex = 15;
             this.lbDuongDan.Text = " Trang chủ ● Quản lí học sinh";
             // 
@@ -191,19 +202,19 @@
             this.txtTieuDe.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTieuDe.ForeColor = System.Drawing.Color.RoyalBlue;
             this.txtTieuDe.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtTieuDe.Location = new System.Drawing.Point(1, 2);
+            this.txtTieuDe.Location = new System.Drawing.Point(2, 3);
             this.txtTieuDe.Margin = new System.Windows.Forms.Padding(0);
             this.txtTieuDe.Name = "txtTieuDe";
-            this.txtTieuDe.Size = new System.Drawing.Size(397, 48);
+            this.txtTieuDe.Size = new System.Drawing.Size(596, 74);
             this.txtTieuDe.TabIndex = 5;
             this.txtTieuDe.Text = "QUẢN LÍ HỌC SINH";
             // 
             // QuanLiHocSinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.ClientSize = new System.Drawing.Size(1946, 1106);
             this.ControlBox = false;
             this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.duLieu);
@@ -211,6 +222,7 @@
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "QuanLiHocSinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lí học sinh";

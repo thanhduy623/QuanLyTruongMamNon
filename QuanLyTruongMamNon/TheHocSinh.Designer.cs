@@ -51,9 +51,10 @@
             this.labelTruong.BackColor = System.Drawing.Color.Transparent;
             this.labelTruong.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTruong.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.labelTruong.Location = new System.Drawing.Point(58, 13);
+            this.labelTruong.Location = new System.Drawing.Point(87, 20);
+            this.labelTruong.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTruong.Name = "labelTruong";
-            this.labelTruong.Size = new System.Drawing.Size(251, 18);
+            this.labelTruong.Size = new System.Drawing.Size(376, 28);
             this.labelTruong.TabIndex = 0;
             this.labelTruong.Text = "TRƯỜNG MẦM NON HÙNG VƯƠNG";
             this.labelTruong.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -63,10 +64,10 @@
             this.labelHoTen.BackColor = System.Drawing.Color.Transparent;
             this.labelHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelHoTen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelHoTen.Location = new System.Drawing.Point(9, 66);
-            this.labelHoTen.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.labelHoTen.Location = new System.Drawing.Point(14, 102);
+            this.labelHoTen.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.labelHoTen.Name = "labelHoTen";
-            this.labelHoTen.Size = new System.Drawing.Size(69, 18);
+            this.labelHoTen.Size = new System.Drawing.Size(104, 28);
             this.labelHoTen.TabIndex = 1;
             this.labelHoTen.Text = "Họ và tên:";
             this.labelHoTen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -76,10 +77,10 @@
             this.labelNgaySinh.BackColor = System.Drawing.Color.Transparent;
             this.labelNgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNgaySinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelNgaySinh.Location = new System.Drawing.Point(9, 95);
-            this.labelNgaySinh.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.labelNgaySinh.Location = new System.Drawing.Point(14, 146);
+            this.labelNgaySinh.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.labelNgaySinh.Name = "labelNgaySinh";
-            this.labelNgaySinh.Size = new System.Drawing.Size(85, 18);
+            this.labelNgaySinh.Size = new System.Drawing.Size(128, 28);
             this.labelNgaySinh.TabIndex = 2;
             this.labelNgaySinh.Text = "Ngày sinh:";
             this.labelNgaySinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -89,10 +90,10 @@
             this.labelGioiTinh.BackColor = System.Drawing.Color.Transparent;
             this.labelGioiTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGioiTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelGioiTinh.Location = new System.Drawing.Point(174, 95);
-            this.labelGioiTinh.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.labelGioiTinh.Location = new System.Drawing.Point(261, 146);
+            this.labelGioiTinh.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.labelGioiTinh.Name = "labelGioiTinh";
-            this.labelGioiTinh.Size = new System.Drawing.Size(69, 18);
+            this.labelGioiTinh.Size = new System.Drawing.Size(104, 28);
             this.labelGioiTinh.TabIndex = 3;
             this.labelGioiTinh.Text = "Giới tính:";
             this.labelGioiTinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -102,10 +103,10 @@
             this.labelMaHocSinh.BackColor = System.Drawing.Color.Transparent;
             this.labelMaHocSinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMaHocSinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelMaHocSinh.Location = new System.Drawing.Point(9, 126);
-            this.labelMaHocSinh.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.labelMaHocSinh.Location = new System.Drawing.Point(14, 194);
+            this.labelMaHocSinh.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.labelMaHocSinh.Name = "labelMaHocSinh";
-            this.labelMaHocSinh.Size = new System.Drawing.Size(85, 18);
+            this.labelMaHocSinh.Size = new System.Drawing.Size(128, 28);
             this.labelMaHocSinh.TabIndex = 4;
             this.labelMaHocSinh.Text = "Mã học sinh:";
             this.labelMaHocSinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -115,10 +116,10 @@
             this.labelNamHoc.BackColor = System.Drawing.Color.Transparent;
             this.labelNamHoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNamHoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelNamHoc.Location = new System.Drawing.Point(174, 126);
-            this.labelNamHoc.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.labelNamHoc.Location = new System.Drawing.Point(261, 194);
+            this.labelNamHoc.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.labelNamHoc.Name = "labelNamHoc";
-            this.labelNamHoc.Size = new System.Drawing.Size(69, 18);
+            this.labelNamHoc.Size = new System.Drawing.Size(104, 28);
             this.labelNamHoc.TabIndex = 5;
             this.labelNamHoc.Text = "Năm học:";
             this.labelNamHoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,9 +129,10 @@
             this.labelTheHocSinh.BackColor = System.Drawing.Color.Transparent;
             this.labelTheHocSinh.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTheHocSinh.ForeColor = System.Drawing.Color.Red;
-            this.labelTheHocSinh.Location = new System.Drawing.Point(61, 31);
+            this.labelTheHocSinh.Location = new System.Drawing.Point(92, 48);
+            this.labelTheHocSinh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTheHocSinh.Name = "labelTheHocSinh";
-            this.labelTheHocSinh.Size = new System.Drawing.Size(248, 28);
+            this.labelTheHocSinh.Size = new System.Drawing.Size(372, 43);
             this.labelTheHocSinh.TabIndex = 6;
             this.labelTheHocSinh.Text = "THẺ HỌC SINH";
             this.labelTheHocSinh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -138,18 +140,20 @@
             // logo
             // 
             this.logo.Image = global::QuanLyTruongMamNon.Properties.Resources.logo;
-            this.logo.Location = new System.Drawing.Point(12, 13);
+            this.logo.Location = new System.Drawing.Point(18, 20);
+            this.logo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(40, 40);
+            this.logo.Size = new System.Drawing.Size(60, 62);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo.TabIndex = 11;
             this.logo.TabStop = false;
             // 
             // maVach
             // 
-            this.maVach.Location = new System.Drawing.Point(12, 150);
+            this.maVach.Location = new System.Drawing.Point(18, 231);
+            this.maVach.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.maVach.Name = "maVach";
-            this.maVach.Size = new System.Drawing.Size(297, 46);
+            this.maVach.Size = new System.Drawing.Size(446, 71);
             this.maVach.TabIndex = 12;
             this.maVach.TabStop = false;
             // 
@@ -158,12 +162,12 @@
             this.hoTen.BackColor = System.Drawing.Color.Transparent;
             this.hoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hoTen.ForeColor = System.Drawing.Color.Black;
-            this.hoTen.Location = new System.Drawing.Point(97, 66);
-            this.hoTen.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.hoTen.Location = new System.Drawing.Point(146, 102);
+            this.hoTen.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.hoTen.Name = "hoTen";
-            this.hoTen.Size = new System.Drawing.Size(176, 18);
+            this.hoTen.Size = new System.Drawing.Size(264, 28);
             this.hoTen.TabIndex = 13;
-            this.hoTen.Text = "Nguyễn Nhật Huy";
+            this.hoTen.Text = "Nguyễn Nhật Huy đẹp trai";
             this.hoTen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ngaySinh
@@ -171,10 +175,10 @@
             this.ngaySinh.BackColor = System.Drawing.Color.Transparent;
             this.ngaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ngaySinh.ForeColor = System.Drawing.Color.Black;
-            this.ngaySinh.Location = new System.Drawing.Point(94, 95);
-            this.ngaySinh.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.ngaySinh.Location = new System.Drawing.Point(141, 146);
+            this.ngaySinh.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.ngaySinh.Name = "ngaySinh";
-            this.ngaySinh.Size = new System.Drawing.Size(80, 18);
+            this.ngaySinh.Size = new System.Drawing.Size(120, 28);
             this.ngaySinh.TabIndex = 14;
             this.ngaySinh.Text = "88/88/8888";
             this.ngaySinh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -184,10 +188,10 @@
             this.maHocSinh.BackColor = System.Drawing.Color.Transparent;
             this.maHocSinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maHocSinh.ForeColor = System.Drawing.Color.Black;
-            this.maHocSinh.Location = new System.Drawing.Point(94, 127);
-            this.maHocSinh.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.maHocSinh.Location = new System.Drawing.Point(141, 195);
+            this.maHocSinh.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.maHocSinh.Name = "maHocSinh";
-            this.maHocSinh.Size = new System.Drawing.Size(80, 18);
+            this.maHocSinh.Size = new System.Drawing.Size(120, 28);
             this.maHocSinh.TabIndex = 15;
             this.maHocSinh.Text = "23240001";
             this.maHocSinh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -197,10 +201,10 @@
             this.namHoc.BackColor = System.Drawing.Color.Transparent;
             this.namHoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.namHoc.ForeColor = System.Drawing.Color.Black;
-            this.namHoc.Location = new System.Drawing.Point(233, 127);
-            this.namHoc.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.namHoc.Location = new System.Drawing.Point(350, 195);
+            this.namHoc.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.namHoc.Name = "namHoc";
-            this.namHoc.Size = new System.Drawing.Size(80, 18);
+            this.namHoc.Size = new System.Drawing.Size(120, 28);
             this.namHoc.TabIndex = 17;
             this.namHoc.Text = "2023-2024";
             this.namHoc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -210,21 +214,21 @@
             this.gioiTinh.BackColor = System.Drawing.Color.Transparent;
             this.gioiTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gioiTinh.ForeColor = System.Drawing.Color.Black;
-            this.gioiTinh.Location = new System.Drawing.Point(233, 95);
-            this.gioiTinh.Margin = new System.Windows.Forms.Padding(0, 10, 0, 3);
+            this.gioiTinh.Location = new System.Drawing.Point(350, 146);
+            this.gioiTinh.Margin = new System.Windows.Forms.Padding(0, 15, 0, 5);
             this.gioiTinh.Name = "gioiTinh";
-            this.gioiTinh.Size = new System.Drawing.Size(80, 18);
+            this.gioiTinh.Size = new System.Drawing.Size(120, 28);
             this.gioiTinh.TabIndex = 16;
-            this.gioiTinh.Text = "Nữ";
+            this.gioiTinh.Text = "Nam";
             this.gioiTinh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TheHocSinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(321, 208);
+            this.ClientSize = new System.Drawing.Size(482, 320);
             this.ControlBox = false;
             this.Controls.Add(this.namHoc);
             this.Controls.Add(this.gioiTinh);
@@ -242,6 +246,7 @@
             this.Controls.Add(this.labelTruong);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "TheHocSinh";
             this.Text = "Thẻ học sinh";
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();

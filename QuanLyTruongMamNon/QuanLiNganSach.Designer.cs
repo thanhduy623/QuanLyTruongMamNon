@@ -35,8 +35,8 @@
             this.lbDuongDan = new System.Windows.Forms.Label();
             this.txtTieuDe = new System.Windows.Forms.Label();
             this.grThu = new System.Windows.Forms.GroupBox();
-            this.btnHocPhi = new System.Windows.Forms.Button();
             this.btnDichVu = new System.Windows.Forms.Button();
+            this.btnHocPhi = new System.Windows.Forms.Button();
             this.grChi = new System.Windows.Forms.GroupBox();
             this.btnChiPhi = new System.Windows.Forms.Button();
             this.grThongKe = new System.Windows.Forms.GroupBox();
@@ -54,11 +54,12 @@
             this.menu.AutoSize = false;
             this.menu.BackColor = System.Drawing.Color.SteelBlue;
             this.menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.menu.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menu.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
             this.menu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menu.Size = new System.Drawing.Size(326, 768);
+            this.menu.Size = new System.Drawing.Size(489, 1106);
             this.menu.TabIndex = 14;
             // 
             // barTieuDe
@@ -67,35 +68,37 @@
             this.barTieuDe.Controls.Add(this.btnDangXuat);
             this.barTieuDe.Controls.Add(this.lbDuongDan);
             this.barTieuDe.Controls.Add(this.txtTieuDe);
-            this.barTieuDe.Location = new System.Drawing.Point(356, 30);
-            this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
+            this.barTieuDe.Location = new System.Drawing.Point(534, 46);
+            this.barTieuDe.Margin = new System.Windows.Forms.Padding(45, 46, 45, 46);
             this.barTieuDe.Name = "barTieuDe";
-            this.barTieuDe.Size = new System.Drawing.Size(980, 75);
+            this.barTieuDe.Size = new System.Drawing.Size(1470, 115);
             this.barTieuDe.TabIndex = 103;
             // 
             // btnNguoiDung
             // 
             this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
             this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
-            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
-            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.btnNguoiDung.Location = new System.Drawing.Point(1298, 0);
+            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 22, 0);
             this.btnNguoiDung.Name = "btnNguoiDung";
-            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
+            this.btnNguoiDung.Size = new System.Drawing.Size(75, 77);
             this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnNguoiDung.TabIndex = 19;
             this.btnNguoiDung.TabStop = false;
+            this.btnNguoiDung.Click += new System.EventHandler(this.btnNguoiDung_click);
             // 
             // btnDangXuat
             // 
             this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
             this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
-            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
+            this.btnDangXuat.Location = new System.Drawing.Point(1395, 0);
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
             this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
+            this.btnDangXuat.Size = new System.Drawing.Size(75, 77);
             this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnDangXuat.TabIndex = 18;
             this.btnDangXuat.TabStop = false;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_click);
             // 
             // lbDuongDan
             // 
@@ -103,10 +106,10 @@
             this.lbDuongDan.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lbDuongDan.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lbDuongDan.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbDuongDan.Location = new System.Drawing.Point(1, 49);
+            this.lbDuongDan.Location = new System.Drawing.Point(2, 75);
             this.lbDuongDan.Margin = new System.Windows.Forms.Padding(0);
             this.lbDuongDan.Name = "lbDuongDan";
-            this.lbDuongDan.Size = new System.Drawing.Size(398, 25);
+            this.lbDuongDan.Size = new System.Drawing.Size(597, 38);
             this.lbDuongDan.TabIndex = 15;
             this.lbDuongDan.Text = " Trang chủ ● Quản lí ngân sách";
             // 
@@ -116,10 +119,10 @@
             this.txtTieuDe.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTieuDe.ForeColor = System.Drawing.Color.RoyalBlue;
             this.txtTieuDe.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtTieuDe.Location = new System.Drawing.Point(1, 2);
+            this.txtTieuDe.Location = new System.Drawing.Point(2, 3);
             this.txtTieuDe.Margin = new System.Windows.Forms.Padding(0);
             this.txtTieuDe.Name = "txtTieuDe";
-            this.txtTieuDe.Size = new System.Drawing.Size(397, 48);
+            this.txtTieuDe.Size = new System.Drawing.Size(596, 74);
             this.txtTieuDe.TabIndex = 5;
             this.txtTieuDe.Text = "QUẢN LÍ NGÂN SÁCH";
             // 
@@ -128,46 +131,49 @@
             this.grThu.Controls.Add(this.btnDichVu);
             this.grThu.Controls.Add(this.btnHocPhi);
             this.grThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grThu.Location = new System.Drawing.Point(356, 135);
-            this.grThu.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.grThu.Location = new System.Drawing.Point(534, 208);
+            this.grThu.Margin = new System.Windows.Forms.Padding(0, 15, 0, 15);
             this.grThu.Name = "grThu";
-            this.grThu.Size = new System.Drawing.Size(980, 180);
+            this.grThu.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.grThu.Size = new System.Drawing.Size(1470, 277);
             this.grThu.TabIndex = 104;
             this.grThu.TabStop = false;
             this.grThu.Text = "Thu ngân sách";
-            // 
-            // btnHocPhi
-            // 
-            this.btnHocPhi.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.btnHocPhi.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnHocPhi.Location = new System.Drawing.Point(0, 21);
-            this.btnHocPhi.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.btnHocPhi.Name = "btnHocPhi";
-            this.btnHocPhi.Size = new System.Drawing.Size(159, 159);
-            this.btnHocPhi.TabIndex = 20;
-            this.btnHocPhi.Text = "Học phí";
-            this.btnHocPhi.UseVisualStyleBackColor = true;
             // 
             // btnDichVu
             // 
             this.btnDichVu.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnDichVu.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnDichVu.Location = new System.Drawing.Point(219, 21);
-            this.btnDichVu.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.btnDichVu.Location = new System.Drawing.Point(328, 32);
+            this.btnDichVu.Margin = new System.Windows.Forms.Padding(45, 0, 45, 0);
             this.btnDichVu.Name = "btnDichVu";
-            this.btnDichVu.Size = new System.Drawing.Size(159, 159);
+            this.btnDichVu.Size = new System.Drawing.Size(238, 245);
             this.btnDichVu.TabIndex = 21;
             this.btnDichVu.Text = "Dịch vụ";
             this.btnDichVu.UseVisualStyleBackColor = true;
+            // 
+            // btnHocPhi
+            // 
+            this.btnHocPhi.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnHocPhi.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnHocPhi.Location = new System.Drawing.Point(0, 32);
+            this.btnHocPhi.Margin = new System.Windows.Forms.Padding(45, 0, 45, 0);
+            this.btnHocPhi.Name = "btnHocPhi";
+            this.btnHocPhi.Size = new System.Drawing.Size(238, 245);
+            this.btnHocPhi.TabIndex = 20;
+            this.btnHocPhi.Text = "Học phí";
+            this.btnHocPhi.UseVisualStyleBackColor = true;
+            this.btnHocPhi.Click += new System.EventHandler(this.btnHocPhi_click);
             // 
             // grChi
             // 
             this.grChi.Controls.Add(this.btnChiPhi);
             this.grChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grChi.Location = new System.Drawing.Point(356, 346);
-            this.grChi.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.grChi.Location = new System.Drawing.Point(534, 532);
+            this.grChi.Margin = new System.Windows.Forms.Padding(0, 15, 0, 15);
             this.grChi.Name = "grChi";
-            this.grChi.Size = new System.Drawing.Size(980, 180);
+            this.grChi.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.grChi.Size = new System.Drawing.Size(1470, 277);
             this.grChi.TabIndex = 105;
             this.grChi.TabStop = false;
             this.grChi.Text = "Chi ngân sách";
@@ -176,10 +182,10 @@
             // 
             this.btnChiPhi.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnChiPhi.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnChiPhi.Location = new System.Drawing.Point(0, 21);
-            this.btnChiPhi.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.btnChiPhi.Location = new System.Drawing.Point(0, 32);
+            this.btnChiPhi.Margin = new System.Windows.Forms.Padding(45, 0, 45, 0);
             this.btnChiPhi.Name = "btnChiPhi";
-            this.btnChiPhi.Size = new System.Drawing.Size(159, 159);
+            this.btnChiPhi.Size = new System.Drawing.Size(238, 245);
             this.btnChiPhi.TabIndex = 20;
             this.btnChiPhi.Text = "Chi phí";
             this.btnChiPhi.UseVisualStyleBackColor = true;
@@ -188,10 +194,11 @@
             // 
             this.grThongKe.Controls.Add(this.btnThongKe);
             this.grThongKe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grThongKe.Location = new System.Drawing.Point(356, 557);
-            this.grThongKe.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.grThongKe.Location = new System.Drawing.Point(534, 857);
+            this.grThongKe.Margin = new System.Windows.Forms.Padding(0, 15, 0, 15);
             this.grThongKe.Name = "grThongKe";
-            this.grThongKe.Size = new System.Drawing.Size(980, 180);
+            this.grThongKe.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.grThongKe.Size = new System.Drawing.Size(1470, 277);
             this.grThongKe.TabIndex = 106;
             this.grThongKe.TabStop = false;
             this.grThongKe.Text = "Chức năng khác";
@@ -200,20 +207,20 @@
             // 
             this.btnThongKe.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnThongKe.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnThongKe.Location = new System.Drawing.Point(0, 21);
-            this.btnThongKe.Margin = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.btnThongKe.Location = new System.Drawing.Point(0, 32);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(45, 0, 45, 0);
             this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(159, 159);
+            this.btnThongKe.Size = new System.Drawing.Size(238, 245);
             this.btnThongKe.TabIndex = 20;
             this.btnThongKe.Text = "Thống kê";
             this.btnThongKe.UseVisualStyleBackColor = true;
             // 
             // QuanLiNganSach
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.ClientSize = new System.Drawing.Size(1946, 1106);
             this.ControlBox = false;
             this.Controls.Add(this.grThongKe);
             this.Controls.Add(this.grChi);
@@ -222,6 +229,7 @@
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "QuanLiNganSach";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lí ngân sách";

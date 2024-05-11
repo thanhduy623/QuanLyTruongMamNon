@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,6 +59,14 @@
     <Compile Include="ChiNganSach.Designer.cs">
       <DependentUpon>ChiNganSach.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\ClassesDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\SevicesDAO.cs" />
+    <Compile Include="DAO\StudentDAO.cs" />
+    <Compile Include="DT\Account.cs" />
+    <Compile Include="DT\Classes.cs" />
+    <Compile Include="DT\Student.cs" />
     <Compile Include="QuanLiGiaoVu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -312,5 +321,6 @@
   <ItemGroup>
     <None Include="Resources\icon_TimKiem1.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

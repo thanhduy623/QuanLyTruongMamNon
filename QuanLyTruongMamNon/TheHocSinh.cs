@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZXing;
+using ZXing.Aztec.Internal;
 
 namespace QuanLyTruongMamNon
 {
@@ -18,8 +19,27 @@ namespace QuanLyTruongMamNon
         public TheHocSinh()
         {
             InitializeComponent();
-            
-            maVach.Image = creatBarcode(maHocSinh.Text ,maVach.Width, maVach.Height);
+        }
+        public TheHocSinh(string maHS, string ten, string sex, string nam, DateTime ngay)
+        {
+            InitializeComponent();
+
+            hoTen.Text = ten;
+            maHocSinh.Text = maHS;
+            namHoc.Text = nam;
+            ngaySinh.Text = ngay.ToString("dd/MM/yyyy");
+
+            if (sex == "True")
+            {
+                gioiTinh.Text = "Nam";  
+            }
+            else
+            {
+                gioiTinh.Text = "Nữ";
+            }
+
+            maVach.Image = creatBarcode(maHocSinh.Text, maVach.Width, maVach.Height);
+
         }
 
         static Bitmap creatBarcode(string barcodeText, int width, int height)

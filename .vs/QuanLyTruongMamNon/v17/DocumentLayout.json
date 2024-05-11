@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\QuanLyTruongMamNon\\",
+  "WorkspaceRootPath": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\quanlytruongmamnon\\quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|c:\\users\\nhath\\onedrive\\desktop\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\quanlithongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\quanlithongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|c:\\users\\nhath\\onedrive\\desktop\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\hosohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\hosohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|c:\\users\\nhath\\onedrive\\desktop\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\thehocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\thehocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|c:\\users\\nhath\\onedrive\\desktop\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\thehocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\thehocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\Program.cs",
-              "ToolTip": "D:\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\Program.cs",
-              "RelativeToolTip": "QuanLyTruongMamNon\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAiwBIAAAAuAAAA",
+              "Title": "QuanLiThongBao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiThongBao.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\QuanLiThongBao.cs",
+              "ToolTip": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiThongBao.cs [Design]",
+              "RelativeToolTip": "QuanLyTruongMamNon\\QuanLiThongBao.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T01:51:23.073Z",
+              "WhenOpened": "2024-05-11T10:08:36.969Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HoSoHocSinh.cs",
+              "DocumentMoniker": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\HoSoHocSinh.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\HoSoHocSinh.cs",
+              "ToolTip": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\HoSoHocSinh.cs",
+              "RelativeToolTip": "QuanLyTruongMamNon\\HoSoHocSinh.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAIwNkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T10:05:11.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TheHocSinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TheHocSinh.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\TheHocSinh.cs",
+              "ToolTip": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TheHocSinh.cs [Design]",
+              "RelativeToolTip": "QuanLyTruongMamNon\\TheHocSinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T09:57:03.047Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TheHocSinh.cs",
+              "DocumentMoniker": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TheHocSinh.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\TheHocSinh.cs",
+              "ToolTip": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TheHocSinh.cs",
+              "RelativeToolTip": "QuanLyTruongMamNon\\TheHocSinh.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T09:56:07.893Z",
               "EditorCaption": ""
             }
           ]
