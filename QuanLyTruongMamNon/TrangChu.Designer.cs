@@ -30,10 +30,14 @@
         {
             this.menu = new System.Windows.Forms.MenuStrip();
             this.barTieuDe = new System.Windows.Forms.Panel();
+            this.txtTieuDe = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.icon_TB = new System.Windows.Forms.PictureBox();
             this.btnNguoiDung = new System.Windows.Forms.PictureBox();
             this.btnDangXuat = new System.Windows.Forms.PictureBox();
-            this.txtTieuDe = new System.Windows.Forms.Label();
             this.barTieuDe.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon_TB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNguoiDung)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).BeginInit();
             this.SuspendLayout();
@@ -43,33 +47,70 @@
             this.menu.AutoSize = false;
             this.menu.BackColor = System.Drawing.Color.SteelBlue;
             this.menu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.menu.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menu.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
+            this.menu.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
             this.menu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menu.Size = new System.Drawing.Size(489, 1106);
+            this.menu.Size = new System.Drawing.Size(326, 768);
             this.menu.TabIndex = 14;
             // 
             // barTieuDe
             // 
+            this.barTieuDe.Controls.Add(this.icon_TB);
             this.barTieuDe.Controls.Add(this.btnNguoiDung);
             this.barTieuDe.Controls.Add(this.btnDangXuat);
             this.barTieuDe.Controls.Add(this.txtTieuDe);
-            this.barTieuDe.Location = new System.Drawing.Point(534, 46);
-            this.barTieuDe.Margin = new System.Windows.Forms.Padding(45, 46, 45, 46);
+            this.barTieuDe.Location = new System.Drawing.Point(356, 30);
+            this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
             this.barTieuDe.Name = "barTieuDe";
-            this.barTieuDe.Size = new System.Drawing.Size(1470, 115);
+            this.barTieuDe.Size = new System.Drawing.Size(980, 75);
             this.barTieuDe.TabIndex = 104;
+            // 
+            // txtTieuDe
+            // 
+            this.txtTieuDe.BackColor = System.Drawing.Color.Transparent;
+            this.txtTieuDe.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTieuDe.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.txtTieuDe.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtTieuDe.Location = new System.Drawing.Point(1, 2);
+            this.txtTieuDe.Margin = new System.Windows.Forms.Padding(0);
+            this.txtTieuDe.Name = "txtTieuDe";
+            this.txtTieuDe.Size = new System.Drawing.Size(397, 48);
+            this.txtTieuDe.TabIndex = 5;
+            this.txtTieuDe.Text = "TRANG CHỦ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QuanLyTruongMamNon.Properties.Resources.children;
+            this.pictureBox1.Location = new System.Drawing.Point(454, 225);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(784, 318);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 105;
+            this.pictureBox1.TabStop = false;
+            // 
+            // icon_TB
+            // 
+            this.icon_TB.BackColor = System.Drawing.Color.Transparent;
+            this.icon_TB.Image = global::QuanLyTruongMamNon.Properties.Resources.bell;
+            this.icon_TB.Location = new System.Drawing.Point(800, 0);
+            this.icon_TB.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.icon_TB.Name = "icon_TB";
+            this.icon_TB.Size = new System.Drawing.Size(50, 50);
+            this.icon_TB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.icon_TB.TabIndex = 18;
+            this.icon_TB.TabStop = false;
+            this.icon_TB.Click += new System.EventHandler(this.btnXem_click);
             // 
             // btnNguoiDung
             // 
             this.btnNguoiDung.BackColor = System.Drawing.Color.Transparent;
             this.btnNguoiDung.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_person;
-            this.btnNguoiDung.Location = new System.Drawing.Point(1298, 0);
-            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 22, 0);
+            this.btnNguoiDung.Location = new System.Drawing.Point(865, 0);
+            this.btnNguoiDung.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
             this.btnNguoiDung.Name = "btnNguoiDung";
-            this.btnNguoiDung.Size = new System.Drawing.Size(75, 77);
+            this.btnNguoiDung.Size = new System.Drawing.Size(50, 50);
             this.btnNguoiDung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnNguoiDung.TabIndex = 17;
             this.btnNguoiDung.TabStop = false;
@@ -79,48 +120,38 @@
             // 
             this.btnDangXuat.BackColor = System.Drawing.Color.Transparent;
             this.btnDangXuat.Image = global::QuanLyTruongMamNon.Properties.Resources.icon_exit;
-            this.btnDangXuat.Location = new System.Drawing.Point(1395, 0);
+            this.btnDangXuat.Location = new System.Drawing.Point(930, 0);
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(0);
             this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(75, 77);
+            this.btnDangXuat.Size = new System.Drawing.Size(50, 50);
             this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnDangXuat.TabIndex = 16;
             this.btnDangXuat.TabStop = false;
             this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_click);
             // 
-            // txtTieuDe
-            // 
-            this.txtTieuDe.BackColor = System.Drawing.Color.Transparent;
-            this.txtTieuDe.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTieuDe.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.txtTieuDe.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtTieuDe.Location = new System.Drawing.Point(2, 3);
-            this.txtTieuDe.Margin = new System.Windows.Forms.Padding(0);
-            this.txtTieuDe.Name = "txtTieuDe";
-            this.txtTieuDe.Size = new System.Drawing.Size(596, 74);
-            this.txtTieuDe.TabIndex = 5;
-            this.txtTieuDe.Text = "TRANG CHỦ";
-            // 
             // TrangChu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1946, 1106);
+            this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.menu);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang Chủ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.barTieuDe.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon_TB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNguoiDung)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -130,5 +161,7 @@
         private System.Windows.Forms.PictureBox btnNguoiDung;
         private System.Windows.Forms.PictureBox btnDangXuat;
         private System.Windows.Forms.Label txtTieuDe;
+        private System.Windows.Forms.PictureBox icon_TB;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

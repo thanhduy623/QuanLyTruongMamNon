@@ -24,6 +24,13 @@ namespace QuanLyTruongMamNon
             formLoad();
             loadPro();
         }
+
+        private void btnXem_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            XemThongBao x = new XemThongBao();
+            x.Show();
+        }
         public HoSoNHanVien(string them)
         {
             InitializeComponent();
@@ -32,6 +39,21 @@ namespace QuanLyTruongMamNon
             btnChinhSua.Enabled = false;
             btnXoa.Enabled = false;
             enableInfor();
+        }
+
+        //Xem thông tin cá nhân
+        private void btnNguoiDung_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HoSoNHanVien hs = new HoSoNHanVien();
+            hs.ShowDialog();
+
+        }
+        public HoSoNHanVien(string id ,string temp)
+        {
+            InitializeComponent();
+            formLoad();
+            loadPro1(id);
         }
         private void formLoad()
         {
@@ -45,7 +67,7 @@ namespace QuanLyTruongMamNon
             Account st = AccountDAO.Instance.loadStaff1();
             txtHoTen.Text = st.NameStaff;
             txtEmail.Text = st.Email;
-            txtGioiTinh.Text = st.Gender.ToString();
+            txtGioiTinh.Text = st.Gender ? "Nam" : "Nữ";
             txtMaNhanVien.Text = st.IdStaff;
             txtngaySinh.Value = st.DateBirth;
             txtquocTich.Text = st.Nationality;
@@ -68,12 +90,79 @@ namespace QuanLyTruongMamNon
 
         }
 
+        public void loadPro1(string id)
+        {
+            Account st = AccountDAO.Instance.loadStaff(id);
+            txtHoTen.Text = st.NameStaff;
+            txtEmail.Text = st.Email;
+            txtGioiTinh.Text = st.Gender ? "Nam" : "Nữ";
+            txtMaNhanVien.Text = st.IdStaff;
+            txtngaySinh.Value = st.DateBirth;
+            txtquocTich.Text = st.Nationality;
+            txtdanToc.Text = st.Nation;
+            txtngayCap.Value = st.LicenseDate;
+            txtsoDienThoai.Text = st.Phone;
+            txtCCCD.Text = st.IdCityzen;
+            txtnoiCap.Text = st.LicensePlace;
+            txtCOHN.Text = st.AddressCur;
+            txtCOHN_C1.Text = st.ProvinceCur;
+            txtCOHN_2.Text = st.DistrictCur;
+            txtCOHN_3.Text = st.CommuneCur;
+            txtDCTT.Text = st.AddressRes;
+            txtDCTT_C1.Text = st.ProvinceRes;
+            txtDCTT_C2.Text = st.DistrictRes;
+            txtDCTT_C3.Text = st.CommuneRes;
+            txtChucVu.Text = st.Roled;
+            txttrangThai.Text = st.Actived.ToString();
+            txtnoiSinh.Text = st.PlaceBirth;
+
+        }
+
+        //Tạo id tự động
+        private string GenerateStaffID(string role, int count)
+        {
+            string prefix = "";
+            switch (role)
+            {
+                case "Giáo viên":
+                    prefix = "GV";
+                    break;
+                case "Kế toán":
+                    prefix = "KT";
+                    break;
+                // Thêm các vai trò khác nếu cần
+                case "Ban Giám Hiệu":
+                    prefix = "GH";
+                    break;
+                case "Quản Bếp":
+                    prefix = "QB";
+                    break;
+                case "Văn  Phòng":
+                    prefix = "VP";
+                    break;
+                default:
+                    prefix = "NV";
+                    break;
+            }
+            string idStaff = prefix + count.ToString("D6"); // D6 để thêm các số 0 vào trước số
+
+            return idStaff;
+        }
+
+        private void LoadIDStaff(object sender, EventArgs e)
+        {
+            string role = txtChucVu.Text;
+            int count = AccountDAO.Instance.GetStaffCountByRole(role) + 1;
+            txtMaNhanVien.Text = GenerateStaffID(role, count);
+
+        }
+
         //Thêm nhân viên
         private void btnThemMoi_Click(object sender, EventArgs e)
         {
             string idStaff = txtMaNhanVien.Text;
             string nameStaff = txtHoTen.Text;
-            bool gender = (txtGioiTinh.Text == "True") ? true : false;
+            bool gender = (txtGioiTinh.Text == "Nam") ? true : false;
             DateTime dateBirth = txtngaySinh.Value;
             string placeBirth = txtnoiSinh.Text;
             string nation = txtdanToc.Text;
@@ -99,7 +188,7 @@ namespace QuanLyTruongMamNon
                 !(string.IsNullOrEmpty(province_cur)) && !(string.IsNullOrEmpty(district_cur)) && !(string.IsNullOrEmpty(commune_cur)) && !(string.IsNullOrEmpty(address_res)) &&
                 !(string.IsNullOrEmpty(province_res)) && !(string.IsNullOrEmpty(district_res)) && !(string.IsNullOrEmpty(commune_res)) && !(string.IsNullOrEmpty(roled)) &&
                 !(string.IsNullOrEmpty(phone)) && !(string.IsNullOrEmpty(email)) && (DateTime.Now).Subtract(dateBirth).Days > 7300 && (DateTime.Now).Subtract(licenseDate).Days > 0 && !(string.IsNullOrEmpty(gender.ToString())) 
-                && idCityzen.Length == 12 && phone.Length == 10 && phone.Substring(0, 1) == "0" && IsValidEmail(email) == true)
+                && idCityzen.Length == 12 && phone.Length == 10 && phone.Substring(0, 1) == "0" && IsValidEmail(email) == true && IsNumeric(phone) && IsNumeric(idCityzen))
             {
 
                 try
@@ -138,7 +227,7 @@ namespace QuanLyTruongMamNon
         {
             string idStaff = txtMaNhanVien.Text;
             string nameStaff = txtHoTen.Text;
-            bool gender = (txtGioiTinh.Text == "True") ? true : false;
+            bool gender = (txtGioiTinh.Text == "Nam") ? true : false;
             DateTime dateBirth = txtngaySinh.Value;
             string placeBirth = txtnoiSinh.Text;
             string nation = txtdanToc.Text;
@@ -213,7 +302,7 @@ namespace QuanLyTruongMamNon
         private void btnDoiMatKhau_Click(object sender, EventArgs e)
         {
             this.Hide();
-            QuenMatKhau q = new QuenMatKhau();
+            DoiMatKhau q  = new DoiMatKhau();
             q.ShowDialog();
         }
 
@@ -298,6 +387,18 @@ namespace QuanLyTruongMamNon
         {
             string pattern = @"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$";
             return Regex.IsMatch(email, pattern);
+        }
+
+        private static bool IsNumeric(string input)
+        {
+            foreach (char c in input)
+            {
+                if (!char.IsDigit(c))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

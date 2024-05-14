@@ -30,7 +30,7 @@
         {
             this.labelWelcome = new System.Windows.Forms.Label();
             this.labelTaiKhoan = new System.Windows.Forms.Label();
-            this.txtSdt = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.labelMatKhau = new System.Windows.Forms.Label();
             this.btnXacNhan = new System.Windows.Forms.Button();
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
@@ -67,15 +67,15 @@
             this.labelTaiKhoan.Text = "Tài khoản";
             this.labelTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // txtSdt
+            // txtEmail
             // 
-            this.txtSdt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSdt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSdt.Location = new System.Drawing.Point(268, 255);
-            this.txtSdt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtSdt.Name = "txtSdt";
-            this.txtSdt.Size = new System.Drawing.Size(368, 35);
-            this.txtSdt.TabIndex = 2;
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(268, 255);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(368, 35);
+            this.txtEmail.TabIndex = 2;
             // 
             // labelMatKhau
             // 
@@ -87,7 +87,7 @@
             this.labelMatKhau.Name = "labelMatKhau";
             this.labelMatKhau.Size = new System.Drawing.Size(375, 28);
             this.labelMatKhau.TabIndex = 3;
-            this.labelMatKhau.Text = "Số điện thoại";
+            this.labelMatKhau.Text = "Email của bạn";
             this.labelMatKhau.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnXacNhan
@@ -174,7 +174,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTaiKhoan);
             this.Controls.Add(this.btnXacNhan);
-            this.Controls.Add(this.txtSdt);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.labelMatKhau);
             this.Controls.Add(this.labelTaiKhoan);
             this.Controls.Add(this.labelWelcome);
@@ -196,7 +196,7 @@
 
         private System.Windows.Forms.Label labelWelcome;
         private System.Windows.Forms.Label labelTaiKhoan;
-        private System.Windows.Forms.TextBox txtSdt;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label labelMatKhau;
         private System.Windows.Forms.Button btnXacNhan;
         private System.Windows.Forms.TextBox txtTaiKhoan;

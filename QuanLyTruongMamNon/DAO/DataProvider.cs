@@ -21,7 +21,7 @@ namespace QuanLyTruongMamNon.DAO
         private DataProvider() { }
 
 
-        private string s = @"Data Source=DESKTOP-090D3KQ\NHATHUY;Initial Catalog = TRUONGMAMNON;Integrated Security=True";
+        private string s = @"Data Source=TD\TD;Initial Catalog=TRUONGMAMNON;Integrated Security=True";
 
         public DataTable ExcuteQuery(string query, object[] parameter = null)
         {

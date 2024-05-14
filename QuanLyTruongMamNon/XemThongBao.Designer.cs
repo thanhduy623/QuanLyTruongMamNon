@@ -46,19 +46,19 @@
             this.thoiGian = new System.Windows.Forms.DateTimePicker();
             this.labelMaThongBao = new System.Windows.Forms.Label();
             this.labelNhap = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.chuaXem = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.daXem = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.duLieu)).BeginInit();
             this.barTieuDe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnNguoiDung)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).BeginInit();
             this.barThongTinThongBao.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.chuaXem.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.daXem)).BeginInit();
             this.SuspendLayout();
             // 
             // menu
@@ -69,6 +69,7 @@
             this.menu.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
+            this.menu.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
             this.menu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.menu.Size = new System.Drawing.Size(326, 768);
             this.menu.TabIndex = 14;
@@ -79,6 +80,7 @@
             this.duLieu.Location = new System.Drawing.Point(0, 0);
             this.duLieu.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
             this.duLieu.Name = "duLieu";
+            this.duLieu.RowHeadersWidth = 62;
             this.duLieu.Size = new System.Drawing.Size(392, 578);
             this.duLieu.TabIndex = 18;
             // 
@@ -89,7 +91,7 @@
             this.barTieuDe.Controls.Add(this.lbDuongDan);
             this.barTieuDe.Controls.Add(this.txtTieuDe);
             this.barTieuDe.Location = new System.Drawing.Point(356, 30);
-            this.barTieuDe.Margin = new System.Windows.Forms.Padding(30);
+            this.barTieuDe.Margin = new System.Windows.Forms.Padding(30, 30, 30, 30);
             this.barTieuDe.Name = "barTieuDe";
             this.barTieuDe.Size = new System.Drawing.Size(980, 75);
             this.barTieuDe.TabIndex = 102;
@@ -167,7 +169,7 @@
             this.btnDaXem.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnDaXem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnDaXem.Location = new System.Drawing.Point(20, 541);
-            this.btnDaXem.Margin = new System.Windows.Forms.Padding(10);
+            this.btnDaXem.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
             this.btnDaXem.Name = "btnDaXem";
             this.btnDaXem.Size = new System.Drawing.Size(509, 50);
             this.btnDaXem.TabIndex = 58;
@@ -285,22 +287,22 @@
             this.labelNhap.Text = "THÔNG BÁO";
             this.labelNhap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tabControl1
+            // chuaXem
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(936, 135);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(400, 604);
-            this.tabControl1.TabIndex = 104;
+            this.chuaXem.Controls.Add(this.tabPage1);
+            this.chuaXem.Controls.Add(this.tabPage2);
+            this.chuaXem.Location = new System.Drawing.Point(936, 135);
+            this.chuaXem.Name = "chuaXem";
+            this.chuaXem.SelectedIndex = 0;
+            this.chuaXem.Size = new System.Drawing.Size(400, 604);
+            this.chuaXem.TabIndex = 104;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.duLieu);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tabPage1.Size = new System.Drawing.Size(392, 578);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Chưa xem";
@@ -308,23 +310,24 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.dataGridView1);
+            this.tabPage2.Controls.Add(this.daXem);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tabPage2.Size = new System.Drawing.Size(392, 578);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Đã xem";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // daXem
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(392, 578);
-            this.dataGridView1.TabIndex = 19;
+            this.daXem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.daXem.Location = new System.Drawing.Point(0, 0);
+            this.daXem.Margin = new System.Windows.Forms.Padding(30, 0, 0, 30);
+            this.daXem.Name = "daXem";
+            this.daXem.RowHeadersWidth = 62;
+            this.daXem.Size = new System.Drawing.Size(392, 578);
+            this.daXem.TabIndex = 19;
             // 
             // XemThongBao
             // 
@@ -333,7 +336,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.ControlBox = false;
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.chuaXem);
             this.Controls.Add(this.barThongTinThongBao);
             this.Controls.Add(this.barTieuDe);
             this.Controls.Add(this.menu);
@@ -349,10 +352,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).EndInit();
             this.barThongTinThongBao.ResumeLayout(false);
             this.barThongTinThongBao.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
+            this.chuaXem.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.daXem)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -376,9 +379,9 @@
         private System.Windows.Forms.PictureBox btnNguoiDung;
         private System.Windows.Forms.PictureBox btnDangXuat;
         private System.Windows.Forms.Button btnDaXem;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl chuaXem;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView daXem;
     }
 }

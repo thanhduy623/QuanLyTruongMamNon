@@ -31,6 +31,13 @@ namespace QuanLyTruongMamNon
             hs.ShowDialog();
 
         }
+
+        private void btnXem_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            XemThongBao x = new XemThongBao();
+            x.Show();
+        }
         private void btnDangXuat_click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Bạn có muốn đăng xuất hay không?", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)

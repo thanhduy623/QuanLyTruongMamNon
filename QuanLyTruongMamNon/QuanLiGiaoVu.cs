@@ -25,17 +25,39 @@ namespace QuanLyTruongMamNon
             MainMenu.SetupMainMenu(menu);
             MainFunc.basicFormLoad(this);
 
-            List<Tuple<string, string, string, int>> listStu = new List<Tuple<string, string, string, int>>();
+            List<Tuple<string, string, int>> listStu = new List<Tuple<string, string, int>>();
             foreach (var i in ClassesDAO.Instance.getAllClass())
             {
-                listStu.Add(new Tuple<string, string, string, int >(i.YearSchool , i.ClassName , i.Teacher , i.WholeSale));
+                listStu.Add(new Tuple<string, string, int >(i.YearSchool , i.ClassName , i.WholeSale));
             }
             duLieu.DataSource = listStu;
             duLieu.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             duLieu.Columns["Item1"].HeaderText = "Năm học";
             duLieu.Columns["Item2"].HeaderText = "Lớp học ";
-            duLieu.Columns["Item3"].HeaderText = "giáo viên phụ trách";
-            duLieu.Columns["Item4"].HeaderText = "Số lượng";
+            duLieu.Columns["Item3"].HeaderText = "Số lượng";
+        }
+
+        private void btnXem_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            XemThongBao x = new XemThongBao();
+            x.Show();
+        }
+
+        private void btnLuu_click(object sender, EventArgs e)
+        {
+            namhocNM.Clear();
+            siSo.Clear();
+        }
+
+        private void btnDangXuat_click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn đăng xuất hay không?", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            {
+                this.Close();
+                DangNhap d = new DangNhap();
+                d.Show();
+            }
         }
         private void btnNguoiDung_click(object sender, EventArgs e)
         {

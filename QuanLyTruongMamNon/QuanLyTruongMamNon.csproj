@@ -62,10 +62,16 @@
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\ClassesDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\MenuDAO.cs" />
     <Compile Include="DAO\SevicesDAO.cs" />
     <Compile Include="DAO\StudentDAO.cs" />
     <Compile Include="DT\Account.cs" />
+    <Compile Include="DT\Achievements.cs" />
+    <Compile Include="DT\Attendances.cs" />
     <Compile Include="DT\Classes.cs" />
+    <Compile Include="DT\Food.cs" />
+    <Compile Include="DT\Noti.cs" />
+    <Compile Include="DT\NotiStaff.cs" />
     <Compile Include="DT\Student.cs" />
     <Compile Include="QuanLiGiaoVu.cs">
       <SubType>Form</SubType>
@@ -183,6 +189,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XemDanhSachLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemDanhSachLop.Designer.cs">
+      <DependentUpon>XemDanhSachLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XemThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemThongBao.Designer.cs">
+      <DependentUpon>XemThongBao.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ChiNganSach.resx">
       <DependentUpon>ChiNganSach.cs</DependentUpon>
     </EmbeddedResource>
@@ -247,6 +265,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemDanhSachLop.resx">
+      <DependentUpon>XemDanhSachLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemThongBao.resx">
+      <DependentUpon>XemThongBao.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -321,6 +345,14 @@
   <ItemGroup>
     <None Include="Resources\icon_TimKiem1.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_TrangChu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\children.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

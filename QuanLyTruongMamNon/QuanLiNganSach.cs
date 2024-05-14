@@ -25,6 +25,13 @@ namespace QuanLyTruongMamNon
             MainFunc.basicFormLoad(this);
         }
 
+        private void btnXem_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            XemThongBao x = new XemThongBao();
+            x.Show();
+        }
+
         private void btnNguoiDung_click(object sender, EventArgs e)
         {
             this.Hide();
@@ -47,6 +54,27 @@ namespace QuanLyTruongMamNon
             this.Hide();
             ThuHocPhi thp = new ThuHocPhi();
             thp.ShowDialog();
+        }
+
+        private void btnDichvu_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ThuDichVu tdv = new ThuDichVu();
+            tdv.ShowDialog();
+        }
+
+        private void btnChiPhi_click(Object sender, EventArgs e)
+        {
+            this.Hide();
+            ChiNganSach chiNganSach = new ChiNganSach();
+            chiNganSach.ShowDialog();
+        }
+
+        private void btnThongKe_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ThongKeGiaoDich tk = new ThongKeGiaoDich();
+            tk.ShowDialog();
         }
     }
 }

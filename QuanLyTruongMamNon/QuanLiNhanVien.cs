@@ -25,28 +25,61 @@ namespace QuanLyTruongMamNon
             MainMenu.SetupMainMenu(menu);
             MainFunc.basicFormLoad(this);
 
-            List<Tuple<string, string, string, string, string, string>> listStu = new List<Tuple<string, string, string, string, string, string>>();
+            duLieu.Rows.Clear();
+            duLieu.Columns.Clear();
+            duLieu.Columns.Add("Item1", "IDStaffs");
+            duLieu.Columns.Add("Item2", "Tên nhân viên");
+            duLieu.Columns.Add("Item3", "Giới tính");
+            duLieu.Columns.Add("Item4", "Ngày sinh");
+            duLieu.Columns.Add("Item5", "Chức vụ");
+            duLieu.Columns.Add("Item6", "Số điện thoại");
+
+
+            DataGridViewButtonColumn btnColumn = new DataGridViewButtonColumn();
+            btnColumn.Name = "Item7";
+            btnColumn.HeaderText = "Xem chi tiết";
+            btnColumn.Text = "Xem chi tiết";
+            btnColumn.UseColumnTextForButtonValue = true;
+            duLieu.Columns.Add(btnColumn);
             foreach (var i in AccountDAO.Instance.getAllStaffs())
             {
-                string sex;
-                if (i.Gender.ToString() == "True")
-                {
-                    sex = "Nam";
-                }
-                else
-                {
-                    sex = "Nữ";
-                }
-                listStu.Add(new Tuple<string, string, string, string, string, string>(i.IdStaff, i.NameStaff, sex, i.DateBirth.ToString("dd/MM/yyyy"), i.Roled, i.Phone));
+                string sex = (i.Gender) ? "Nam" : "Nữ";
+
+                // Tạo một hàng mới
+                int rowIndex = duLieu.Rows.Add();
+
+                // Gán giá trị cho từng ô trong hàng mới
+                duLieu.Rows[rowIndex].Cells["Item1"].Value = i.IdStaff;
+                duLieu.Rows[rowIndex].Cells["Item2"].Value = i.NameStaff;
+                duLieu.Rows[rowIndex].Cells["Item3"].Value = sex;
+                duLieu.Rows[rowIndex].Cells["Item4"].Value = i.DateBirth.ToString("dd/MM/yyyy");
+                duLieu.Rows[rowIndex].Cells["Item5"].Value = i.Roled;
+                duLieu.Rows[rowIndex].Cells["Item6"].Value = i.Phone;
             }
-            duLieu.DataSource = listStu;
+
+            duLieu.CellContentClick += (sender, e) =>
+            {
+                if (e.ColumnIndex == duLieu.Columns["Item7"].Index && e.RowIndex >= 0)
+                {
+                    var id = duLieu.Rows[e.RowIndex].Cells["Item6"].Value.ToString();
+                    btnView_click(this, id);
+                }
+            };
+            duLieu.AllowUserToAddRows = false;
             duLieu.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            duLieu.Columns["Item1"].HeaderText = "IDStudents";
-            duLieu.Columns["Item2"].HeaderText = "Tên học sinh";
-            duLieu.Columns["Item3"].HeaderText = "Giới tính";
-            duLieu.Columns["Item4"].HeaderText = "Ngày sinh";
-            duLieu.Columns["Item5"].HeaderText = "Chức vụ";
-            duLieu.Columns["Item6"].HeaderText = "Sô điện thoại";
+        }
+        private static void btnView_click(Form curr, string id)
+        {
+            curr.Hide();
+            HoSoNHanVien st = new HoSoNHanVien(id,null);
+            st.Show();
+        }
+
+        private void btnXem_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            XemThongBao x = new XemThongBao();
+            x.Show();
         }
 
         public static T GetCurrentInstance<T>(Form form) where T : Form
@@ -74,32 +107,52 @@ namespace QuanLyTruongMamNon
 
         private void btnTim_click(object sender, EventArgs e)
         {
-            string id = boxTimKiem.Text;
-            List<Tuple<string, string, string, string, string, string>> listStu = new List<Tuple<string, string, string, string, string, string>>();
+            string idst = boxTimKiem.Text;
+            duLieu.Rows.Clear();
+            duLieu.Columns.Clear();
+            duLieu.Columns.Add("Item1", "IDStaffs");
+            duLieu.Columns.Add("Item2", "Tên nhân viên");
+            duLieu.Columns.Add("Item3", "Giới tính");
+            duLieu.Columns.Add("Item4", "Ngày sinh");
+            duLieu.Columns.Add("Item5", "Chức vụ");
+            duLieu.Columns.Add("Item6", "Số điện thoại");
+
+
+            DataGridViewButtonColumn btnColumn = new DataGridViewButtonColumn();
+            btnColumn.Name = "Item7";
+            btnColumn.HeaderText = "Xem chi tiết";
+            btnColumn.Text = "Xem chi tiết";
+            btnColumn.UseColumnTextForButtonValue = true;
+            duLieu.Columns.Add(btnColumn);
             foreach (var i in AccountDAO.Instance.getAllStaffs())
             {
-                string sex;
-                if (i.Gender.ToString() == "True")
+                string sex = (i.Gender) ? "Nam" : "Nữ";
+
+                if (i.IdStaff.ToLower().Contains(idst.ToLower()))
                 {
-                    sex = "Nam";
-                }
-                else
-                {
-                    sex = "Nữ";
-                }
-                if (i.IdStaff.ToLower().Contains(id.ToLower()))
-                {
-                    listStu.Add(new Tuple<string, string, string, string, string, string>(i.IdStaff, i.NameStaff, sex, i.DateBirth.ToString("dd/MM/yyyy"), i.Roled, i.Phone));
+                    // Tạo một hàng mới
+                    int rowIndex = duLieu.Rows.Add();
+
+                    // Gán giá trị cho từng ô trong hàng mới
+                    duLieu.Rows[rowIndex].Cells["Item1"].Value = i.IdStaff;
+                    duLieu.Rows[rowIndex].Cells["Item2"].Value = i.NameStaff;
+                    duLieu.Rows[rowIndex].Cells["Item3"].Value = sex;
+                    duLieu.Rows[rowIndex].Cells["Item4"].Value = i.DateBirth.ToString("dd/MM/yyyy");
+                    duLieu.Rows[rowIndex].Cells["Item5"].Value = i.Roled;
+                    duLieu.Rows[rowIndex].Cells["Item6"].Value = i.Phone;
                 }
             }
-            duLieu.DataSource = listStu;
+
+            duLieu.CellContentClick += (btnsender, btne) =>
+            {
+                if (btne.ColumnIndex == duLieu.Columns["Item7"].Index && btne.RowIndex >= 0)
+                {
+                    var id = duLieu.Rows[btne.RowIndex].Cells["Item6"].Value.ToString();
+                    btnView_click(this, id);
+                }
+            };
+            duLieu.AllowUserToAddRows = false;
             duLieu.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            duLieu.Columns["Item1"].HeaderText = "IDStudents";
-            duLieu.Columns["Item2"].HeaderText = "Tên học sinh";
-            duLieu.Columns["Item3"].HeaderText = "Giới tính";
-            duLieu.Columns["Item4"].HeaderText = "Ngày sinh";
-            duLieu.Columns["Item5"].HeaderText = "Chức vụ";
-            duLieu.Columns["Item6"].HeaderText = "Sô điện thoại";
         }
     }
 }

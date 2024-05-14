@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Resources;
 using ZXing;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace QuanLyTruongMamNon.DAO
@@ -92,6 +93,55 @@ namespace QuanLyTruongMamNon.DAO
         {
             string query = "USP_AddNewAchievements @idStudent , @dateAchived , @achievement ";
             int result = DataProvider.Instance.ExcuteNonQuery(query , new object[] { maHS , date , nd });
+            return result > 0;
+        }
+
+        //Xóa thành tích
+        internal bool DeleteAchieve(string maHS, DateTime date, string nd)
+        {
+            string query = "DELETE FROM ACHIEVEMENTS WHERE idStudent = '" + maHS + "' AND dateAchived = '" + date.ToString("MM/dd/yyyy") + "' AND achievement = N'" + nd + "';";
+            int result = DataProvider.Instance.ExcuteNonQuery(query);
+            return result > 0;
+        }
+
+
+        //loadStudent
+        internal Student LoadStu(string id)
+        {
+            string query = "select * from STUDENTS where idStudent = '" + id + "'";
+            DataTable result = DataProvider.Instance.ExcuteQuery(query);
+            Student stu = new Student(result.Rows[0]);
+            return stu;
+        }
+
+
+        internal List<Student> LoadClassStudent(string className)
+        {
+            string query = " select * from STUDENTS where class = N'"+ className + "'";
+            DataTable allStudents = DataProvider.Instance.ExcuteQuery(query);
+            List<Student> students = new List<Student>();
+            foreach (DataRow st in allStudents.Rows)
+            {
+                Student s = new Student(st);
+                students.Add(s);
+            }
+            return students;
+        }
+
+
+        //Thêm điểm danh
+        internal bool AddNewExdend(string id,DateTime date)
+        {
+            string query = "USP_AddNewAttendences @idStudent , @dateAttendece ";
+            int result = DataProvider.Instance.ExcuteNonQuery(query, new object[] { id, date });
+            return result > 0;
+        }
+
+        //Xóa điểm danh
+        internal bool DeleteExdend(string id,DateTime date)
+        {
+            string query = "Delete from ATTENDANCES where idStudent = '"+id + "' and dateAttend = '"+date.ToString("MM/dd/yyyy")+"';";
+            int result = DataProvider.Instance.ExcuteNonQuery(query);
             return result > 0;
         }
     }

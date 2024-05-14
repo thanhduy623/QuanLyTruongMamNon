@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\",
+  "WorkspaceRootPath": "D:\\Code\\QLTMN3\\QLTMN3\\QuanLyTruongMamNon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|c:\\users\\nhath\\onedrive\\desktop\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\quanlithongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\quanlithongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|d:\\code\\qltmn3\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\quanlithucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\quanlithucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|c:\\users\\nhath\\onedrive\\desktop\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\hosohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\hosohocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|c:\\users\\nhath\\onedrive\\desktop\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\thehocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\thehocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|c:\\users\\nhath\\onedrive\\desktop\\qltmn3\\quanlytruongmamnon\\quanlytruongmamnon\\thehocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\thehocsinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|D:\\Code\\QLTMN3\\QLTMN3\\QuanLyTruongMamNon\\quanlytruongmamnon\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521905FF-8B7B-4861-A4FB-A693DFE0107C}|QuanLyTruongMamNon\\QuanLyTruongMamNon.csproj|solutionrelative:quanlytruongmamnon\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QuanLiThongBao.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiThongBao.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\QuanLiThongBao.cs",
-              "ToolTip": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiThongBao.cs [Design]",
-              "RelativeToolTip": "QuanLyTruongMamNon\\QuanLiThongBao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T10:08:36.969Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HoSoHocSinh.cs",
-              "DocumentMoniker": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\HoSoHocSinh.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\HoSoHocSinh.cs",
-              "ToolTip": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\HoSoHocSinh.cs",
-              "RelativeToolTip": "QuanLyTruongMamNon\\HoSoHocSinh.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAIwNkAAAAJAAAA",
+              "Title": "TrangChu.cs",
+              "DocumentMoniker": "D:\\Code\\QLTMN3\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TrangChu.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\TrangChu.cs",
+              "ToolTip": "D:\\Code\\QLTMN3\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TrangChu.cs",
+              "RelativeToolTip": "QuanLyTruongMamNon\\TrangChu.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T10:05:11.607Z",
+              "WhenOpened": "2024-05-13T15:25:42.384Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TheHocSinh.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TheHocSinh.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\TheHocSinh.cs",
-              "ToolTip": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TheHocSinh.cs [Design]",
-              "RelativeToolTip": "QuanLyTruongMamNon\\TheHocSinh.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "QuanLiThucDon.cs [Design]",
+              "DocumentMoniker": "D:\\Code\\QLTMN3\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiThucDon.cs",
+              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\QuanLiThucDon.cs",
+              "ToolTip": "D:\\Code\\QLTMN3\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\QuanLiThucDon.cs [Design]",
+              "RelativeToolTip": "QuanLyTruongMamNon\\QuanLiThucDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T09:57:03.047Z",
+              "WhenOpened": "2024-05-14T00:44:10.379Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TheHocSinh.cs",
-              "DocumentMoniker": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TheHocSinh.cs",
-              "RelativeDocumentMoniker": "QuanLyTruongMamNon\\TheHocSinh.cs",
-              "ToolTip": "C:\\Users\\nhath\\OneDrive\\Desktop\\QLTMN3\\QuanLyTruongMamNon\\QuanLyTruongMamNon\\TheHocSinh.cs",
-              "RelativeToolTip": "QuanLyTruongMamNon\\TheHocSinh.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T09:56:07.893Z",
-              "EditorCaption": ""
             }
           ]
         }

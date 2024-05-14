@@ -43,6 +43,13 @@ namespace QuanLyTruongMamNon
                 d.Show();
             }
         }
+
+        private void btnXem_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            XemThongBao x = new XemThongBao();
+            x.Show();
+        }
     }
 
     internal static class MainFunc
@@ -57,6 +64,4 @@ namespace QuanLyTruongMamNon
             //Code khúc này để gán click cho btnDangXuat để tắt form
         }
     }
-
-
 }

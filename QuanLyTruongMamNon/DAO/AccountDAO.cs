@@ -36,11 +36,29 @@ namespace QuanLyTruongMamNon.DAO
             return result.Rows.Count > 0;
         }
 
-        //Quen mật khẩu
-        public bool ForgotPassword(string username, string newPassword)
+        //Count ROle 
+        public int GetStaffCountByRole(string role)
         {
-            string query = "USP_ForgotPassword @userName , @newPassword";
-            DataTable result = DataProvider.Instance.ExcuteQuery(query, new object[] { username , newPassword });
+
+            string query = "SELECT * FROM STAFFS WHERE roled = @roled ;";
+
+            int result = DataProvider.Instance.ExcuteQuery(query, new object[] { role }).Rows.Count;
+            return result;
+        }
+
+        //Quen mật khẩu
+        public bool ForgotPassword(string username, string newPassword , string email)
+        {
+            string query = "USP_ForgotPassword @userName , @newPassword , @email";
+            DataTable result = DataProvider.Instance.ExcuteQuery(query, new object[] { username , newPassword , email });
+            return result.Rows.Count > 0 && result.Rows[0]["Result"].ToString() == "Success";
+        }
+
+        //doi
+        public bool ChangePass(string id, string mkht , string mkm)
+        {
+            string query = "USP_ChangePassword @id , @pwd , @newpwd";
+            DataTable result = DataProvider.Instance.ExcuteQuery(query, new object[] { id, mkht , mkm });
             return result.Rows.Count > 0 && result.Rows[0]["Result"].ToString() == "Success";
         }
 

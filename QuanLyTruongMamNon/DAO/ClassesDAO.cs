@@ -51,6 +51,23 @@ namespace QuanLyTruongMamNon.DAO
             return yearList;
         }
 
+        //Hiện lớp
+        public List<Classes> LoadListClasses()
+        {
+            string query = "select * from CLASSES";
+            DataTable data = DataProvider.Instance.ExcuteQuery(query);
+            List<Classes> classList = new List<Classes>();
+            foreach (DataRow row in data.Rows)
+            {
+                Classes c = new Classes(row);
+                if (!classList.Any(item => item.ClassName == c.ClassName))
+                {
+                    classList.Add(c);
+                }
+            }
+            return classList;
+        }
+
         //Khai báo năm học
         public void NewSchoolYear(string yearSchool, string className, string teacher, int wholesale)
         {

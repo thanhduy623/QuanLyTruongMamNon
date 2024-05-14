@@ -23,6 +23,14 @@ namespace QuanLyTruongMamNon
             LoadListYearSchool();
         }
 
+        public HoSoHocSinh(string id)
+        {
+            InitializeComponent();
+            formLoad();
+            LoadListYearSchool();
+            loadStudent(id);
+        }
+
         private void formLoad()
         {
             MainFunc.basicFormLoad(this);
@@ -38,6 +46,30 @@ namespace QuanLyTruongMamNon
                 DangNhap d = new DangNhap();
                 d.Show();
             }
+        }
+
+        //Load sinhvien
+        private void loadStudent(string id)
+        {
+            Student stu = StudentDAO.Instance.LoadStu(id);
+            hoTen.Text = stu.NameStudent;
+            gioiTinh.Text = stu.Gender ? "Nam" : "Nữ";
+            ngaySinh.Value = stu.DateBirth;
+            noiSinh.Text = stu.PlaceBirth;
+            danToc.Text = stu.Nation;
+            quocTich.Text = stu.Nationality;
+            COHN.Text = stu.AddressCur;
+            COHN_C1.Text = stu.ProvinceCur;
+            COHN_2.Text = stu.DistrictCur;
+            COHN_3.Text = stu.CommuneCur;
+            DCTT.Text = stu.AddressRes;
+            DCTT_C1.Text = stu.ProvinceRes;
+            DCTT_C2.Text = stu.DistrictRes;
+            DCTT_C3.Text = stu.CommuneRes;
+            maHS.Text = stu.IdStudent;
+            namHoc.Text = stu.YearSchool;
+            lopHoc.Text = stu.Classes;
+            trangThai.Text = stu.Actived.ToString();
         }
 
         //Tải dữ liệu lớp trống
@@ -68,6 +100,13 @@ namespace QuanLyTruongMamNon
             HoSoNHanVien hs = new HoSoNHanVien();
             hs.ShowDialog();
 
+        }
+
+        private void btnXem_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            XemThongBao x = new XemThongBao();
+            x.Show();
         }
 
         //Thêm học sinh
@@ -110,7 +149,7 @@ namespace QuanLyTruongMamNon
                 !(string.IsNullOrEmpty(commune_cur)) && !(string.IsNullOrEmpty(address_res)) && !(string.IsNullOrEmpty(province_res)) && !(string.IsNullOrEmpty(district_res)) && !(string.IsNullOrEmpty(namenhanThan2)) &&
                 !(string.IsNullOrEmpty(commune_res)) && (DateTime.Now).Subtract(dateBirth).Days > 1000 && !(string.IsNullOrEmpty(gender.ToString())) && !(string.IsNullOrEmpty(yearSchool)) && !(string.IsNullOrEmpty(phone1)) &&
                 !(string.IsNullOrEmpty(yearBorn1)) && !(string.IsNullOrEmpty(relationship1)) && !(string.IsNullOrEmpty(phone2)) && !(string.IsNullOrEmpty(yearBorn2)) && !(string.IsNullOrEmpty(relationship2)) &&
-                phone1.Length == 10 && phone1.Substring(0, 1) == "0" && phone2.Length == 10 && phone2.Substring(0, 1) == "0")
+                phone1.Length == 10 && phone1.Substring(0, 1) == "0" && phone2.Length == 10 && phone2.Substring(0, 1) == "0" && IsNumeric(phone1) && IsNumeric(phone2))
                 {
                     string idNhanThan1_1 = string.Concat(relationship1.Substring(0, 1), idStudent.Substring(0, 4));
                     idNhanThan1 = string.Concat(idNhanThan1_1, idStudent.Substring(5, 3));
@@ -168,7 +207,7 @@ namespace QuanLyTruongMamNon
             if (!(string.IsNullOrEmpty(idStudent)) && !(string.IsNullOrEmpty(nameStudent)) && !(string.IsNullOrEmpty(placeBirth)) && !(string.IsNullOrEmpty(nation)) && !(string.IsNullOrEmpty(classes)) &&
                 !(string.IsNullOrEmpty(nationality)) && !(string.IsNullOrEmpty(address_cur)) && !(string.IsNullOrEmpty(province_cur)) && !(string.IsNullOrEmpty(district_cur)) &&
                 !(string.IsNullOrEmpty(commune_cur)) && !(string.IsNullOrEmpty(address_res)) && !(string.IsNullOrEmpty(province_res)) && !(string.IsNullOrEmpty(district_res)) &&
-                !(string.IsNullOrEmpty(commune_res)) && (DateTime.Now).Subtract(dateBirth).Days > 1000 && !(string.IsNullOrEmpty(gender.ToString())) && !(string.IsNullOrEmpty(yearSchool)) )
+                !(string.IsNullOrEmpty(commune_res)) && (DateTime.Now).Subtract(dateBirth).Days > 1000 && !(string.IsNullOrEmpty(gender.ToString())) && !(string.IsNullOrEmpty(yearSchool)))
             {
                 bool checkStudent = StudentDAO.Instance.UpdateStudent(idStudent, nameStudent, gender, dateBirth, placeBirth, nation, nationality, address_cur, province_cur, district_cur, commune_cur, address_res, province_res, district_res, commune_res, yearSchool, classes, actived);
 
@@ -276,6 +315,19 @@ namespace QuanLyTruongMamNon
             this.Hide();
             TheHocSinh t = new TheHocSinh(maHS.Text,hoTen.Text, gioiTinh.Text ,namHoc.Text,ngaySinh.Value);
             t.ShowDialog();
+        }
+
+        //check
+        private static bool IsNumeric(string input)
+        {
+            foreach (char c in input)
+            {
+                if (!char.IsDigit(c))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

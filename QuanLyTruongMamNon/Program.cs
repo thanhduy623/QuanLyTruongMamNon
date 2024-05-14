@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using ZXing;
 using System.IO;
 using QuanLyTruongMamNon.DAO;
+using QuanLyTruongMamNon.DT;
 
 namespace QuanLyTruongMamNon
 {
@@ -34,18 +35,47 @@ namespace QuanLyTruongMamNon
             mainMenu.Padding = new Padding(15, 0, 0, 0);
 
 
+            CreateMenuItem(mainMenu, "mnuTC", "TRANG CHỦ", Properties.Resources.icon_TrangChu, typeof(QuanLyTruongMamNon.TrangChu).FullName);
 
-            string id = AccountDAO.Instance.getUser();
+            Account sta = AccountDAO.Instance.loadStaff1();
+            string role = sta.IdStaff;
+            if(role.Substring(0,2) == "GV")
+            {
+                CreateMenuItem(mainMenu, "mnuDD", "QUẢN LÍ ĐIỂM DANH", Properties.Resources.icon_DiemDanh, typeof(QuanLyTruongMamNon.QuanLiDiemDanh).FullName);
+                CreateMenuItem(mainMenu, "mnuTT", "QUẢN LÍ THÀNH TÍCH", Properties.Resources.icon_ThanhTich, typeof(QuanLyTruongMamNon.QuanLiThanhTich).FullName);
+            }
+            else if (role.Substring(0, 2) == "GH")
+            {
+                CreateMenuItem(mainMenu, "mnuTB", "QUẢN LÍ THÔNG BÁO", Properties.Resources.icon_ThongBao, typeof(QuanLyTruongMamNon.QuanLiThongBao).FullName);
+                CreateMenuItem(mainMenu, "mnuGV", "QUẢN LÍ GIÁO VỤ", Properties.Resources.icon_GiaoVu, typeof(QuanLyTruongMamNon.QuanLiGiaoVu).FullName);
+            }
+            else if (role.Substring(0, 2) == "KT")
+            {
+                CreateMenuItem(mainMenu, "mnuNS", "QUẢN LÍ NGÂN SÁCH", Properties.Resources.icon_NganSach, typeof(QuanLyTruongMamNon.QuanLiNganSach).FullName);
+            }
+            else if (role.Substring(0, 2) == "VP")
+            {
+                CreateMenuItem(mainMenu, "mnuNV", "QUẢN LÍ NHÂN VIÊN", Properties.Resources.icon_GiaoVien, typeof(QuanLyTruongMamNon.QuanLiNhanVien).FullName);
+                CreateMenuItem(mainMenu, "mnuHS", "QUẢN LÍ HỌC SINH", Properties.Resources.icon_HocSinh, typeof(QuanLyTruongMamNon.QuanLiHocSinh).FullName);
+            }
+            else if (role.Substring(0, 2) == "DB")
+            {
+                CreateMenuItem(mainMenu, "mnuTD", "QUẢN LÍ THỰC ĐƠN", Properties.Resources.icon_ThucDon, typeof(QuanLyTruongMamNon.QuanLiThucDon).FullName);
+                CreateMenuItem(mainMenu, "mnuMA", "QUẢN LÍ MÓN ĂN", Properties.Resources.icon_MonAn, typeof(QuanLyTruongMamNon.QuanLiMonAn).FullName);
+            }
             //Khởi tạo các item
-            CreateMenuItem(mainMenu, "mnuTB", "QUẢN LÍ THÔNG BÁO", Properties.Resources.icon_ThongBao, typeof(QuanLyTruongMamNon.QuanLiThongBao).FullName);
-            CreateMenuItem(mainMenu, "mnuGV", "QUẢN LÍ GIÁO VỤ", Properties.Resources.icon_GiaoVu, typeof(QuanLyTruongMamNon.QuanLiGiaoVu).FullName);
-            CreateMenuItem(mainMenu, "mnuHS", "QUẢN LÍ HỌC SINH", Properties.Resources.icon_HocSinh, typeof(QuanLyTruongMamNon.QuanLiHocSinh).FullName);
-            CreateMenuItem(mainMenu, "mnuNV", "QUẢN LÍ NHÂN VIÊN", Properties.Resources.icon_GiaoVien, typeof(QuanLyTruongMamNon.QuanLiNhanVien).FullName);
-            CreateMenuItem(mainMenu, "mnuNS", "QUẢN LÍ NGÂN SÁCH", Properties.Resources.icon_NganSach, typeof(QuanLyTruongMamNon.QuanLiNganSach).FullName);
-            CreateMenuItem(mainMenu, "mnuDD", "QUẢN LÍ ĐIỂM DANH", Properties.Resources.icon_DiemDanh, typeof(QuanLyTruongMamNon.QuanLiDiemDanh).FullName);
-            CreateMenuItem(mainMenu, "mnuTT", "QUẢN LÍ THÀNH TÍCH", Properties.Resources.icon_ThanhTich, typeof(QuanLyTruongMamNon.QuanLiThanhTich).FullName);
-            CreateMenuItem(mainMenu, "mnuTD", "QUẢN LÍ THỰC ĐƠN", Properties.Resources.icon_ThucDon, typeof(QuanLyTruongMamNon.QuanLiThucDon).FullName);
-            CreateMenuItem(mainMenu, "mnuMA", "QUẢN LÍ MÓN ĂN", Properties.Resources.icon_MonAn, typeof(QuanLyTruongMamNon.QuanLiMonAn).FullName);
+            else
+            {
+                CreateMenuItem(mainMenu, "mnuTB", "QUẢN LÍ THÔNG BÁO", Properties.Resources.icon_ThongBao, typeof(QuanLyTruongMamNon.QuanLiThongBao).FullName);
+                CreateMenuItem(mainMenu, "mnuGV", "QUẢN LÍ GIÁO VỤ", Properties.Resources.icon_GiaoVu, typeof(QuanLyTruongMamNon.QuanLiGiaoVu).FullName);
+                CreateMenuItem(mainMenu, "mnuNV", "QUẢN LÍ NHÂN VIÊN", Properties.Resources.icon_GiaoVien, typeof(QuanLyTruongMamNon.QuanLiNhanVien).FullName);
+                CreateMenuItem(mainMenu, "mnuHS", "QUẢN LÍ HỌC SINH", Properties.Resources.icon_HocSinh, typeof(QuanLyTruongMamNon.QuanLiHocSinh).FullName);
+                CreateMenuItem(mainMenu, "mnuNS", "QUẢN LÍ NGÂN SÁCH", Properties.Resources.icon_NganSach, typeof(QuanLyTruongMamNon.QuanLiNganSach).FullName);
+                CreateMenuItem(mainMenu, "mnuDD", "QUẢN LÍ ĐIỂM DANH", Properties.Resources.icon_DiemDanh, typeof(QuanLyTruongMamNon.QuanLiDiemDanh).FullName);
+                CreateMenuItem(mainMenu, "mnuTT", "QUẢN LÍ THÀNH TÍCH", Properties.Resources.icon_ThanhTich, typeof(QuanLyTruongMamNon.QuanLiThanhTich).FullName);
+                CreateMenuItem(mainMenu, "mnuTD", "QUẢN LÍ THỰC ĐƠN", Properties.Resources.icon_ThucDon, typeof(QuanLyTruongMamNon.QuanLiThucDon).FullName);
+                CreateMenuItem(mainMenu, "mnuMA", "QUẢN LÍ MÓN ĂN", Properties.Resources.icon_MonAn, typeof(QuanLyTruongMamNon.QuanLiMonAn).FullName);
+            }
         }
 
         private static void CreateMenuItem(MenuStrip menuStrip, string name, string text, Image icon, string formPath)

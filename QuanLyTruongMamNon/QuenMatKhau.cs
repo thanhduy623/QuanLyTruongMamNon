@@ -1,4 +1,5 @@
 ﻿using QuanLyTruongMamNon.DAO;
+using QuanLyTruongMamNon.DT;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,9 +24,9 @@ namespace QuanLyTruongMamNon
         private void btnXacNhan_click(object sender, EventArgs e)
         {
             string username = txtTaiKhoan.Text;
+            string email = txtEmail.Text;
             string password = TxtNewPasss.Text;
-
-            if (btnForgotPassword(username, password) == true)
+            if (btnForgotPassword(username, password,email) == true)
             {
                 MessageBox.Show("Đổi mật khẩu mới thành công");
             }
@@ -35,9 +36,9 @@ namespace QuanLyTruongMamNon
             }
 
         }
-        bool btnForgotPassword(string username, string newPassword)
+        bool btnForgotPassword(string username, string newPassword,string email)
         {
-            return AccountDAO.Instance.ForgotPassword(username, newPassword);
+            return AccountDAO.Instance.ForgotPassword(username, newPassword,email);
         }
 
         private void btnThoat_click(object sender, EventArgs e)
